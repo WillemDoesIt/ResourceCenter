@@ -1,0 +1,970 @@
+﻿id,name,org_id,location_id,satus,details,open_hours,is_online_only,is_application_only,eligibility,cost_id,contact_id,language_info,log_id,keyword_id
+209,Food Finder,83,112,Active,Online resource for finding food pantries near you.,Online only.,checked,,NONE,1,112,No language support,112,1
+1,Care Coordination (Health Home),1,2,Active,"Health Home is a program within Aging & Long Term Care that empowers individuals to take charge of their own health care through person-centered health action planning. Care Coordinators work with participants to establish health-related goals, increase their confidence and skills to manage these goals, access health care services, and much more.","By appointment only. Call ""Community Living Connections"" program at 509-960-7281.",,checked,People on Apple Health (not offered if on a Medicare Advantage Plan) who have one chronic condition and are at risk for one or more additional chronic conditions.,2,113,No listed language support,113,2
+2,Care Transitions,1,2,Active,"Care Transitions occur when a patient moves from one healthcare setting to another. These transitions can often be dangerous when there are gaps in support. This free evidence-based program will help you during your hospital discharge to ensure you receive the support and quality of care needed during your recovery at home.
+
+A Care Coordinator will work closely with you during this time to help you navigate complicated medical and social service systems, create a plan to determine necessary supports, and reduce the likelihood of hospital readmissions. Coordinators will work with existing services you may already have set up, and actively advocate for your needs!
+
+How the Program Works:
+- Client enrolls in the program (at no charge). Call 509-960-7281 to learn more.
+- A Care Coordinator will make a home visit and identify client needs.
+- The Care Coordinator will make referrals for community-based resources, including Medication Management.
+- The clients needs will continue to be reviewed and support will be provided as needed.",By appointment only,,checked,"- 18 years of age or older
+- Have a serious chronic health condition
+- Recently hospitalized",3,114,No listed language support,114,3
+3,Caregiver Support,1,2,Active,"Being an unpaid caregiver to a relative or friend can be isolating, emotionally draining, and physically demanding. The Caregiver Support Program is offered to unpaid caregivers aiding loved ones who are 18 and older. Through this program, you will gain access to free or low-cost support.
+
+Services include:
+- Support groups and counseling
+- Caregiver training
+- Respite care, if you need a break
+- Purchasing supplies and/or medical equipment
+- Other services necessary to help the unpaid caregiver",Call during regular business hours,,,"Must be acting as a caregiver, helping support a relative, or friend.",4,115,No listed language support,115,4
+4,Community Living Connections,1,2,Active,"Community Living Connections is a program within Aging & Long Term Care that can connect you with the right kind of help, when and where you need it.
+
+We help older adults, adults living with disabilities, and caregivers access a wide range of public and private resources and provide the long-term care services and supports necessary for them to remain in the community for as long as possible.
+
+Our goal is to promote well-being, independence, dignity, and choice for all individuals we serve. Please contact us at 509-960-7281 for objective, confidential information about community resources and service options to meet your individual needs.",By appointment only,,,NONE,5,116,No listed language support,116,5
+5,Family Raising Family: Kinship Caregiver,1,2,Active,"What is the Kinship Caregiver Support Program?
+The Kinship Caregiver Support Program helps family members who are raising a relative’s child. This program helps caregivers locate resources, navigate governmental systems, and access funding for the child. Financial help can also be provided to those who are income-eligible to meet a variety of short-term needs. For more information, please check out the links at the bottom of this page.
+
+What is the Kinship Navigator Program?
+The Kinship Navigator program serves as a one-stop shop for kinship caregivers and is especially helpful for those who are already financially stretched. The role of the Kinship Navigator is to connect kinship caregivers to community resources and information, help navigate governmental systems, provide support, avoid crisis, and establish greater stability needed to keep the children out of foster care. Almost all kinship care families qualify for some services or benefits, but many are unaware of this. Kinship Navigators will not only help you discover these services, but also explain how to apply. For more information, please check out the links at the bottom of this page.",Call during regular business hours,,,Must be a Kinship Caregiver. (a grandparent or other family member raising a relative’s child),6,117,No listed language support,117,6
+6,Medicare Assistance,1,2,Active,"The Statewide Health Insurance Benefits Advisors (SHIBA) can help you understand your Medicare rights and options. Our well-trained volunteers counsel people of all ages, adults living with disabilities, and people getting ready to retire about their Medicare choices and options:
+- Original Medicare
+- Prescription drugs
+- Low-income programs to help pay for Medicare
+- Medigap (Medicare Supplement) plans
+- Medicare Advantage plans
+- Medicare fraud and abuse
+- Long-term care options
+- Issues with Medicare fraud
+We answer your Medicare questions, make referrals, and help evaluate and compare health insurance policies so you can make an informed decision to find the best possible coverage that fits within your budget and meets your needs.",Call during regular business hours,,,NONE,7,118,No listed language support,118,7
+7,Medication Managment,1,2,Active,"This award winning Advanced Medication Management Program helps clients find solutions to address complex health conditions such as asthma, diabetes, COPD, and hypertension. Trained coordinators and pharmacists work together to create safe and effective medication management plans catered to meet each individuals needs. At this time, we are working with patients over the age of 50 with chronic health conditions and who take multiple prescriptions.
+
+Our purpose is to ensure our clients are using medications in the most safe and effective way!
+
+This service works in tandem with physicians and other health care team providers. Our Advanced Medication Care Coordinator (AMCC) is a specialized role designed to support our clients with targeted care coordination around medications. We help clients become knowledgeable about prescriptions, more skilled and accountable in managing their health, and reduce anxiety or uncertainness.
+
+How our Program Works:
+1. Client enrolls in the program (at no charge). Call 509-960-7281 to learn more.
+2. AMCC visits with the client and identifies prescriptions and challenges.
+3. Client meets with a clinical pharmacist and AMCC.
+4. The pharmacist reviews the client’s health status, makes any necessary medication recommendations, and shares this with the client’s health care provider.
+5. AMCC follows up with the client and pharmacist for continued consult until the client is comfortable that the medications they are taking are safe and effective.",Call during regular business hours,,,"- 50 years or older
+- Multiple known chronic conditions
+- Multiple prescriptions
+- Needs help understanding medications
+- Little to no support in medication management
+- Agrees to participate in the program",8,119,No listed language support,119,8
+8,AHBC Food Distribution Center,2,3,Active,"In support of our local community, our affiliation with 2nd Harvest Inland Northwest enables us to minister to those in need of supplemental food products for their families and afford all the opportunity to hear the Gospel plan of salvation. Our Food Distribution occurs twice monthly, on the 1st and 3rd Saturdays of the month from 10am-12pm in the North Parking Lot. On occasion, distribution days may vary. Please see our Church calendar for current dates. We do not deliver boxes, this is a line-up operation served by our faithful volunteers.
+
+If in need of food in between those Saturdays, call their office Monday thru Thursday from 9am-4pm.
+","1st and 3rd Saturdays of the month, 10 AM - 12 PM",,,"Must bring picture ID, and proof of current residence within these zipcodes: 99001, 99011, 99013, 99022, 99029, 99224.",9,120,No listed language support,120,9
+215,Food Distribution Center,86,4,Active,Food pantry run by the church.,"Wednesdays, 10 AM - 12 PM",,,Unlisted,10,121,No listed language support,121,10
+9,AICC Food Distribution Center,3,5,Active,2nd Harvest Food Bank provides food every week. We serve all persons in the Spokane areas well as American Indian Families.,"Weekdays, 9 AM - 4:30 PM",,,NONE,11,122,No listed language support,122,11
+10,Computer Access,3,5,Active,"Computer access available for online job search, resume preparation and job-related printing available with permission from front desk receptionist. Time limit is requested to show courtesy of sharing equally of computer use for all clients.",Call during standard business hours.,,,NONE,12,123,No listed language support,123,12
+11,Family Services - Crisis Intervention,3,5,Active,We offer crisis intervention and case management for elders and families. An extensive information of local network resources for referral used to assist those in need of comprehensive services to help clients with basic needs. This service is solely supported by community donations.,Call during standard business hours.,,,NONE,13,124,No listed language support,124,13
+281,Mental Health and Substance Use Disorder Treatment,3,5,Active,"Goodheart Behavioral Health provides Adult Intensive Outpatient substance use disorder treatment. Substance Abuse assessments (18 years and older) can enroll into Outpatient Treatment (OP). ASAM Criteria Level 1, sessions two hours per week and (IOP) ASAM Criteria Level 2.1 with sessions six hours per week. Referral assistance with admission into other facilities for Inpatient Treatment, work with Court ordered deferred prosecutions. Aftercare/ Relapse Prevention Program is available for adults who have completed Inpatient, Outpatient, and Intensive Outpatient programs needing continued care and support.
+
+Outpatient services will use a person-centered, holistic model of care to assist individuals 18 and older who are experiencing mental health issues. Assessment of individual Mental, Emotional, Physical and Social needs and treatment planning in individual or group therapy session. Psychiatric medication management pending program approval. All Goodheart Behavioral Health/Mental Health services and treatment levels utilize culturally appropriate assessments, group and individual therapy sessions, and Native focused psycho education classes. Most insurances are accepted or sliding fee scale of payment.",Call during standard business hours.,,,Call for information. ,14,125,No listed language support,125,14
+12,Senior Lunches,3,5,Active,Meals on Wheels serves senior lunches on Tuesdays and Thursdays at 11 AM,"Tuesdays / Thursdays, 11 AM",,,NONE,15,126,No listed language support,126,15
+13,Working Families Tax Credit Outreach Program,3,5,Active,"To see if you qualify, go to Washington State Department of Revenue website. For additional information contact us at the AICC.     ",Call during standard business hours.,,,NONE,16,127,No listed language support,127,16
+14,Operation Sight,4,6,Active,"Operation Sight provides free cataract surgery to people who are uninsured or underinsured and would otherwise not be able to afford or access care. Their U.S.-based, charitable cataract surgery program screens patients for eligibility and then works to match approved patients with a volunteer surgeon, who is able to provide charitable cataract surgery at no cost to the patient.
+
+This program provides:
+
+- Cataract surgery
+
+This program is offered within the U.S., and patients are responsible for their own transportation to and from appointments and surgery. Acceptance to Operation Sight does not guarantee surgery, and there is no set timeframe for when an approved applicant will receive surgery.
+
+After submitting a patient inquiry form on the website, an Operation Sight staff member will respond via email within 5-7 business days. Those who meet all requirements will be asked to complete a more detailed application and provide additional documentation. Applicants will be contacted within 14 business days after their complete application has been submitted and reviewed. If approved, the patient will be matched to an Operation Sight volunteer in their area.",Apply online,,,"'- This program helps people with income at or below 200% of federal poverty guidelines.
+- Must be uninsured or underinsured when insurance does not cover cataract surgery. Patients who receive Medicare Part B are ineligible. The program does not pay or assist with copays.
+- Must have a formal cataract diagnosis where cataract surgery has been deemed medically necessary.
+- Must be permanently residing in the United States. Applicants who are temporarily visiting do not qualify for the program.
+
+Required Documentation:
+Proof of Income: One of the following: If employed - W-2, monthly paystub, annual tax return, If unemployed - copy of financial award letters from disability, social security, food stamps, retirement fund or pension, alimony, or unemployment offices
+Household Member 
+Documents: If unemployed and living with friends or family: Proof of household income | Letter from family confirming they are financially supporting the applicant
+Other Documents: Cataract diagnosis (within past 24 months).",17,128,No listed language support,128,17
+15,Audubon Park Food Bank,5,7,Active,Each month hundreds of pounds of food are donated and distributed through the Audubon Park Food Bank. The Food Bank works with Second Harvest to provide healthy food to those in our service area. ,"2nd & 4th Tuesdays of the month, 8:30 AM - 11:30 AM",,,Call for information.,18,129,No listed language support,129,18
+16,Bare Necessities,5,7,Active,"Our Bare Necessities ""Non-Food Pantry"" offers the basics for household and personal hygiene for free! The mission of the Bare Necessities pantry is to support Audubon Park Food Bank clients or anyone else in need by offering personal hygiene and household cleaning products - because every person has the right to feel clean.","2nd & 4th Tuesdays of the month, 8:30 AM - 11:30 AM",,,NONE,19,130,No listed language support,130,19
+17,Tuesday Morning Breakfast,5,7,Active,"What began as an offer of a hot cup of coffee and a dry, warm place to wait for the food bank has transformed into a hot breakfast, produce and baked goods program. Each week truckloads of groceries are collected, weighed, sorted and handed out to those in need. Open to all, the mission of this ministry is to treat everyone with respect and dignity. Volunteers provide a friendly atmosphere where all are welcomed. They work diligently to feed the guests body and soul.","2nd & 4th Tuesdays of the month, 8:30 AM - 11:30 AM",,,NONE,20,131,No listed language support,131,20
+18,BLC Dental Clinic,6,8,Temporary Closure,The Dental Clinic is a nonprofit ministry that serves the community of Spokane and surrounding communities.,We have a target date to reopen on October 7.,,,UNKNOWN,21,132,No listed language support,132,21
+19,Food Pantry,6,8,Active,"We will serve anyone in need with an emergency food basket on a first-time basis. We do not discriminate on the basis of race, sexual orientation, color, religion, sex, age, national origin, citizenship, ancestry, physical or mental handicap, marital status, or from being a recipient of federal, state, or local public assistance, or is a disabled veteran. We do reserve the right to refuse service to a client deemed a danger to other clients or to the volunteers.","Tuesdays, 9am-11:30am & 1:00pm-3:30pm
+Thursdays, 9am-12:30pm
+",,,"Must live in WA, must bring WA issued picture ID with birthdate, must bring proof of address (mail, lease, rent receipt, government documents with home address on them), must be over 18, home address must be within zipcodes 99207 (west of Perry), 99208 (south of Francis), or 99205 (north of Montgomery and east of Monroe).",22,133,No listed language support,133,22
+20,Peace is an Inside Job - Bible Study,6,8,Active,Community Bible study at the Better Living Center,"Tuesdays, 7 PM - 8 PM",,,NONE,23,134,No listed language support,134,23
+21,Dollar for Debt Forgiveness,7,9,Active,"Most hospitals offer discounts or bill forgiveness based on income. On average, a family of 4 earning less than $100,000 a year will qualify. We can help you apply — for free.",Apply Online,,,NONE,24,135,No listed language support,135,24
+22,FailSafe for Life,7,10,Active,"Education and Community Events for Suicide Prevention.
+
+Saturation Training
+“Saturation Training” or basic education to the key
+gatekeepers laid out in the National Strategy for Suicide
+Prevention along with any other interested party. 
+
+Advanced Training
+Advanced level training for helping professions or those who
+would be providing emergency and/or ongoing care.
+
+Awareness Campaigns
+Awareness campaigns to bring this issue to the attention of
+the community.
+
+Coordination with the Media
+Working with the media to promote proper coverage and
+prevent contagion.
+
+Supporting Prevention Methods
+Supporting means restriction as an effective method of prevention.
+
+Community Involvement
+Working with existing organizations and groups to create a
+collaborative, efficient effort.",Call during regular business hours.,,,NONE,25,136,No listed language support,136,25
+23,Soup Kitchen,8,11,Active,,"Saturdays, 10 AM - 12 PM",,,Call for information.,26,137,No listed language support,137,26
+24,Baby Care 101,9,17,Active,Baby Care 101 is a two-week course to give expectant and newly parenting individuals/couples tools to learn how to care for their new baby.,Apply online,,,"All CAPA/PREPARES services offered are free of charge to any parent, guardian, or caregiver of any child aged 0-5.
+
+Apply online for eligibility.",27,138,No listed language support,138,27
+25,Baby Care Assistance,9,17,Active,"DIAPERS, WIPES, and FORMULA ONCE EVERY 30 DAYS.
+Walk-In Hours are Monday-Thursday from 10 am - 2 pm. No appointment is necessary.",Walk-In Hours are Monday-Thursday from 10 am - 2 pm,,,"All CAPA/PREPARES services offered are free of charge to any parent, guardian, or caregiver of any child aged 0-5.",28,139,No listed language support,139,28
+26,Case Management,9,17,Active,"Offers parents the opportunity to have parent support, goal setting, and community resources to help them be the parent they want to be with support from our compassionate circle of security-trained case manager. For more information contact Sarah Durrant at sarah.durrant@cceasternwa.org.",Apply online.,,,"All CAPA/PREPARES services offered are free of charge to any parent, guardian, or caregiver of any child aged 0-5.
+
+Apply online for eligibility.",29,140,No listed language support,140,29
+27,Circle of Security Parenting Classes,9,17,Active,"Circle of Security® Parenting™ (COSP) teaches parents to identify, understand and respond to their child's emotional needs. Through COSP, parents discover they are capable of connecting with, loving, and raising secure children. CAPA/PREPARES offers the 8-week COSP group quarterly for parents of children aged six months to five years old.",Apply online.,,,"All CAPA/PREPARES services offered are free of charge to any parent, guardian, or caregiver of any child aged 0-5.
+
+Apply online for eligibility.",30,141,No listed language support,141,30
+28,Education Support,9,17,Active,"EDUCATION SUPPORT
+Education support focuses on families with children ages three to five, to prepare them for kindergarten. The program is led by a CAPA/PREPARES Education Support Specialist with over thirty years of experience in education. This provides an extra layer of support giving children the tools they need to be successful in their first years of schooling and providing ongoing support to parents navigating this new system. Education support also provides GED and ESL support for mothers and fathers. For more information contact Sandi Nokes at Sandi.nokes@cceasternwa.org.",Apply online.,,,"All CAPA/PREPARES services offered are free of charge to any parent, guardian, or caregiver of any child aged 0-5.
+
+Apply online for eligibility.",31,142,No listed language support,142,31
+29,Essential Items,9,17,Active,"CLOTHING (SIZES NEWBORN - 5T) ONCE EVERY 60 DAYS.
+To place an order for clothing, please allow two business days to fill your order. Pick up available during walk-in hours.
+
+OTHER ESSENTIAL ITEMS, ONCE EVERY 60 DAYS
+Items include pack n' plays, highchairs, baby gates, strollers, baby baths, and more. (Please attach your other essential items with your clothing order).",Apply online.,,,"All CAPA/PREPARES services offered are free of charge to any parent, guardian, or caregiver of any child aged 0-5.
+
+Apply online for eligibility.",32,143,No listed language support,143,32
+30,Music Together (Partnership with Songbird Studio),9,17,Active,"An interactive music class for children ages zero to five to attend with their caregiver.
+Classes create a nurturing environment to have fun singing, dancing, playing instruments, and hearing stories.",Apply online.,,,"All CAPA/PREPARES services offered are free of charge to any parent, guardian, or caregiver of any child aged 0-5.
+
+Apply online for eligibility.",33,144,No listed language support,144,33
+31,Prepared Moms,9,17,Active,"A weekly social support group for moms with children under the age of five. Join us in building friendships, fostering community, and supporting one another in navigating parenthood on Thursdays from 10-11:30 am. Mothers of children aged 0-5 can attend on a drop-in basis and receive free childcare during group.",Apply online,,,"All CAPA/PREPARES services offered are free of charge to any parent, guardian, or caregiver of any child aged 0-5.
+
+Apply online for eligibility.",34,145,No listed language support,145,34
+223,Medical Lake Food Bank,92,12,Active,Local food bank.,"Unlisted, but expected: 
+
+* Thurs: 5:30 pm - 6:30 pm (1st Thursday - Pantry Distribution)
+* Fri: 10 am - 12 pm (Weekly)",,,Unlisted,35,146,No listed language support,146,35
+32,Bus Passes & Fuel Vouchers,10,13,Active,As long as funds are available.,"Mondays / Wednesdays / Thursdays, 10:30 AM - 1:30 PM",,,"The last client sign-in time is 1:00 p.m. If Caritas Food Bank has met the client capacity prior to 1:00 p.m., they will stop signing clients in. Clients are welcome to visit one day a week.",36,147,Limited language access | Spanish,147,36
+33,Caritas Food Bank,10,13,Active,"Bread, Produce, Pantry Staples, & More!","Mondays / Wednesdays / Thursdays, 10:30 AM - 1:30 PM",,,"The last client sign-in time is 1:00 p.m. If Caritas Food Bank has met the client capacity prior to 1:00 p.m., they will stop signing clients in. Clients are welcome to visit one day a week.",37,148,Limited language access | Spanish,148,37
+34,Hygiene Center,10,13,Active,"Hygiene & Cleaning Supplies, Diapers & Wipes","Mondays / Wednesdays / Thursdays, 10:30 AM - 1:30 PM",,,"The last client sign-in time is 1:00 p.m. If Caritas Food Bank has met the client capacity prior to 1:00 p.m., they will stop signing clients in. Clients are welcome to visit one day a week.",38,149,Limited language access | Spanish,149,38
+35,Utilities Assistance,10,13,Active,"Avista / City of Spokane, as long as funds are available.",Call during standard business hours.,,,Must be a client of Caritas.,39,150,Limited language access | Spanish,150,39
+36,Housing Assistance,11,14,Active,#NAME?,Call during regular business hours.,,,Included in enrollment application.,40,151,No listed language support,151,40
+37,Immigration Legal Services,11,14,Active,"Immigration Legal Services provides high-quality legal consultations, representation, and assistance to documented and undocumented immigrants of all nationalities, ethnicities, and religions.
+Our primary goals are to promote the reunification of families and to assist the integration of newcomers successfully into our community.
+Each client is treated professionally and confidentially by our staff. If we are unable to provide assistance on a particular matter, we are able to refer individuals to a variety of local resources.",Call during regular business hours.,,,NONE,41,152,No listed language support,152,41
+38,Integrated Case Management (ICM),11,15,Active,"Integrated Case Management assists people in stabilizing their housing, income, behavioral health, and/or substance use. Integrated Case Management empowers individuals and families to achieve their own goals of economic mobility and self-sufficiency through supportive housing, supported employment, and peer support services, and works to help clients access behavioral health, substance use disorder, and healthcare services directly and efficiently, in order to provide our clients with high-quality and holistic services.",Call during regular business hours.,,,NONE,42,153,No listed language support,153,42
+39,Rising Strong,11,23,Active,"Rising Strong is a holistic, family-centered drug treatment and housing program supporting families in staying together while they begin to recover from addiction, heal from trauma and rebuild their lives.
+
+Rising Strong provides assessments and plans for each family member (parents and children).
+
+Parents will receive a variety of services, including:?
+Recovery Coaching, Counseling, Parenting Skills, Education Support, Vocational Training
+
+Children will receive a variety of services, including:
+Early learning opportunities, High-quality child care, Educational Support, Mental Health screening and treatment, Recreational Activities, Parent engagement through evidence-based parenting programs.
+
+--------------------------------------------------
+CORE ELEMENTS
+
+Safe Housing:
+Family will reside in Rising Strong Community for 12-18 months.
+
+Substance Abuse Recovery:
+Substance abuse services on site for adults and teens.
+
+Clinical Support-Adults:
+Mental health assessments and services provided on-site.
+
+Education and Employment:
+Education support for adults and children.
+
+Child Assessment and Treatment:
+All children receive comprehensive age-appropriate assessment and treatment.
+
+Integrated Family Treatment:
+Services provided to restore maximum family functioning.
+
+After Care:
+Long-term affordable housing, support, and services provided to program graduates.",Call or email to schedule an appointment.,,checked,Provided during intakte.,43,154,No listed language support,154,43
+40,St. Anne's Children & Family Center,11,17,Waitlist Only,"St. Anne's Children & Family Center provides high-quality child care and early learning experiences for children of all faith ranging in age from 1 month through 6 years. We are an exemplary early learning center with highly educated and experienced staff who demonstrate professionalism and a passion for children. We are committed to meeting and exceeding all quality and educational standards for our center and for each child we serve.
+
+St. Anne’s Provides:
+- Secure Locked Facility
+- Trauma Informed Social Emotional Educational program for infants, toddlers, and preschoolers focused on the individual child
+- Qualified and nurturing teachers who have degrees in Education, Early Childhood Education and/ or STARS training
+- 14 separate classrooms, multiple indoor large motor areas, three outdoor play areas, as well as a covered rooftop play area
+- 2 areas specializing in S.T.E.A.M (Science, Technology, Engineering, Arts, & Mathematics)
+- Family library
+- Community Garden
+- An award-winning menu with a wide variety of healthy nutritious foods, nutritional education, and farm to table program","Monday - Friday, 7 AM - 5:30 PM",,,NONE,44,155,No listed language support,155,44
+41,The Catalyst Project,11,18,Active,"The Catalyst Project is an emergency supportive housing program that will create a new pathway out of homelessness for people in our community. The Catalyst Project can provide a strategic enhancement to our current regional shelter system by providing 87 rooms to both men and women experiencing homelessness. In addition, 14 of the 87 rooms will be set aside for double occupancy.
+
+Key Features:
+- Fully staffed security team who will patrol 24 hours a day, seven days a week, around a fenced and secured area.
+- Robust Care Coordination services, including housing-focused opportunities, connections to behavioral health services, primary care, and public benefits.
+- Contracted food services to provide three meals a day.
+- Residents will abide by Catalyst’s Good Neighbor Agreement.",Call during regular business hours.,,,Must be homeless or facing homelessness.,45,156,No listed language support,156,45
+42,Infants Program (4 weeks - 12 months),12,19,Active,"Ratios are 4:1 for Infants
+
+We have two classrooms of Infants, ages 4 weeks to 12 months, maximum group size of 8 per room
+
+USDA approved Breakfast, Lunch and Snack are provided beginning at 12 months.",Mon – Fri: 7am – 6pm,,,NONE,46,157,No listed language support,157,46
+216,Food Distribution Center,87,20,Active,Are you in need of assistance? Please reach out for more information. Or stop by.,"Mondays, 4 PM - 6 PM
+Wednesdays, 9 AM - 11:30 AM",,,Unlisted,47,158,No listed language support,158,47
+222,Feed Cheney,91,21,Active,Many of Cheney's community safety net programs are not open after 5pm. Feed Cheney has evolved into a year-round free monthly scratch-made meal and community hub for volunteering.,"Often on the last Monday of the month, 5:30 PM",,,Unlisted (likely must be enrolled in (or have a child enrolled in) Cheney School District),48,159,No listed language support,159,48
+43,CORE Grant,13,22,Active,"A CORE grant is a gift of financial support to qualifying food & beverage service employees with children. Every CORE grant is uniquely tailored to a grantee’s qualifying circumstances and financial need. Expenses that CORE grants cover include rent and mortgage, utilities, medical supplies, medical or therapy equipment, therapies, prescriptions, over-the-counter medication, medical travel expenses, funeral expenses, groceries, clothing, and other essential needs a family may need assistance with.","Apply Online
+(https://core.submittable.com/login?login=1&returnUrl=%2Fsubmit%2F284871%2Fcore-2024-application)",,,"1) Must be currently working in the food and beverage service industry and have worked in the food and beverage service industry for the past 90 days.
+2) Must have a legally dependent child under the age of 18 or a medically dependent child with documentation living within your home.
+3) Must have a qualifying circumstance within the last 90 days. Please note: Support from CORE is limited to one lifetime grant per family.
+
+Further breakdown of eligibility can be found on the website.",49,160,No listed language support,160,49
+44,Case Management,14,23,Active,"Whether you are in need of housing assistance, supported employment, referrals to community resources, access to legal help, or information on applying for supplemental income, case management services are available to ensure your basic needs are met and to help you reach your goals.",Call for an appointment.,,checked,NONE,50,161,No listed language support,161,50
+45,Family Therapy,14,23,Active,"Using evidence-based methods, family therapy can provide skills, knowledge, and the space to deal with hard things. We serve families of all sorts and sizes - helping you implement skills which will enhance relationship, manage behavior, build trust, process, understand, and take preventative measures.",Call for an appointment.,,checked,NONE,51,162,No listed language support,162,51
+46,Group Therapy,14,23,Active,"For clients enrolled in individual therapy, we offer several group therapy opportunities including Mindfulness and Dialectal Behavioral Therapy skills. The Mindfulness group is a safe space to get support as you make positive life changes in our life, moving towards peace and gratitude. The Dialectical Behavioral Therapy (DBT) group teaches skills to improve one's ability to cope with difficult emotions, have better relationships, and manage stress.",Call for an appointment.,,checked,NONE,52,163,No listed language support,163,52
+47,Individual Therapy,14,23,Active,"Fully-licensed mental health therapists serve adults and teens with evidence-based practices. Each therapist works from a variety of treatment modalities including cognitive behavioral therapy, and interpersonal therapy, and we specialize in Dialectical Behavioral Therapy and Eye Movement Desensitization and Reprocessing Therapy (EMDR)",Call for an appointment.,,checked,NONE,53,164,No listed language support,164,53
+48,Peer Support,14,23,Active,"Support is provided by peer counselors who have demonstrated their own mental health recovery and are committed to passing on what they have learned to others. Peer counselors provide hope that recovery is possible. That is done through activities directed by the client that affirm one's strengths and self-worth. These activities might include learning new life skills, learning how to navigate mental health services, and learning how to advocate for oneself.",Call for an appointment.,,checked,NONE,54,165,No listed language support,165,54
+49,Affordable Computers,15,24,Active,"We do a strict need assessment, background and reference check, which helps us eliminate false requests and benefit those truly in need. If you or your nonprofit truly are in need and we are able to help, we will certainly contact you. Sometimes this can be weeks, so please be patient. We have a limited volunteer staff and strive to meet all application demands in a timely manner.
+
+After the application is submitted, we will review the information provided, then review our inventory, and if we are able to assist you then you will be contacted within 30 days. All applications are valid for 30 days, so if you do not hear from us within that time frame then you can apply again.",Apply online.,,,Background check included in application.,55,166,No listed language support,166,55
+50,Settle In App & Website,16,25,Active,"Settle In digital platforms are available in multiple languages and provide videos, podcasts, and other resources on different topics about life in the United States.
+
+The Settle In website has hundreds of resources including videos, podcasts, and fact sheets. Topics include cultural adjustment, employment, housing, U.S. laws, and more. Available in: Arabic, Burmese, Dari, English, Farsi, Kinyarwanda, Pashto, Russian, Somali, Spanish, Swahili, and Ukrainian. ",Website and App are available at user's discretion.,,,NONE,56,167,No listed language support,167,56
+282,Child Protective Services,17,26,Active," CPS is responsible for the assessment, investigation, and intervention in cases of child abuse and neglect. Their primary focus is on protecting children and ensuring their safety and well-being.",Call during standard business hours.,,,Call for information.,57,168,No listed language support,168,57
+278,Family Reconciliation Services (FRS),17,26,Active,"Family Reconciliation Services (FRS) is a voluntary program serving runaway adolescents and youth who are in conflict with their families. The program targets adolescents between the ages of 12 through 17. FRS services are meant to resolve crisis situations and prevent unnecessary out-of-home placement. They are not long-term services. The services will assess and stabilize the family's situation. The goal is to return the family to a pre-crisis state and to work with the family to identify alternative methods of handling similar conflicts. If longer-term service needs are identified, FRS will help facilitate getting the youth and their family into ongoing services.",Call during standard business hours.,,,Call for more information.,58,169,No listed language support,169,58
+279,Foster Youth Services,17,26,Active,"Help foster youth with employment, create resumes, housing, budgeting, education, health services, and providing support for LGBTQIA+ youth.",Call during standard business hours.,,,Call for information.,59,170,No listed language support,170,59
+280,Juvenile Rehabilitation,17,26,Active,"DCYF's Juvenile Rehabilitation (JR) serves Washington state's highest-risk young people, who are convicted of crimes that reflect the profound violence, neglect, trauma, addiction, and other challenges they faced before they ever reached our doors.
+
+The goal of JR is to deliver treatment, provide resources, and develop skills so young people can plan for their future and reenter their communities",Call during standard business hours.,,,JR serves youth up to 25 years old who are committed to juvenile custody by a court.,60,171,No listed language support,171,60
+276,Working Connections Child Care (WCCC),17,26,Active,"Working Connections Child Care (WCCC) helps eligible families pay for child care. When a family qualifies for child care subsidy benefits and chooses an eligible provider, the state pays a portion of the cost of child care. Parents may be responsible for a copayment to their provider each month.",Call during standard business hours.,,,"'- The child must reside in Washington.
+- The family with whom the child resides must live in Washington state.
+- The family's income must be at or below 60% of the State Median Income (SMI) at application or 65% of SMI when reapplying.
+- The family must have resources under $1 million.",61,172,Access to phone interpreters | ALL LANGUAGES,172,61
+52,Food Assistance Program (FAP),18,27,Active,,Call during standard business hours.,,,,62,173,Access to all kinds of interpreters | ALL LANGUAGES,173,62
+53,Temporary Assistance for Needy Families (TANF),18,27,Active,Temporary Assistance for Needy Families provides temporary cash for families in need. Some families participate in the WorkFirst Program. The WorkFirst Program helps participants find and keep jobs.,Call during standard business hours.,,,"'- Income and resource requirements: Total resource value of under $12,000.
+- Citizenship and alien status requirements
+(More information available on website)",63,174,Access to all kinds of interpreters | ALL LANGUAGES,174,63
+221,Food Pantry,90,28,Active,"If you are in need, please come to our food pantry to get food for yourself or for your family. We love having volunteers, anyone is welcome to come and help us.  Email us at eastvalleybaptist@gmail.com for any questions or help.","4th Saturday of every month, 10 AM - 12 PM",,,Unlisted,64,175,No listed language support,175,64
+54,Alcoholics Anonymous,19,29,Active,Christ centered Alcoholics Anonymous.,"Sundays, 7pm-8pm",,,NONE,65,176,No listed language support,176,65
+55,Breaking Bread (Food Pantry),19,29,Active,"Jesus has asked that we love our neighbors, and this is an opportunity to show that love. Whether in need or wishing to simply come help Breaking Bread Ministry is a wonderful place to connect, serve and receive the love of Christ.","Tuesdays, 9am-11am",,,NONE,66,177,No listed language support,177,66
+56,Breaking Bread (Food Rescue),19,29,Active,Food Rescue 7 days a week (inquire for times if interested in Serving),Call during standard business hours.,,,NONE,67,178,No listed language support,178,67
+57,Celebrate Families,19,29,Active,Support for those loving the addict in their lives.,"Wednesdays, 7pm- 8pm",,,NONE,68,179,No listed language support,179,68
+58,Celebrate Recovery,19,29,Active,Large and small groups and dinner.,"Wednesday, 7:00pm-8:00pm
+Friday, 5:30pm-9:00pm",,,NONE,69,180,No listed language support,180,69
+59,Narcotics Anonymous,19,29,Active,Christ center Nar-Anon 12-step for those effected by the addict.,"Mondays, 6pm-7pm ",,,NONE,70,181,No listed language support,181,70
+60,Emergency Shelter,20,30,Waitlist Only,"Families are assessed at the Family Promise Center and space is available, we move a family to a Neighborhood Site where they can take showers, receive case management, and look for housing and jobs, all in a family-friendly setting. With volunteers giving their time, making meals, and sharing hospitality, family homelessness is addressed without the creation of expensive shelters.",24hrs a day,,,,71,182,No listed language support,182,71
+61,Landlord Engagement Program,20,30,Active,"There are many community-minded landlords who want to make a difference for vulnerable families, but have valid concerns about their properties and businesses. The Landlord Engagement Program is the solution. Through a formal partnership with Family Promise, landlords receive tiered benefits depending on their agreement, ensuring that landlords secure the needed support to fulfill their desire to help vulnerable families.",Call during standard business hours.,,,Must be enrolled in Family Promise case management.,72,183,No listed language support,183,72
+62,Rental Assistance / Case Management,20,30,Active,Preventing families from becoming homeless through rental assistance and targeted case-management is essential to what we do.,Call during standard business hours.,,,,73,184,No listed language support,184,73
+283,Stabilization Program,20,31,Active,"Family Promise of Spokane works with newly or unstably housed families for up to two years, providing ongoing life skills training, mentorship, and personalized case management aimed at equipping the family toward long-term self-sufficiency. ",Call during business hours.,,,,74,185,No listed language support,185,74
+63,Brain Cancer Grant,21,32,Temporary Closure,"Assists patients and caregivers facing financial hardship as a result of a brain cancer diagnosis.
+
+The grant cap for this fund is $1,000. This can be paid as a direct check, toward eligible bills, or a combination of the two.",Apply Online,,,"'- Brain cancer diagnosis
+- Currently in active treatment in the US or US territory
+- Healthcare professional who can confirm where the patient is receiving treatment.
+- Federal Poverty Level (FPL) of 300% or less",75,186,No listed language support,186,75
+64,Breast Cancer Grant,21,32,Temporary Closure,"Assists patients and caregivers facing financial hardship as a result of a breast cancer diagnosis.
+
+The grant cap for this fund is $1,000. This can be paid as a direct check, toward eligible bills, or a combination of the two.",Apply Online,,,"'- Breast cancer diagnosis
+- Currently in active treatment in the US or US territory
+- Healthcare professional who can confirm where the patient is receiving treatment
+- Federal Poverty Level (FPL) of 300% or less",76,187,No listed language support,187,76
+65,Cervical Cancer Grant,21,32,Temporary Closure,Assists patients and caregivers facing financial hardship as a result of a cervical cancer diagnosis.,Apply Online,,,"'- Cervical cancer diagnosis
+- Currently in active treatment in the US or US territory.
+- Must be a healthcare professional who can confirm where the patient is receiving treatment
+- Federal Poverty Level (FPL) of 300% or less",77,188,No listed language support,188,77
+66,Clinical Trial Access Grant,21,32,Active,"Assists patients and caregivers facing financial hardship as a result of participation in a clinical trial for a cancer diagnosis.
+
+The maximum grant amount for this fund is $3,200. A Family Reach Navigator will work with you to determine the best grant amount based on the household’s specific needs.",Apply Online,,,"'- Participation in a clinical trial based in the US or a US territory that is intended to actively treat a cancer diagnosis
+- Expected household income for this year is within 300% of the Federal Poverty Level (FPL)
+- Application must be submitted by a member of the healthcare team where the patient is receiving treatment",78,189,No listed language support,189,78
+67,General Funding Grant,21,32,Temporary Closure,Assists patients and caregivers facing financial hardship as a result of a cancer diagnosis.,Apply Online,,,"'- Currently in active treatment in the US or US territory.
+- Healthcare professional who can confirm where the patient is receiving treatment.
+- Federal Poverty Level (FPL) of 300% or less",79,190,No listed language support,190,79
+68,Multiple Myeloma Grant,21,32,Temporary Closure,"Assists patients and caregivers facing financial hardship as a result of a multiple myeloma diagnosis.
+
+The grant cap for this fund is $1,000. This can be paid as a direct check, toward eligible bills, or a combination of the two.",Apply Online,,,"'- Multiple myeloma cancer diagnosis
+- Currently in active treatment in the US or US territory
+- Must be a healthcare professional who can confirm where the patient is receiving treatment
+- Federal Poverty Level (FPL) of 300% or less",80,191,No listed language support,191,80
+69,Pediatric Grant,21,32,Temporary Closure,Assists pediatric patients and their caregivers facing financial hardship as a result of a cancer diagnosis.,Apply Online,,,"'- Currently in active treatment in the US or US territory.
+- Healthcare professional who can confirm where the patient is receiving treatment.
+- Federal Poverty Level (FPL) of 300% or less
+- Pediatric diagnosis of someone 18 years or younger",81,192,No listed language support,192,81
+253,Registration Assistance,105,33,Active,"FROC can assist with registration in the following ways:
+
+* Register all school-aged children in a family at one location.
+* Determine which school each child will attend.
+* Arrange transportation for students if needed.
+* Provide interpreter services in the family’s primary language.
+* Provide orientation on district policies, including basic translated information.
+* Complete WIDA Screener assessment and secondary placement testing
+* Introduce the family to the ELD program and its services.
+* Notify the receiving school that children are ready for placement and provide an orientation meeting at the school site.
+* Prepare registration packet for receiving schools and family.
+
+
+**What do I need to bring with me to register?**
+
+1. **Documentation of student age** (e.g., a birth certificate, foreign birth certificate, passport, adoption record, previously verified school records, or any other documents permitted by law) is required for students who have not previously enrolled in school. Kindergarten students must be 5 on or before Aug. 31, first graders must be 6.
+2. **Proof of residency**. This can be a current driver's license or ID, or a current utility bill.
+3. **Registration forms**. These are available at the school, or you can [download the entire registration packet here](https://5il.co/2bmvk). (or see attached)",Please call to make an appointment,,checked,Must be an immigrant or refugee whose first language is not English and who does not speak English at home.,82,193,Access to all kinds of interpreters | ALL LANGUAGES,193,82
+70,Barton English Language School,22,34,Active,The Barton School is a non-profit organization comprised of educational professionals and experienced volunteers who are dedicated to walking through the language learning process with students. Their teachers use a variety of instructional approaches to match the diverse needs of language learners. They primarily focus on teaching English that adult students will encounter during their daily lives. Childcare is available onsite for ages 0-5 years old for any individual who is taking classes.,"Mondays / Wednesdays / Fridays, 9 AM - 11:30 AM",,,NONE,83,194,No listed language support,194,83
+71,Bail Assistance,23,35,Active,For bails under $500 only.,Apply Online,,,Defined on form,84,195,No listed language support,195,84
+72,Housing Assistance,23,35,Active,We offer swift housing with a turnaround time of 48 hours to homeless individuals seeking immediate shelter.,Call during regular business hours,,,Defined on contact,85,196,No listed language support,196,85
+73,Social Security Assistance,23,35,Active,"We navigate disabled individuals through the complex processes and required paperwork, assisting them in receiving Social Security and SSI benefits.",Call during regular business hours,,,Defined on contact,86,197,No listed language support,197,86
+74,Garland Little Food Pantry,24,36,Active,"The Wednesday Evening Community Journey Group stocks the Little Food Pantry on the East lawn of the church (by the Post Office). With the high level of food insecurity in our neighborhood, our pantry is one of the busiest in the city.",Call during standard business hours.,,,"Anyone in need is free to take food, notes of encouragement or a New Testament from the Food Pantry.",87,198,No listed language support,198,87
+75,The Garland House,24,37,Active,The Sunday Morning Journey Group oversees the care and upkeep of the Garland House owned by Garland Church and operated in partnership with World Relief.  Newly arrived refugees are welcome to stay for up to 60 days before moving to their permanent home. Residents pay $250 per week.,Call during standard business hours.,,,Call for information.,88,199,No listed language support,199,88
+76,English Language Program,25,38,Active,"Global Neighborhood offers free English classes for any refugee in the community. Classes focus on practical language skills and development serving language learnings level 1-6. 
+
+Our language program seeks to empower students to successfully navigate life and work in the U.S. as well as identify and prioritize their personal, educational, and workplace goals. Refugees with higher English proficiency are more likely to secure employment in skilled occupations and earn higher salaries. Therefore, by increasing English language proficiency, Global Neighborhood directly enhances the earning potential of our refugee participants.",Enroll for class times.,,,Must be a refugee.,89,200,No listed language support,200,89
+77,Job Readiness Program,25,38,Active,"Regardless of prior work experience or fluency in English, any former refugee who has relocated to Spokane can be connected to workplace training through Global Neighborhood's Job Readiness Program.
+
+Acquiring the necessary job skills is the first step toward a fulfilling, self-sustaining new life in the U.S. We aim to ensure that every former refugee in Spokane who wants a job can find one. Refugees face several barriers to employment, including language and cultural barriers, difficulties navigating new systems, and no local references. The Job Readiness Program provides the necessary training, work experience, familiarity with a new language and culture, and local employment references for refugees experiencing barriers to employment.",Call during regular business hours.,,,Must be a refugee.,90,201,No listed language support,201,90
+78,Basic Food Assistance Program,26,39,Active,We can help you apply for Basic Food Assistance (EBT cards) and assist with your annual review.,Call for an appointment.,,checked,NONE,91,202,No listed language support,202,91
+79,Clothing Bank,26,39,Active,"Our clothing bank distributes donated clothing, shoes, blankets, coats and limited household items monthly.","Mondays, 2 PM - 5:45 PM
+Wednesdays & Fridays, 1 PM - 3:45 PM",,,NONE,92,203,No listed language support,203,92
+80,Food Bank,26,39,Active,Residents of Deer Park and Clayton can shop for non-perishable food once a month. They can also shop for bread and produce weekly. Residents of neighboring small towns may shop for bread and produce weekly.,"Mondays, 2 PM - 5:45 PM
+Wednesdays & Fridays, 1 PM - 3:45 PM",,,NONE,93,204,No listed language support,204,93
+81,Personal Hygiene,26,39,Active,"We distribute soap, shaving cream, feminine hygiene items, shampoo, toothpaste, toothbrushes, deodorant, makeup, diapers and wipes and other items as available.","Mondays, 2 PM - 5:45 PM
+Wednesdays & Fridays, 1 PM - 3:45 PM",,,NONE,94,205,No listed language support,205,94
+82,Supplemental Food for Senior Adults,26,39,Active,"Sometimes called Senior Boxes, Commodity Supplemental Food boxes are available for adults 60 or older who qualify by income. Call or visit us to see if you qualify.",Call for an appointment,,,Call or visit us to see if you qualify,95,206,No listed language support,206,95
+83,Utility Assistance,26,39,Active,"Once per year we will provide assistance for Avista utility payments. Also once per year, we can provide limited assistance for Inland Power, City of Deer Park water, or other non-conventional utility needs.",Once per year. Call for an appointment,,checked,Call or visit us to see if you qualify,96,207,No listed language support,207,96
+204,Homeownership Program,82,40,Waitlist Only,"Phone number with extension: (509) 534-2552 x221
+
+Habitat for Humanity-Spokane partners with individuals and families in need of a safe affordable place to call home.
+
+We believe that home is the beginning of a strong foundation. A Habitat home helps families develop a stable financial future, and a healthy place for a family and children to grow and thrive.
+
+Habitat homeowners are active participants in building a better future for themselves and their families. They get a hand up, *not* a handout. They complete hundreds of hours of sweat equity building their own home and homes of other Habitat families, attend financial workshops and homebuyer classes, save for their closing costs and pay an affordable mortgage. It’s hard work but it’s worth it.
+
+Habitat homeowners achieve strength, stability and self-reliance through shelter. Shelter they helped build.",By appointment only. Call during business hours to schedule an appointment.,,checked,"* An applicant’s household gross income must be less than 80% of Spokane County’s median income based on family size. (Chart visible on website)
+* Prospective Habitat homeowners must demonstrate a need for safe and affordable housing, be able to pay an affordable mortgage, and be willing to partner with Habitat.",97,208,No listed language support,208,97
+205,The Habitat Store,82,40,Active,"The Habitat Store is a nonprofit, home-improvement store that sells new and gently used donated furniture, appliances, home accessories, building materials and more to the public at a fraction of the retail price.","Tuesday - Saturday, 9 AM - 5 PM
+(Closed Sunday - Monday)",,,NONE,98,209,No listed language support,209,98
+84,Diversion,27,41,Active,"Diversion helps families identify housing options outside the formal homeless response system.
+
+Diversion provides “light touch” case management that helps families to identify solutions to their housing crisis. Through problem solving conversations Diversion collaborates with households to help them avoid or resolve homelessness. At Homeless Resources, every household has the opportunity to partner with a Diversion specialist to review their housing situation and create a plan to overcome their housing challenge. Our Diversion Specialists are able to work with families for up to 30 days.
+
+While we do not have financial assistance for direct housing costs such as rental arrears or security deposits, staff can assist with mediating a dispute with a landlord, relative or friend that can provide housing or in some cases provide limited flexible funding to support transportation or job-related expenses to help a family maintain the income needed to move into housing.","Monday - Thursday, 8 AM - 3 PM",,,Must be at risk of homelessness.,99,210,No listed language support,210,99
+85,Homeless Family Coordinated Assessment (HFCA),27,41,Active,"Families experiencing housing instability can be pre-screened for HFCA by filling out a secure online application located here: https://hfca.cceasternwa.org/
+
+Many agencies and programs are available to help families* that are experiencing homelessness, so when families face an unstable housing situation it can be difficult for them to know where to go.
+
+HFCA provides families with a centralized point of entry to access housing resources. Through HFCA, families meet with a Coordinated Entry Specialist who first utilizes Diversion strategies to determine if a family’s housing crisis can be resolved outside of the formalized homeless response system. If Diversion is not a good fit to meet the household’s needs a vulnerability assessment is used to pre-screen their eligibility for services. Once screened the family is placed in a priority pool. When a vacancy becomes available households in the pool are connected directly to the housing resource.
+
+HFCA does not provide families with immediate housing; instead, HFCA guides families in Spokane County toward homeless housing resources. Because homeless housing resources are limited, there is no guarantee of housing through HFCA. Households are prioritized based on their barriers and vulnerabilities.  
+
+* Families include one or more parent/guardian with kids in custody, at least 51% of the time, or that are currently pregnant. Homeless individuals and couples without children can get help through the Singles Homeless Coordinated Assessment operated by SNAP.",Apply online.,,,Application provides eligibility.,100,211,No listed language support,211,100
+86,Rapid Rehousing,27,15,Active,"Many households experiencing homelessness need to access additional financial resources to move into a new housing unit.
+
+After completing pre-screening by HFCA, households experiencing homelessness or living in a shelter may be referred to the Rapid Rehousing program. Through Rapid Rehousing, households can access short-term financial support and case management services that help them get into private apartments and public housing.
+
+In this family-centered program, households conduct their own housing search. If households request it, Catholic Charities assists them with identifying housing vacancies, completing applications, writing letters of appeal and answering questions about the lease-signing process.
+
+Households receive assistance with move-in costs, such as application fees and security deposits. Catholic Charities ensures the unit passes quality standards before paying the landlord. Our landlord liaison identifies landlords willing to partner with Rapid Rehousing tenants and addresses with the landlord any concerns households have while living in their apartments.",Fluctuates with needs of client. Enroll for specific times.,,,Pre-screening defines eligibility.,101,212,No listed language support,212,101
+87,Daily Services,28,42,Active,"Daily services that support the body, mind and spirit of our clients include: 
+Case management and peer support, barber services, White Bison meetings, movie and bingo events, garden and music club.
+- Breakfast and Lunch and Dinner served daily to those who slept the night before
+- Showers and the Resource Room with select personal care items available are open daily
+- SSI/SSDI attorney available Thursdays 9:00-12:00pm","Monday - Friday, 8:30 AM - 4:30 PM",,,NONE,102,213,No listed language support,213,102
+88,Men's Sleeping Program,28,42,Active,"Since 1979, the Men's Sleeping Program has allowed men from all walks of life in the Spokane Area to take refuge in a bed rather than being out on the streets at night.
+- Clients can start checking in at 5:00 pm but no later than 8:00 pm
+- Anyone that slept the night before can remain on-site for the full day","Check-in is 5 PM, check-in closes at 8 PM",,,NONE,103,214,No listed language support,214,103
+89,Providence House of Charity Medical Clinic,28,90,Active,"The Medical Clinic was founded in 1976 as an outreach of Sacred Heart Medical Center and once found its home in small quarters at the HOC. In 2017, the clinic moved into a new facility just one block from the shelter. It offers longer hours and now has the capacity to care for more unserved patients than ever before.","Monday - Friday, 8:30 AM - 4:30 PM",,,NONE,104,215,No listed language support,215,104
+90,Residential Client Program,28,42,Active,"Our RC Program is a client volunteer, workforce development program that aims to advance education and training while developing a healthy community.
+- Clients work 20 hours a week in exchange for room and board.
+- Goal: Participants gain the experience and tools they can use to find employment.
+- Case management and Worksource classes are provided to all RC clients.",Individualized per client. Inquire for specifics.,,,NONE,105,216,No listed language support,216,105
+91,Transitional Respite Program,28,42,Active,"One of the best medicines for people recovering from illness or injury is the ability to rest in a safe and comfortable environment. Respite at HOC is a nationally recognized program in partnership with Providence Healthcare and the 2016 winner of The Catholic Health Association of the United States ""Achievement Citation Award - For innovative programming that changes lives""
+- Clients are provided with a place to recuperate
+- Referred by Providence and other local hospitals and clinics
+- Case management services provided to all Respite clients and work to build each person’s social determinants of health while working towards permanent housing.",Call during regular business hours.,,,NONE,106,217,No listed language support,217,106
+92,Attachment Vitamins,29,25,Active,"This program is designed to assist caregivers in understanding early childhood development. The primary goal of AV is to provide caregivers with knowledge about early childhood development, toxic stress, and trauma, enabling them to better understand and respond to their child’s needs. Additionally, the program aims to help caregivers set parenting goals, strengthen the parent-child relationship, and manage challenging behaviors.",Call during regular business hours,,,"- Living in the U.S. 5 years or less.
+- Parents or caregivers of children aged from 0 to 5 years.",107,218,No listed language support,218,107
+93,Extended Case Management - PRIME,29,25,Active,"The PRIME extended case management program serves clients who are out of their resettlement period and are struggling with multiple challenges and need ongoing case management to achieve self-sufficiency. Case manager will conduct an intake to ensure that the client qualifies and then collaboratively develop a comprehensive service plan that outlines realistic goals. Case manager will link participants in need of services or benefits to local resources. Some services that have been provided in the past include eviction mitigation, connection to rental/utility/transportation assistance, connection to health programs or health care providers, connection to childcare providers, connection to legal assistance related to family law, and coaching on how to navigate housing. There is no financial support directly available from PRIME services.  ",Call during regular business hours for an appointment.,,,"- Must be age 16+ 
+- Resided in US for 5 years or less  
+- Not eligible in their first 90 days  
+- Not enrolled in R&P, MG, PC, or other funded case management services ",108,219,No listed language support,219,108
+94,Financial Stress Management,29,25,Active,"This program provides an in-depth understanding of the basics of the U.S. financial system, various types of financial stress, their impacts on health, and strategies for building healthy credit and managing day-to-day financial stress. Participants will be able to learn the basic knowledge of different types of financial stressors, and their impact on their activities, learn the basics of budgeting, credit management strategies, etc.",Call during regular business hours,,,"- Afghan and Ukrainian
+- +15 age
+- Living in the U.S. less than 5 years
+- Persons under Diversity Visas are not eligible",109,220,No listed language support,220,109
+95,Harassment Stress Management,29,25,Temporary Closure,"These sessions aim to boost confidence, improve community mobility, and enhance a sense of safety during our clients’ daily commutes, addressing immediate stress concerns. 
+
+A key focus is introducing participants to local health and safety services, aiding their transition into the community. This strategic approach ensures individuals are well-informed and connected to essential resources, facilitating a smoother integration process.",Call during regular business hours,,,Info coming soon.,110,221,No listed language support,221,110
+96,Intensive Case Management - PC,29,25,Active,"The Preferred Communities (PC) Intensive Case Management (ICM) program serves clients identified as highly vulnerable/ at-risk and who require more than six months of ongoing intensive services. Individuals are enrolled into ICM, not households or families, and serve as active partners throughout the service period. This allows for tailored case management that focuses on individual needs, creating sustainable action items to address barriers and identified vulnerabilities. 
+
+As with other case management programs, the goal of ICM is self-sufficiency.",Call during regular business hours for an appointment.,,,"- In the U.S. 5 years or less
+- Not receiving duplicated services from other programs
+- Can serve secondary migrants, asylees, and individuals resettled by other agencies if otherwise eligible",111,222,No listed language support,222,111
+97,Mental Health Interventions,29,25,Active,"We serve clients who may be experiencing mental health concerns including but not limited to behavioral health issues, suicide ideation, and substance use disorders. We can also provide interventions for clients undergoing safety concerns like abuse, harassment, neglect, exploitation, and other issues related to interpersonal violence.  
+
+We will assess, respond, provide interventions and follow-up care for clients of concern as needed.",Call during regular business hours,,,"'- 16+ years of age, minors will need consent from a legal guardian.
+- Arrived with status of; Refugee, Asylee (granted), SIV, Amerasian, Humanitarian Parolee (Afghan or Ukrainian arrival prior to 1/1/2023), Cuban/Haitian entrants, as well as T and U visa holders (some exceptions).
+- Participants must have been in the US for less than 5 years and not yet be a US Citizen.
+- Diversity visa holders are not eligible.",112,223,No listed language support,223,112
+98,Pathways to Wellness,29,25,Active,"This ten-week course aimed at helping individuals understand the fundamentals of culture and cultural adaptation, and to enhance their ability to integrate into a new culture in a healthy manner. The program supports the emotional well-being of refugees by promoting adjustment, self-sufficiency, and community connections.",Call during regular business hours,,,"- +15 age
+- Living in the U.S. less than 5 years
+- Persons under Diversity Visas are not eligible",113,224,No listed language support,224,113
+99,Short-Term Case Management - PRIME,29,25,Active,"This short-term service is for clients facing small challenges in their journey to achieve self-sufficiency. These services are provided on a drop-in basis and do not include the same level of follow up as a long-term case management enrollment would.
+
+When a client drops in, a case manager will conduct an intake to ensure that the client qualifies and then collaboratively develop a comprehensive service plan that outlines realistic goals. Case manager will link participants in need of services or benefits to local resources.
+
+There is no financial support directly available from PRIME services. Different from the long-term prime case management, short term prime case management is designed for clients who need help short term and not on-going long-term case management which works closely with each step of clients’ progress. Clients who initially get short-term services can transfer to long-term prime case management if needs.
+
+Examples of services provided through Short-term CM:  
+- Eviction Mitigation
+- Connection to rental/utility/transportation assistance
+- Connection to health programs or health care providers
+- Assistance finding childcare providers
+- Informal referral to legal assistances related to family law
+- Coaching on how to navigate housing",Call during regular business hours for an appointment.,,,"- Must be age 16+ 
+- Resided in US for 5 years or less  
+- Not eligible in their first 90 days  
+- Not enrolled in R&P, MG, PC, or other funded case management services ",114,225,No listed language support,225,114
+100,Conversation Sessions,30,44,Active,"Practice English one-to-one with American women who want to meet you and talk about real-life topics like family, food and friendship! All sessions are held online using Zoom.","Rolling service times with the season, confirm availability online.
+May 2, 9, 16 - Thursdays, 7 PM - 8 PM (Central Time)
+May 3, 10, 17 - Fridays 10:30 AM - 12 PM (Central Time)",,,Must be a woman.,115,226,No listed language support,226,115
+101,Pronunciation Classes,30,44,Temporary Closure,"Classes are taught by volunteer Speech Language Pathologists: Gail Totten, Kate Anderson, and Viki Schmidt. The purpose of each class is to help Learners speak English more clearly and naturally so they can communicate effectively with native English speakers. All classes are held online via Zoom.","Rolling service times with the season, confirm availability online.",,,"- Must be a woman.
+- New Learners need to have attended at least 5 Conversation Sessions with Ladies Let’s Talk.
+- New Learners also need to be Intermediate-Advanced English speakers. Learners with this level of English will benefit the most from our classes.",116,227,No listed language support,227,116
+102,Immigration & Legal Aid,31,45,Active,"Manzanita Immigrant Legal Aid works with and for the immigrant community in Spokane to build stability and strength by providing low-cost, accessible legal services. We believe that legal aid, education, and community empowerment make Spokane a better place for all--a place where everyone has a chance to be welcomed and celebrated",Call during standard business hours.,,,Service Dependant.,117,228,No listed language support,228,117
+210,Mead Food Bank,84,46,Active,We provide assistance to families and individuals living within the boundaries of the Mead School District and all of Washington State.,"Wednesdays, 4 PM - 6:45 PM
+Sundays, 4 PM - 5 PM (bread / produce only)",,,Must reside within the boundaries of Mead School District,118,229,No listed language support,229,118
+103,Non-Emergency Long Distance Medical Transportation,32,47,Active,"Patients are provided with gas cards, or commercial bus or Amtrak tickets to medical-related treatment. These trips are for non-local medical care more than 50 miles away. Gas cards are also available for multiple trips to local treatment.",Apply online.,,,"'- Must be traveling at least 50 miles from home to treatment facility.
+- Applicants must apply 21 days before their flight/appointment date.
+- Proof of Income: Family income; First page of your most recent Federal tax return, social security, Medicaid or disability statement.
+- Verification of your medical appointment (a letter from your physician, a printed appointment reminder, or a screen shot of your patient portal showing the appointment date).",119,230,No listed language support,230,119
+104,Non-Emergency Medical Flights,32,47,Active,"Mercy Medical Angels provides charitable, need-based commercial airline assistance for patients and one medically-necessary escort.",Apply online.,,,"'- Minimum of 21 days' notice before your travel date to consider flight assistance.
+- Completed medical clearance form from the doctor who has recently physically seen the patient and knows they are going to this appointment. Our medical clearance form will be faxed to the doctor after we receive your application.
+- Income verification which includes total household income and assets for everyone living in the household. Forms of verification include current year complete income tax return and current award letters from Disability and SSI (if applicable).
+- Mercy Medical Angels may sponsor a round-trip for a patient and one non-medical attendant (if the doctor finds it medically necessary) on a commercial flight, coach seating.
+
+The patient must:
+- Be able to sit on their own once they are in the seat.
+- Require little or no medical attention.
+- Be able to transfer out of their wheelchair into their seat on the aircraft with little or no assistance (they cannot have someone literally pick them up and sit them in the seat).
+- If the patient requires oxygen, some airlines may provide it during the flight. Otherwise, the patient must have a portable oxygen concentrator (POC) approved by the FAA or the airlines. Commercial airlines require no less than 48 hours advance notice to prepare for the equipment needed. The patient is responsible for making these arrangements and paying any travel fees associated with the oxygen.
+- An income-based, minimal, nonrefundable airline ticket processing fee will be determined upon verification of all required income documentation.",120,231,No listed language support,231,120
+245,Mid-City Concerns Senior Center Meals,101,48,Active,"The Mid-City Senior Center continues to provide hot lunch meals 5 days a week to Senior Center members 60 years of age and older. The suggested donation is $5.00 per hot lunch, or $25 membership paid up front for the year. Lunch is served at 11:30 A.M.","Monday - Friday, 11:30 AM",,,Must be a senior center member and 60+ years old,121,232,No listed language support,232,121
+105,Dr. Martin Luther King Jr. Food Bank,33,49,Active,"Here at the Dr. Martin Luther King Jr. Food Bank, we strive to answer Dr. King Jr. by serving our community to ensure that no one goes hungry.   Clients can visit our Food Bank once a week.  Please have space in your trunk or flatbed for the pre-boxed food, if driving.","Mondays / Wednesdays / Fridays,  1 PM - 3 PM",,,"Proof of residency, government issued photo ID, ID for everyone in the household - including children.",122,233,No listed language support,233,122
+106,Early Childhood Education and Assistance Program (ECEAP),33,49,Active,"The Early Childhood Education and Assistance Program (ECEAP) is a free preschool program for eligible children and their families. ECEAP focuses on the well-being of the whole child by providing nutrition, health, education, and family support services. The goal of ECEAP is to help all children enter kindergarten ready to succeed.",Call during standard business hours.,,,Children 3 years and older or 4 years old by August 31 are accepted into ECEAP based on the following: From a family with an annual income at or below 110 percent of the federal poverty level,123,234,No listed language support,234,123
+107,"Fulfilment, Achievement, Maturity, Enrichment Program (FAME)",33,49,Active,"FAME is an after-school program for children K-6 grade who attend Grant, Sheridan or Franklin elementary schools. FAME provides: Homework Assistance- to help improve academic performance, Health and Nutrition- USDA approved snacks are provided, Best Practices- additional curriculums that teach the essential social skills such as problem-solving, emotional management, impulse control, and empathy, Enrichment Activities- ability to participate in non-academic programs (i.e.) field trips, gardening, dance classes, cooking classes, and art classes.",Call during standard business hours.,,,"Must attend either Grant, Sheridan, or Franklin Elementary Schools.",124,235,No listed language support,235,124
+108,Senior Commodity Supplemental Food Program (CSFP),33,49,Active,"Senior Commodity Supplemental Food Program (CSFP) sponsored by 2nd Harvest, provides additional food once a month to seniors. In order to qualify for the CSFP Program one must be 60 years of age or older and have a household gross income of less than 130% of the Federal Poverty Guideline.  Inquire when you arrive at the Food Bank. Or call the center at 509-868-0856 and the Intake Coordinator will be able to assist you.","Mondays / Wednesdays / Fridays,  1 PM - 3 PM",,,"Proof of residency, government issued photo ID, and must be 60 years of age or older and have a household gross income of less than 130% of the Federal Poverty Guideline.",125,236,No listed language support,236,125
+109,Senior Programs,33,49,Active,"Provides emotional, social, physical and educational activities focused around the needs of older adults. We provide a welcoming, inclusive environment where seniors can enjoy warm friendships, healthy activities, joyful experiences, and meaningful engagement as they age.",Call during standard business hours.,,,Must be at least 60 years old.,126,237,No listed language support,237,126
+110,Summer Youth Academy (SYA),33,49,Active,SYA is a structured 8-10-week summer program designed to serve youth between the ages of 3-12. SYA provides an interactive learning environment designed to build self-esteem and promote diversity and cultural awareness. The program offers recreational activities and community service opportunities.,Call during standard business hours.,,,Must be within the ages of 3 to 12 years old.,127,238,No listed language support,238,127
+111,Teen Tech Center,33,49,Active,"The U.S. is facing a rapidly rising shortage of people qualified for tech-reliant jobs. By 2020, 1.4
+million jobs (77% of all jobs in the country) will require tech skills and only 400,000 people will
+be trained for them. Teens from underserved communities are especially at-risk because they
+lack the tech, training and mentoring to help them prep for careers.
+The Teen Tech Center is equipped with technology and multimedia tools that can be used for
+video production, graphic design, coding and much more.",Call during standard business hours.,,,Must be a teenager.,128,239,No listed language support,239,128
+243,Self-Sufficiency Grant,98,50,Active,"**Modest Needs' hallmark grant is our Self-Sufficiency Grant. We make Self-Sufficiency Grants in an effort to assist individuals and families who, because they are working and live just above the poverty level, are ineligible for most types of conventional social assistance but who, all the same, are living one or two lost paychecks away from the kind of financial catastrophe that eventually leads to homelessness. **
+We give special consideration to persons living alone (single persons with no dependent children), public school teachers, and first responders - the people who do the most for our communities but who don't generally qualify to receive assistance from conventional agencies, even though these good folks are often grossly undercompensated for their work.
+Generally, Modest Needs offers Self-Sufficiency Grants to qualified individuals / households who need help to afford two specific types of expenses:
+
+* **Unexpected or emergency expenses that an individual or family living paycheck-to-paycheck could not possibly afford without a short-term hand-up.**
+<br>
+    Examples of expenses of this type with which Modest Needs has helped in the past include everything from the cost of medical care not covered by insurance to the cost of repairing or replacing a major appliance to the cost of required work tools or uniforms to the cost of legal fees to complete an adoption to - tragically - the cost of burying a family member that has unexpectedly passed away; and
+* **Monthly bills that an individual or family living paycheck-to-paycheck cannot afford to pay at the time of their application because of a documentable extenuating circumstance that occurred within the past year.**
+<br>
+    For example, if you were required to take unpaid leave from work because your child was ill and now cannot afford the cost of your auto insurance, or if you were in an auto accident and cannot afford this month's rent or mortgage payment because you had to pay a deductible to repair your car - under these kinds of documentable emergency situations, Modest Needs would consider paying a regular monthly bill on behalf of your household on a one-time basis.
+
+**Grant Limitations**
+While we try to be as flexible as we can with the requests for assistance we receive, Modest Needs cannot ever help persons to afford expenses that fall into one or more of the following three categories:
+
+* **Expenses we are not permitted to pay as a matter of law.**
+    Expenses of this type would include federal, state, or local tax payments, including property tax payments, past-due child support payments, or fines / legal fees associated with a civil or criminal offense with which an applicant has been charged (for example, we can't pay traffic tickets or help you to retain an attorney because you've been sued or charged with a crime).
+* **Expenses that we cannot pay on behalf of an applicant without sending cash or a gift card directly to that applicant.**
+    Modest Needs' policies prohibit our sending cash directly to an applicant, so unfortunately, we cannot help applicants to afford, for example, the cost of groceries or gas, the cost of covering an overdraft in an applicant's bank account, or the cost of repaying a payday loan.
+    Similarly, we can't make a rental payment if, for example, an applicant is renting from a family member (this would be like giving cash directly to the applicant's family), and we can't help applicants to afford utility or rental deposits (these payments are returned to applicants as cash at the end of the rental term.)
+* **Expenses related to credit card debt, bankruptcy, or luxury items.**
+    At Modest Needs, we believe that the best kind of giving is responsible giving. So, as a matter of organizational policy, we do not help persons to afford credit card bills; the cost of filing for bankruptcy or making scheduled bankruptcy payments; or luxury goods / services of any kind (for example, the cost of replacing a broken television or the cost of taking your family on a vacation).
+
+**Apply Online** Once you have read over the eligibility requirements and confirmed that you likely qualify, you can apply online using [this link](https://www.modestneeds.org/for-applicants/apply-for-help.asp).",Contact for an appointment. (Phone line is active 8am - 2pm EST),,,"Modest Needs' mission is to help **low-income workers** who are struggling to shoulder the burden of a short-term emergency expense.
+In keeping with our mission, Modest Needs' applicants must meet the following income and employment guidelines:
+* At least one adult member of the applicant's household must be documentably employed at the time of the application; AND
+* The primary (largest) source of income for each applicant's household must be either income earned from employment; or child support payments; or Veteran's Benefits; or retirement income (including Social Security retirement benefits)
+
+**Modest Needs regularly makes grants to households receiving types of income other than those listed above (Social Security Disability Income, for example). However, in light of Modest Needs' mission, applicants whose households do NOT meet the income and employment guidelines listed above will NOT qualify to apply for a grant from Modest Needs.**
+If you need help to afford a short-term emergency expense but know that your household does not meet the income and employment guidelines listed above, please do not complete an application for assistance from Modest Needs. Instead, please consider contacting your local 2-1-1 and requesting a referral, or have a look at our [resource database](https://www.modestneeds.org/tools/resources/) to see if we list another agency that might be able to help you.",129,240,No listed language support,240,129
+112,Refurbished Medical & Mobility Equipment,34,51,Active,"The MSHH Donor Closet accepts donations of no longer needed medical and mobility equipment, refurbish and make it available at a reasonable ""suggested donation price"".","Wednesdays / Fridays / Saturdays, 10 AM - 3 PM",,,NONE,130,241,No listed language support,241,130
+113,Free Eyeglasses,35,52,Active,"New Eyes provides new prescription eyeglasses for children and adults in financial need throughout the United States who cannot afford glasses on their own. Eligible if living in a household at 250% or less of Federal Poverty Guidelines.
+
+This program provides:
+- A pair of single or lined bifocal eyeglasses - lenses and frame. (2 identical pairs provided for children under 18) NOT progressives/transitions or special filter lenses.
+
+Individuals can apply for themselves OR through a caseworker. The online application is accessible to social service agencies/health advocates who apply on their clients behalf and also to individuals who may apply directly.
+When you have an e-voucher from New Eyes, glasses must be ordered online from our partner dispenser www.neweyesglasses.org
+
+Social Service Agencies or referring caseworkers will need the following information from their client:
+- Contact information including name, address, and email (if available)
+- Monthly approximate net income and expenses
+- A prescription for eyeglasses from a recent eye exam (within the last 24 months)
+
+Agency’s tax ID is needed as verification of a new agency registration. Please visit the website to apply.
+Vouchers are good for three months from the date of issue.
+
+A $10 program fee applies.",Apply online,,,"'- Applicants must have an email to apply directly and to ask questions to New Eyes. There is no telephone support. All customer care to info@new-eyes.org. Only refer clients with their email for a response please.
+- Applications can be made online 24/7. Individuals can apply through a referring case worker/health advocate/ support group OR directly through New Eyes website. The program is fully online and glasses will be ordered online by the applicant or caseworker from our partner dispenser and shipped out.
+- Applicants must hold a recent eye exam (dated within the last 24 months) including their pupillary distance (PD) measurement before applying. If it is not included on the eyeglasses prescription (preferable) you may measure it yourself. (Instructions on New Eyes website)
+- This program helps people with income at or below 250% of federal poverty guidelines.",131,242,No listed language support,242,131
+285,After School Camp,107,10,Active,"Many parents are looking for affordable, quality licensed childcare and have asked us to design an after-school program to meet their needs. Your child will be transported from school and brought to the Northeast Youth Center for an afterschool meal, recreational activities, homework help, arts & crafts, and weekly field trips.","Weekly until 6:00pm
+Closed ALL federal holidays",,,Call for more information or to register.,132,243,No listed language support,243,132
+284,Before School Camp,107,10,Active,"Working early and can’t find someone to take your child to school? Mornings are so important for children to get off to a good start! Every morning your child will be greeted with fun & games, hair styling, last-minute homework help, BREAKFAST, and safe travel to school on time!","Weekly 6:00am - Start of school
+Closed ALL federal holidays",,,Call for more information or to register.,133,244,No listed language support,244,133
+287,Early Childhood Education and Assistance Program (ECEAP),107,10,Active,"Washington state’s comprehensive preschool program, The Early Childhood Education and Assistance Program (ECEAP), is designed to serve 3 and 4-year-old children and their families who meet the income and environmental eligibility criteria, and it is available for free. ECEAP is committed to preparing children for kindergarten through education, health and nutrition services, family support, advocacy training, and parent education. The ECEAP takes an approach that prioritizes long-term success, utilizing trauma-informed care, Conscious Discipline (a research-based social-emotional curriculum that prioritizes the adult’s role), enriched learning environments, and dedicated staff to promote social-emotional skills, resilience, and academic readiness.",Call for more information,,,"Children 3-5 years old who are (only 1 item needed to qualify): 
+1. From a family with a low annual income (at or below 110 percent of the federal poverty level)
+2. Qualify for school district Special Education Services
+3. Have developmental or environmental risk factors that could affect school success
+",134,245,No listed language support,245,134
+286,Winter/Spring Break Camp,107,10,Active,"WINTER
+Are you looking for a fun licensed camp while your children are on break? We have exactly that for you! Join us for fun, games, crafts and many more winter recreation activities that will knock your boots off! Need one day or the whole week, we can help you! Lunch Included.
+
+SPRING
+If you are a working parent looking for quality and an affordable licensed day camp program to make your child’s spring break the best ever- this is the perfect place for your child(ren)! Registration accepted now with payment plan options available, state pay accepted (DSHS), includes field trips, breakfast & lunch! Hurry, camp space books fast!",6:00am - 6:00pm,,,Call for more information or to register.,135,246,No listed language support,246,135
+114,A Hand Up (Hygiene Center),37,53,Active,"A Hand Up, provides clients within the 99207 and 99217 zip codes with personal hygiene products, cleaning supplies, paper goods and other health related items to meet their needs.  This is the only such resource in Spokane and unfortunately, we often have to turn away needy clients due to a lack of supplies.","2nd & 4th Mondays of the month, 4 PM - 5:30 PM
+3rd Saturday of the month, 9 AM - 10 AM",,,Must bring proof of residency within postal codes 99207 or 99217,136,247,No listed language support,247,136
+115,KidZone (Community Event),37,53,Active,"This is a bi-monthly ministry for children held on the first and second Thursday evenings during the school year providing them (and their parents) with a hot meal, games and opportunity to study the Bible.","1st & 2nd Thursdays of the month, evenings. (During the school year)",,,Must bring proof of residency within postal codes 99207 or 99218,137,248,No listed language support,248,137
+116,The Northeast Community Food Pantry,37,53,Active,"The Northeast Community Food Pantry serves approximately 2800 families consisting of approximately 8900 individuals a year.  We are an outlet for the Second Harvest Food Bank and Northwest Harvest serving zip codes 99207 and 99217, but all those in need are welcome.  All of our workers are caring volunteers.","Tuesdays 11 AM - 12:45 PM
+Thursdays 9 AM - 10:30 AM",,,Must bring proof of residency within postal codes 99207 or 99217,138,249,No listed language support,249,138
+117,CLEAR Hotline,38,54,Active,"CLEAR (Coordinated Legal Education, Advice and Referral) is a toll-free legal hotline for people with low incomes.
+
+Based on the information you give us, we may do one or more of the following: 
+1. Give you verbal or written advice that may help you to solve your problem on your own; 
+2. Send you written legal information and/or forms to help you solve the problem on your own; 
+3. Try to resolve your problem through negotiation;
+4. Refer you to another legal aid service. 
+We try to make the best referral possible. We cannot guarantee that a referral will be available or that a referral agency or program will be able to help you.","Weekdays, 9:15 AM - 12:15 PM",,,"Before we can assist you, we must collect some information from you to determine if you are eligible for services. In most counties, persons who are 60 and over will not be denied assistance based on their income. Services are targeted to problems that affect basic needs such as housing, income, medical care and family safety. Due to limited resources, lawyers and paralegals are not able to assist every caller. ",139,250,No listed language support,250,139
+118,Eviction Help,38,54,Active,"Renters with low income facing eviction in Washington State can get free legal help. If your eviction case ends up in court and you are low-income, you have a right to a free lawyer.
+You also have a legal right to an interpreter in your language.
+
+Fill out the online form in English or Spanish or call the Eviction Defense line at 1-855-657-8387. Interpreters available in all languages.
+
+You will be asked to provide:
+- Contact information, including your name, address, phone number, and email address
+- Income information and the number of people in your household
+- Personal information, including your date of birth, race and ethnicity, and gender
+If you are eligible, someone will call you on the phone to connect you to an attorney from Northwest Justice Project or another legal service provider that may be in your area.",Apply online.,,,Explained during the application process.,140,251,No listed language support,251,140
+220,Eviction Mediation,89,55,Active,"Mediation is informal, voluntary, and confidential. The process gives the parties the opportunity to discuss the issues raised in the disagreement, clear up misunderstandings, determine underlying interests or concerns, and draft an agreement. Any agreement reached in mediation is the agreement of both parties.","Fill out the form online to get started. Mediation is by appointment only.
+
+To prepare for your mediation intake process with Northwest Mediation Center,
+please be ready with this information (all of which is kept confidential):
+
+* Your name, address, phone and email information
+* Contact information for the other parties
+* Your attorney's name (if you have one)
+* Your gross yearly income, for determination of your rate (see the ['Costs'](https://www.nwmediationcenter.com/costs) section)
+* Dates or times, during regular business hours, when you could participate in mediation
+* What kind of conflict it is (for example, parenting plan, marriage dissolution, landlord/tenant, business to business, etc.)",,,Unlisted,141,252,No listed language support,252,141
+119,Monday Night Dinner,39,56,Active,,"Mondays, 4 PM - 5 PM",,,NONE,142,253,No listed language support,253,142
+120,OBL Food Distribution Center,39,56,Active,,"Mondays, 2 PM - 4 PM",,,NONE,143,254,No listed language support,254,143
+121,Car Seats,40,57,Active,"Send completed forms (see attachments) to anne.zaro@ccs.spokane.edu. When approved, you will be notified and given a link to schedule a fitting with the SafeKids Coalition at Providence Hospital.",Apply via email (see details).,,,"Families are eligible after they have exhausted all other avenues of assistance (DSHS, SNAP, etc.).",144,255,No listed language support,255,144
+122,Avista Assistance,41,58,Active,"Once per year, Our Place will provide Avista (utilities) assistance of up to $300 for West Central residents.
+Call on the first Tuesday of the month with your account number ready to share to request help.",1st Tuesday of the month. (phone call only),,,Must live in the West Central area.,145,256,No listed language support,256,145
+123,Bus Passes,41,58,Active,"Our Place offers a limited amount of day bus passes, valid for up to 3 rides. Passes distributed during service on a first come, first serve basis through our Food Center check in table. ","Wednesdays 4 PM - 6 PM
+Thursdays 10 AM - 12:30 PM",,,NONE,146,257,No listed language support,257,146
+124,Clothing & Housewares Outlet,41,58,Active,"Clothing and household items are available to anyone in need, all dependent upon donations that come in. Our supply can change at a moment's notice!","Wednesdays 4 PM - 6 PM
+Thursdays 10 AM - 12:30 PM",,,NONE,147,258,No listed language support,258,147
+125,Food Distribution Center,41,58,Active,"Our Free Fresh Market is open for anyone who is hungry, no documentation needed. Join us during service to ""shop"" for food from our free outdoor market!","Wednesdays 4 PM - 6 PM
+Thursdays 10 AM - 12:30 PM",,,NONE,148,259,No listed language support,259,148
+126,Free Laundry Service,41,58,Active,"Laundry is available on a first come, first served basis. Opens 9AM Tues & Thurs, & 2PM Weds. Last load must be in by 10:45AM Tues, 4:45PM Weds, and 11:15AM Thurs. Households of 1-2 people may do up to 2 loads/week; households of 3+ people may do up to 4 loads/week.","Tuesdays 9 AM - 10:45 AM
+Wednesdays 2 PM - 4:45 PM
+Thursdays 9 AM - 11:15 AM",,,NONE,149,260,No listed language support,260,149
+127,Hygiene Center,41,58,Active,"Our Place distributes personal hygiene supplies to all, as our supplies allows. We offer items such as shampoo, toilet paper, feminine hygiene products, diapers, makeup, and more!","Wednesdays 4 PM - 6 PM
+Thursdays 10 AM - 12:30 PM",,,NONE,150,261,No listed language support,261,150
+128,Clothing & Housewares Outlet,42,59,Active,"As our flagship service line our clothing bank provides clothing, shoes, small kitchen appliances, household items, diapers, personal care items and newborn layettes to those in need.","Mondays / Tuesdays / Wednesdays / Thursdays, 10 AM - 3 PM",,,"Proof of residency for all household members over the age of 18. Mail documents with home address dated within the last 30 days. Only services the following zipcodes: 99012, 99015, 99016, 99018, 99019, 99023, 99025, 99027, 99030, 99036, 99037, 99039, 99206, 99207, 99212 and 99216.",151,262,No listed language support,262,151
+129,Food for Thought,42,59,Active,"In Spokane County 1 in 5 children live in ""food insecure"" homes. That means those families don't have enough food for every family member to lead a healthy life. This doesn't always mean that there is nothing to eat. But it can mean that children get smaller portions than they need, or parents aren't able to afford nutritious foods. This food insecurity threatens a child's well-being and potential for success. Food For Thought provides weekend meals for over 500 students each week to help improve school performance, academic success and cognitive development.",Call during standard business hours.,,,"Students must attend one of the following schools:
+Adams Elementary
+Bowdish Middle School
+Broadway Elementary
+Chester Elementary
+CVHS - Central Valley Alternative
+CVHS - Central Valley High School
+Dishman Hills
+ELC - Early Learning Center
+Evergreen Middle School
+EVSD - East Valley School District
+Greenacres Elementary
+Liberty Creek
+Liberty Lake Elementary
+Mc Donald Elementary
+Mica Peak High School
+North Pines Middle School
+Opportunity
+Ponderosa
+Progress Elementary
+South Pines Elementary
+Spokane Valley Tech
+Summit School
+Sunrise Elementary
+University Elementary
+University High School",152,263,No listed language support,263,152
+130,Partners INW Food Bank,42,59,Active,Food Bank service is Monday-Friday from 9am-3pm. No appointment necessary. If you have any questions please give us a call (509) 927-1153.,"Weekdays, 9 AM - 3 PM",,,"Proof of residency for all household members over the age of 18. Mail documents with home address dated within the last 30 days. Only services the following zipcodes: 99012, 99015, 99016, 99018, 99019, 99023, 99025, 99027, 99030, 99036, 99037, 99039, 99206, 99207, 99212 and 99216.",153,264,No listed language support,264,153
+131,Utilities Assistance,42,59,Active,"Partners INW provides emergency utility assistance for people with no place left to turn. In partnership with Avista, Modern Electric and Vera Spokane Valley Partners is able to provide financial assistance for utilities to residents in the Spokane Valley.  Additional assistance is also provided to seniors with needs including prescriptions and medical equipment. Depending upon current levels of funding, our Emergency Assistance may be able to provide short-term help. If we are not able to help, referrals to another Social Services agency will be made.","Weekdays, 8 AM - 4 PM",,,"What to bring to your appointment: A current heating bill, picture ID and Social Security cards for all adults in the household, Verification of all household income for all persons in the home, including earned income (paystub), child support, SSI, SSA, SSD, TANF, Retirement, Unemployment, and Self-Employment. Other documentation may also be required.",154,265,No listed language support,265,154
+132,Affordable Computers,43,60,Active,"PCs for People is a national nonprofit social enterprise working to get low-cost quality computers and internet into the homes of individuals, families, and nonprofits with low income. By recycling and then refurbishing computers, PCs for People provides a valuable service to businesses, families, and the planet by keeping computers out of landfills and repurposing them to advance digital inclusion.",Apply online.,,,"Identification:
+Photo Identification (Driver's license or State ID card, Passport, Formal ID Card for veterans or students, Company or work issued identification).
+
+Proof of Income:
+The prior year's state, federal, or tribal tax return (W2 forms or pay stubs are not acceptable) OR Social Security statement of benefits OR Veteran Administration statement of benefits OR retirement/pension statement of benefits OR Unemployment/Workmen's Compensation statement of benefits OR Federal or tribal notice letter of participation in General Assistance.
+
+Other Documents:
+Proof of enrollment in an income-based government assistance program OR Documentation of current household income (under 200% of the federal poverty level or 60% of area median income).",155,266,No listed language support,266,155
+250,Court Self-Help Services,104,61,Active,"Free court forms, printing and scanning",Call for an appointment,,,Unlisted,156,267,Limited language access | Spanish,267,156
+252,FREE Legal & Immigration Clinic,104,61,Active,"Latinos En Spokane has diligently organized free monthly legal and immigration clinics in partnership with Gonzaga Law School, the Spokane County Bar Association Volunteer Lawyers Program, and Washington Courts. These clinics offer free legal consultations and advice, assistance with navigating court processes, reviewing documents, and court self-help services.
+
+**Monthly Legal Clinics**: Come in to talk to an attorney for FREE - 3rd Wednesday of every month from 5-7pm
+​
+**Monthly Immigration Clinics**: Come in to talk to an attorney for FREE - 2nd Thursday of every month from 5-7pm","**Legal Clinics:** 3rd Wednesday of every month, 5 PM - 7 PM
+**Immigration Clinics:** 2nd Tuesday of every month, 5 PM - 7 PM",,,None,157,268,Limited language access | Spanish,268,157
+251,FREE Notary Public Services,104,61,Active,Authenticating essential documents to prevent fraud and ensure legal compliance.,Call for an appointment,,,Unlisted,158,269,Limited language access | Spanish,269,158
+248,General Legal Aid,104,61,Active,"Personalized referral to legal professionals, and assistance for individuals seeking to vacate their criminal backgrounds and obtain driver relicensing.",Call for appointment,,,Unlisted,159,270,Limited language access | Spanish,270,159
+249,Immigration Services,104,61,Active,"We offer family-based petitions, asylum, DACA, Victims of Crime and family violence, work permits, waivers, applying for citizenship, renewals of permanent residence, screening for various forms of immigration benefits and relief, and assistance to documented and undocumented immigrants.",Call for an appointment ,,,Unlisted,160,271,Limited language access | Spanish,271,160
+133,Lifeline Cell Phone Program,45,62,Active,"Lifeline is a federal program that offers free or reduced phones and plans.  Wireless companies in the area are offering the Lifeline program based on the zip code where you reside.  The program limits cell phones to one per household, not one per family member.","Tuesdays / Thursdays, 9:15 AM",,,"This program is income-based. If you meet one of these income levels or participate in a Federal Assistance Program (e.g. SNAP, Medicaid, SSI, FPHA), you may be eligible to take advantage of this benefit. Please arrive with one of the two options below to validate your identity and address to ensure your application is processed efficiently:
+Option 1 - One Document Only (Documents that validate both address and identity, Driver's License)
+Option 2 - Combination of Address and Identify Validation (Utilitiy Bill/Medicaid Card with aplicant's DOB)",161,272,No listed language support,272,161
+134,Low-Income Housing Assistance,45,62,Active,We provide resources and information on low-income housing. Representatives from the Spokane Housing Authority can assist you to apply for property-based waitlists and can check the status of or make changes to a case.,Call during standard business hours.,,,Income-dependent.,162,273,No listed language support,273,162
+135,Reconnect2Work,45,62,Active,"In partnership with the Spokane Workforce Council, Reconnect2Work is our region's first-ever workforce development-focused childcare impact project. Whether you're a parent wanting to return to the workforce, an early childhood learning/childcare center looking to grow your team, or a community job seeker with a passion to help develop a child's skills and talents, Reconnect2Work will guide you to achieve your unique goals.",Call during standard business hours.,,,"'- Targeting families who are ineligible for Washington Working Connections Child Care (WCCC), and for whom lack of childcare is a barrier to them accessing the workforce.
+- Will support people who are accessing workforce services (education and/or training) with childcare as needed for them to pursue their program and enter employment.
+- Will also be supporting people who are currently working, who may be underemployed or need to work more hours.",163,274,No listed language support,274,163
+214,Clothing Outlet,85,63,Active,"With this initiative, our goal is to promote confidence and great opportunities for those in need. We want people to look and feel their best. Learn more about our work by getting in touch with our team today.
+If you need clothing, please indicate gender and size of clothes on the intake form so our staff and volunteers can assist you with gathering of some clothing items for you otherwise feel free to open shop at location.",Contact for service times or fill out intake form on website.,,,Unlisted,164,275,No listed language support,275,164
+211,Food Pantry,85,63,Active,"With this initiative, our goal is to promote great opportunities for those in need. With access to the right resources, people can become empowered by their own abilities and gain the confidence to fulfill their potential. Our food pantry serves everybody no matter your income or residence. Come as often as you need and replenish your inventory. Learn more about our work by getting in touch with our team today.","Fridays, 5 PM - 7 PM
+Saturdays, 9 AM - 12 PM",,,NONE,165,276,No listed language support,276,165
+213,Grocery Rescue Program,85,63,Active,"At Revive Community Services, we are dedicated to stepping up our efforts in addressing this issue. Food Donation Drop-Off or Pick-Up is by no means an easy feat, but through cooperation and community empowerment we believe we can facilitate progress in this area.
+
+To encourage zero waste and alleviate hunger please consider providing our agency the opportunity to receive your unwanted or unsold goods or overstock. We are always striving to make a difference, and invite you to learn more and lend your support",Contact or fill out intake form on website for service times.,,,Unlisted,166,277,No listed language support,277,166
+212,Homeless Outreach - Hygiene Care,85,63,Active,"With our organization’s mission always in mind, we strive to find new strategies for dealing with this challenge. Homeless Outreach is something that we take very seriously, and our team is working each and every day to make a positive impact.
+Hygiene Care bags are available upon request so as long as the items are in stock. Contact us to learn more about our commitment to this cause.","Contact for service times, or fill out intake form on website.",,,Unlisted,167,278,No listed language support,278,167
+136,Car Seats / Car Seat Fitting,46,64,Active,"This branch of SafeKids Worldwide is run through the Providence Sacred Heart Children's Hospital.
+To set up an appointment, first screen your family through CAPA (509-455-4986, https://www.cceasternwa.org/capa), then you'll be set up with an appointment for evaluation and a car seat if needed.",Apply online.,,,Must be a low income family to qualify for free car seats.,168,279,No listed language support,279,168
+240,Camp Gifford,47,65,Active,"Our summer camps are designed around the idea of inclusion. No one is turned away because of their circumstances. Under-served, from broken homes, in the foster care system, living in poverty, these are many of the at-risk children that come to our camp. Our camps are scholarship-based to financially support families in need. The costs involves are significant and purposeful investment in youth.
+
+Our main camp on Deer Lake works with children 7 - 12 years old.
+Camp Cougar, our wilderness camp, works with teens 13-17 years old. ","Weekdays, all day (no specific times on website)",,,"Register online at this link:
+[The Salvation Army Camp Gifford Summer Camp Registration 2024 - Campaign](https://give-nw.salvationarmy.org/event/the-salvation-army-camp-gifford-summer-camp-registration-2024/e567434)",169,280,No listed language support,280,169
+239,Celebrate Recovery,47,66,Active,"Recovery isn't just about drugs and alcohol! Celebrate Recovery is a welcoming and encouraging support group that focuses on the love of Christ and working through past hurts, current hang-ups, and habits that make recovery seem like an impossible task.","Thursdays, 5:30 PM - 7:30 PM",,,Unlisted,170,281,No listed language support,281,170
+137,Family Emergency Shelter,47,66,Waitlist Only,"Helping Families in Crisis!  11 fully furnished, self-contained, studio units for homeless families with children. Participants can stay for up to 90 days while working with a case manager, attending monthly Life Skills classes, working to increase their income, and seeking appropriate, affordable housing.",Call during standard business hours.,,,"Family must be working with a case manager, attending monthly Life Skills classes, working to increase their income, and seeking affordable housing.",171,282,No listed language support,282,171
+138,Food Distribution Center,47,66,Active,"We provide one of the largest food bank outlets in the community; serving an average of 1,500 families in Spokane County every month.  By offering access to free, fresh produce and canned goods, we provide valuable meal supplementation while helping those in need maintain their independence and dignity.","Weekdays, 9 AM - 4:15 PM",,,NONE,172,283,No listed language support,283,172
+139,Stepping Stones Transitional Housing,47,68,Waitlist Only,"A 30-unit apartment complex for homeless families with children who are at, or below, 30% to 50% of the area median income for Spokane County. All families must participate in case management and Life Skill classes. Families may reside in this program for up to 24 months while they work to increase their income, pay off debt, address the issues that caused their homelessness, and find affordable housing.",Call during standard business hours.,,,"Family must meet HUD standards of 30% to 50% of Spokane's Annual Medium Income. Family must participate in case management, Life Skills classes, work to increase their income, pay off debt, address the issues that caused their homelessness, and find affordable housing.",173,284,No listed language support,284,173
+140,The Way Out Bridge Housing Center,47,69,Active,"The Way Out Bridge Housing Center at 55 W. Mission, Spokane offers a healthy alternative to living on the streets or in shelters. This Center's program is designed for adults who sincerely want to exit homelessness and find permanent housing and employment. This program requires work on an individual's part so that he/she can change their life. In addition to housing, food, and overnight lodging, The Salvation Army supplements those services with the support needed to move on in life.","'- Line up for Shelter services begins at 2:30pm.  
+- Check-in begins at 3:00pm as long as there are beds available beginning on Monday, December 14th, 2020.
+- Clients in the neighborhood (within 1 to 2 blocks) of The Way Out Bridge Housing Center, cannot loiter until check-in time.  They will be criminally trespassed if they do so.",,,"Must be homeless, first come first serve.",174,285,No listed language support,285,174
+141,Brown Bag Commodities Program,48,70,Active,"The Brown Bag program is a partnership between Catholic Charities Eastern Washington and Second Harvest Food Bank. Second Harvest provides and packages the food that Catholic Charities' volunteers deliver to those who otherwise would not be able to get to a food bank. There are approximately 45 volunteers driving food to the 500 people in this program.
+
+Questions? Please contact: Cyndie Lapke - VCS Program Manager | 509.459.6172",Call during regular business hours.,,,Must be of retirement age.,175,286,No listed language support,286,175
+142,Volunteer Chore Services,48,70,Active,"Volunteer Chore Services provides a wide range of household tasks and assistance that enable low-income elderly and disabled clients to remain in their own homes with dignity, safety, and a connection to their community. Assistance includes housework, laundry, transportation, shopping and various other independent living requests. Volunteers also participate in one-time projects such as moves and yard clean-ups.
+
+Volunteers are screened, oriented and trained according to Washington State law, Volunteer Chore Service contract requirements and Program/Agency policies.",Call during regular business hours.,,,Must be of retirement age.,176,287,No listed language support,287,176
+143,Bite To Go Meal,49,71,Active,In the Spring of 2012 Serve Spokane began partnering with 2nd Harvest to provide child-friendly weekend meals for food-insecure children who depend on free or reduced cost meals in the local schools for a significant portion of their nutrition.,"Tuesday, 1:00pm-2:30pm
+Thursday,1:00pm-3:30pm
+Saturday, 9:00am-11:30am",,,NONE,177,288,No listed language support,288,177
+144,Clothing & Housewares Outlet,49,71,Active,"Our Clothing Bank serves an average of 500 families each month, providing over 1500 pounds of clothing.  We provide clean, comfortable, useful clothing and household goods to those who need a supporting hand, where you can shop in an atmosphere of love and friendship.","Tuesdays 1 PM - 2:30 PM
+Thursdays 1 PM - 3:30 PM
+Saturdays 9 AM - 11:30 AM",,,NONE,178,289,No listed language support,289,178
+145,Food Distribution Center,49,71,Active,"Our food pantry serves an average of 3000 people each month giving out approximately 50,000 pounds of food. In addition to our regular pantry services, in partnership with 2nd Harvest, we operate The Emergency Food Assistance Program (TEFAP) and the Commodity Supplemental Food Program (CSFP-Senior Boxes) as well as Bite to Go Meals for kids in our local school.","Tuesday, 1:00pm-2:30pm
+Thursday, 1:00pm-3:30pm
+Saturday, 9:00am-11:30am",,,NONE,179,290,No listed language support,290,179
+146,Dining with Dignity,50,72,Active,Serves Breakfast and Dinner.,"Breakfast: Mondays & Thursdays, 7:30 AM - 8:30 AM
+Dinner: Mondays & Tuesdays, 4:30 PM - 5:30 PM",,,Call for information.,180,291,No listed language support,291,180
+147,Mobile Dental Care,51,73,Active,"The SmileMobile accepts Apple Health (Medicaid, ProviderOne, Molina), individuals and families with no insurance.","Location varies by date, appointment must be scheduled, see website for details.",,,"Children, youth, pregnant, postpartum women.",181,292,No listed language support,292,181
+148,Food Distribution Center,53,74,Active,We serve all people without requiring any documentation. You will be asked a few simple demographic questions. Anyone who joins the line before 12pm will be served.,"Saturdays, 11 AM - 12 PM",,,NONE,182,293,No listed language support,293,182
+246,Food Bank,102,75,Active,Providing food for those that need it,"Fridays,
+\- Lines form at 8 AM
+\- Food Distribution starts at 10 AM
+\- Closed by noon",,,Unlisted,183,294,No listed language support,294,183
+247,Youth Program,102,75,Active,"After-School Program during the school year and Summer Program during the Summer months
+
+## After school program
+
+We pick up the kiddos from the school bus stop from Roosevelt on the eastside of Coeur d'Alene Park and walk to the Center. The kids have a snack before beginning their homework. We provide as much help and support as we can for the kiddos with their homework. Then the kids have the option to play on the computers for a bit. After that's out of the way, we have some fun! We have board games, a park across the street, open spaces indoors, art supplies, and more!
+
+## Summer Program
+
+We serve breakfast and lunch provided by the Summer Meals Program with Spokane School District 81. We take many field trips and outings throughout the summer, including Liberty Pool every Friday. Several volunteers join us in the summer to have fun with the kids too!",Seasonally dependent,,,See attached application forms.,184,295,No listed language support,295,184
+149,Medical Transportation,54,76,Active,"SMS helps clients who cannot get to and from their appointments by their own means. SMS offers pick-up/drop-off services (must be scheduled two business days in advance). They have a form available on their website for download (and attached to this item) that needs to be faxed to them, and you can do several appointments on it at one time.
+- They also have two hour bus passes (great for large families with lots of children), you can request them the same as the ride, but fax the forms to 534-6980
+- SMS also has gas vouchers for long distance travel (think Spokane to Seattle), these can take a while to go through, so be proactive with them. Fax the forms to 319-3434",Apply online.,,,"'- Must have a current Medical Assistance Identification Card that you use to pay for your healthcare (Must be on Medicaid), and you have no other way to get to and from your healthcare appointments.
+- Healthcare appointments must be for services allowed by your medical program.
+- Must give at least two business days' notice.",185,296,No listed language support,296,185
+150,Lions Sight and Hearing Program,55,77,Active,The Spokane Central Lions Club services committee has been enabled to provide free eyeglasses and hearing aids to those who cannot afford to purchase them.,Call during standard business hours.,,,"Annual income of less than $18,000 for a single person household, or 133% of the Federal Poverty Level for all others. Required proof of income.
+- For vision assistance, the applicant cannot have received services from Spokane Central
+Lions for either sight or hearing within two years of application
+- For hearing assistance, the applicant cannot have received any hearing services from
+Spokane Central Lions (hearing assistance is a one-time only service)
+- For hearing assistance, documentation of income is required (for example, income tax
+form, copy of SSI benefit or bank statement)",186,297,No listed language support,297,186
+244,Food & Resource Center,99,78,Active,"SCC operates a food pantry for currently enrolled students! Full and part time students, faculty, and staff may visit the Food Pantry and Resource Center up to three times per quarter. Items vary but usually include dry goods, canned goods, frozen ingredients, refrigerated staples, as well as hair and body care products.","DURING THE QUARTER
+Tuesday, Wednesday, Thursday, 9 AM - 4 PM
+Hours subject to change, contact the Student Leadership Center for more info.",,,"All currently enrolled students are eligible – visit the Food Pantry and Resource Center located down the hallway from the Student Leadership Center in Bldg 6, Room 102. All you need is your student ID! (Student ID cards can be obtained for free from Bigfoot Central in Bldg 15).",187,298,No listed language support,298,187
+151,Online Lawyer Referral Service,56,79,Active,The SCBA Online Lawyer Referral Service refers potential clients to the panel members by providing the contact information for up to three panel attorneys when the request form has been completed and if an attorney is presently enrolled in the particular area of law requested.  It is up to the person requesting the referral to reach out to the panel attorneys to discuss potential advise/representation.,Apply online.,,,NONE,188,299,No listed language support,299,188
+152,Volunteer Lawyers Program,56,79,Active,"The Volunteer Lawyers Program (VLP) is a legal assistance program of the Spokane County Bar Association. The VLP recruits volunteer attorneys to provide free legal advice in civil matters (non-criminal) to low-income individuals in Spokane County and four outlying counties, i.e. Pend Oreille, Ferry, Stevens and Lincoln. It is funded primarily by a grant from the Legal Foundation of Washington and contributions from local attorneys and annual fundraisers.
+
+If you are in need of Family Law or limited assistance with Wills and Estates, or Bankruptcy Services call (509) 477-6123
+
+If you are looking for information regarding upcoming Free Legal Aid Clinic’s call (509) 477-2674","Call for an appointment.
+Available Weekdays, 8:30 AM - 12 PM & 1 PM - 4 PM",,,Must qualify as low income.,189,300,No listed language support,300,189
+153,Ministry Resource Center,57,80,Active,"The resource center enables us to reach out into the community and help many needy people and families. We are currently feeding about 16,000 people per month, including five ministries in north Idaho, eight ministries in the Spokane area, and approximately twenty churches. Whether with prayer, fellowship, emergency food and/or clothing, ministry information or referral to other ministries or organizations, we always do our best to serve with joy.","Tuesdays - Wednesdays, 12:30 PM - 3 PM
+Thursdays, 11:30 AM - 1 PM",,,NONE,190,301,No listed language support,301,190
+154,Birth-to-3 Program,58,81,Active,"HOPE’s certified Teacher of the Deaf/Hard of Hearing serves children who are deaf or hard of hearing, ages birth to three, starting at the time of diagnosis.  Through in-home visits, parents are coached how to develop effective communication with their baby. HOPE honors and supports parents’ communication modality choice for their child. Sign language may be modeled during the first months of communication development. Parents who choose listening and spoken language are coached to increase their child’s awareness to sound, to attend to sounds in the environment, and to develop the early communication skills that will lay a foundation for speech and language during the critical brain development time.",Call during regular business hours,,,NONE,191,302,No listed language support,302,191
+155,Preschool Program,58,81,Active,"Preschool students receive individualized and small group instruction from a certified Teacher of the Deaf/Hard of Hearing, LSL specialist, Speech-Language Pathologist and music educator.  The average ratio of 3:1 among students and adults in the classroom ensures an intimate, child-centered school experience where every child has the opportunity to hear and be heard.
+
+Every moment is intentionally planned to build the auditory brain. Curriculum is aligned to Washington state kindergarten readiness standards and is designed to prepare children for successful transition to a general education kindergarten classroom. 
+
+Normal hearing peers, who model age-appropriate speech and language for students with hearing loss, may also be enrolled in both the Preschool and the Toddler programs.  For information on registering a child for this program, please contact info@spokanehope.org.",Call during regular business hours,,,NONE,192,303,No listed language support,303,192
+156,Toddler Group,58,81,Active,"Toddlers participate, along with a parent/caregiver, in structured play activities under the guidance of a certified Teacher of the Deaf/Hard of Hearing LSL specialist, a Speech Language Pathologist and music educator. HOPE’s Toddler Group is focused on nurturing caring and collaborative partnerships with parents that facilitate spoken language development. Activities are designed to promote listening and speaking strategies that can be carried over into the home and practiced through daily life activities.",Call during regular business hours,,,NONE,193,304,No listed language support,304,193
+157,SNAP Resource Rides,59,115,Active,"SNAP Resource Rides can provide rides to clients who are pregnant or have recently had a baby and have limited or no access to transportation (included needs assessments as well as assistance with referrals and access to other resources in the community to meet the needs of these families). Can also provide rides to clients to a grocery store or food bank (Please reach out to Aimee Moses for more information on this: 509-319-3050 or moses@snapwa.org). Can also provide rides to Spokane County residents 65+ years of age and/or persons living with disabilities, who otherwise would not qualify or be able to utilize public transportation options, Riders are able to request rides for medical related transportation needs such as attending an appointment with a Primary Care Physician or picking up a prescription at their local pharmacy.",Call during standard business hours.,,,Service Dependant.,194,305,No listed language support,305,194
+158,Utilities Assistance,59,83,Active,"Energy assistance comes in the form of a few different programs. Learn more about these programs below. Because different programs have different eligibility requirements, we encourage you to review which/if any programs you may qualify for to help maximize the help you may receive. Energy-Heating Assistance, Emergency Energy Assistance, Avista Emergency Assistance - LIRAP Share, Avista My Energy Discount WA, Avista Arrearage Management, Free Wood Program (In partnership with Airway Heights Correctional Center), U-HELP Water Assistance, Utility Bill Releif Fund (ARPA), Furnace Repair, Air Cooling - Purification.",Call during standard business hours.,,,Service Dependant.,195,306,No listed language support,306,195
+159,HEART Program,60,84,Active,"Homeless Education And Resource Team (HEART): Spokane Public Schools' program for implementing the federal McKinney-Vento Education Assistance Act and the state Homeless Student Stability and Opportunity Grant Act.
+
+The HEART program helps children and youth who lack a fixed, regular and adequate nighttime residence. This includes children and youth who are:
+- Sharing the housing of others due to loss of housing, economic hardship or a similar reason
+- Living in motel, hotels, trailer parks or campgrounds due to the lack of alternative adequate accommodations
+- Living in emergency or transitional shelters
+- Abandoned in hospitals
+- Living in places that are not regular sleeping accommodations for people
+- Living in cars, parks, public spaces, abandoned buildings, substandard housing, bus or train stations, or similar settings
+- Unaccompanied Youth, youth who are not in the physical custody of their legal parent/guardian, are able to access services on their own.
+
+As homeless education facilitators, we:
+- Locate and enroll students in the HEART program
+- Protect a student’s ""School of Origin"" – the school that a student last attended when permanently housed
+- Coordinate transportation to student's ""school of origin""
+- Communicate to each school regularly about HEART students currently enrolled in their building and contact teachers and/or school officials about developing issues
+- Serve as a liaison between the school, parents, students and community agencies to meet the educational needs of students
+- Accumulate statistics about the mobility of students experiencing homelessness
+- Visit school buildings to support students, staff and parents with any issues/concerns
+- Network with other community agencies and programs involved with homelessness to coordinate advocacy efforts and link community services
+- Assist in obtaining educational documents and records
+- Ensure that children and youth, including unaccompanied youth, enroll and have a full and equal opportunity to succeed in school",Call during regular business hours.,,,Must be a student who is homeless or outside of their school boundary for a limited time.,196,307,No listed language support,307,196
+238,Access to Baby & Child Dentistry (ABCD),94,85,Active,"Spokane Regional Health District (SRHD) program staff help eligible kids access ABCD-certified dentists by providing case management and technical assistance.
+If a child has Apple Health (Medicaid), he/she is eligible to receive the following through ABCD:
+
+* Fluoride varnish applications
+* Dental examinations
+* Parent education sessions
+* Restorative care as needed
+
+Children who participate in the ABCD program are more likely to have their first dental visit before age 2 and receive care before oral health problems arise. They also have the opportunity to receive dental care from one of more than 100 ABCD-certified dentists in Spokane County.
+
+The goal of ABCD is to reduce the extent of disparities in dental health for Spokane’s young children by decreasing dental disease rates with early access to preventative dental care. ABCD emphasizes early intervention, prevention, education and comprehensive care.",Appointment dependent.,,,Any child under age 6 who has Apple Health (Medicaid) benefits is eligible for the ABCD program.,197,308,No listed language support,308,197
+160,Poverty Program,62,86,Active,"We are called by our Mission Statement to be aware of and live out Gospel values, especially in the way we respond to the poor and needy among us. The goal of the Poverty Program is to assist with help for food, utilities, and medical needs for those in emergency situations living in our parish boundary, and referring persons to other agencies when we can't help. Reaching out, touching, helping on a human level, will bring hope and relief, and a knowing that they are cared about. The Poverty Program at St. John's is totally supported by donations from people in the parish. For assistance, please call the parish office at (509)926-5428.","Tuesday, Wednesday and Thursday, 9 AM - 12 PM",,,This program serves individuals within the parish boundary.,198,309,No listed language support,309,198
+161,Emergency & Transitional Housing,63,87,Active,"St. Margaret’s ensures that families coming from homelessness, incarceration or drug treatment or fleeing domestic violence have safe, warm and welcoming living spaces that provide dignity. We offer stabilization services that are driven by the families we serve and provide housing and vocational experts to assist families with resources and connections to community partners and programs. Our goal is to serve as a brief stop that helps families’ on their path toward moving in to their permanent, new home.",Call during regular business hours.,,,This program requires a referral from the Homeless Family Coordinated Assessment (or HFCA) program.,199,310,No listed language support,310,199
+162,Family Support,63,87,Waitlist Only,"As St. Margaret’s families transition into their new homes and build stable lives, staff and volunteers provide resources that support them in that transition. These resources include an in-house food bank, The Pearl Boutique, on-site laundry facilities, one-on-one parenting support, Homework Club, healthy relationship coaching and an annual wellness program.  Aftercare support services are available to all St. Margaret’s families after discharging from our programs without time limits.",Call during regular business hours.,,,This program requires a referral from the Homeless Family Coordinated Assessment (or HFCA) program.,200,311,No listed language support,311,200
+163,Stabilization Services & Community Partnerships,63,87,Active,"The work of St. Margaret’s extends beyond the shelter into partnerships with community organizations designed to help families transition and become stable in their new homes. These partnerships with other organizations help prevent families from falling into crisis and provide holistic transformation. These partnerships include the following programs:
+
+The Homeless Student Stabilization Program partners with Spokane Public Schools and the Spokane Regional Health Department. This program places community health workers in schools to help prevent child trauma from homelessness and increase the chance that students will graduate high school.",Call during regular business hours.,,,This program requires a referral from the Homeless Family Coordinated Assessment (or HFCA) program.,201,312,No listed language support,312,201
+164,Clothing Outlet (Downtown),64,88,Active,"TKC is a brick-and-mortar shop in Spokane, serving all of eastern WA and North ID. Every shopper, from babies to young adults is welcome to our free shop. Each child has to be referred by someone of authority: a social worker, school counselor, etc.
+
+Children are allowed to shop once every six months.","1st & 3rd Saturdays of the month, 8 AM - 2 PM
+2nd & 4th Wednesdays of the month, 4 PM - 7 PM",,,"Must be referred by someone of authority, a social worker, school counselor, case manager, etc.",202,313,No listed language support,313,202
+165,Clothing Outlet (North),64,89,Active,"TKC is a brick-and-mortar shop in Spokane, serving all of eastern WA and North ID. Every shopper, from babies to young adults is welcome to our free shop. Each child has to be referred by someone of authority: a social worker, school counselor, etc.
+
+Children are allowed to shop once every six months.","1st & 3rd Saturdays of the month, 8 AM - 2 PM
+2nd & 4th Wednesdays of the month, 4 PM - 7 PM",,,"Must be referred by someone of authority, a social worker, school counselor, case manager, etc.",203,314,No listed language support,314,203
+166,Assistive Technology Center,65,90,Active,"The ATC provides technology consultations and demonstrations of devices. If you reach out to the ATC for either of these options, you can expect:
+
+• Technology Consultations – our ATC Coordinator will meet with you in-person or virtually to discuss what AT you may have tried already, what works or doesn’t work for you, what your goals are, and then will provide recommendations for what AT might work best for you.
+
+• Technology Demonstrations/Training – the ATC is equipped with many different types of AT that may be beneficial for you to try. We want you to know what works best for you before you purchase anything on your own. We can also help you learn how to use the devices you already have.","• A pre-consultation questionnaire will be e-mailed to the client and they will send their responses back within a week.
+
+• The coordinator will look over the responses and reply within four business days with several possible consultation dates and times.
+
+• The ATC will set up a consultation in person or through video conferencing.
+
+• If any training is needed, the ATC will provide it.
+
+• The ATC uses a client-centered approach, but also welcomes family, friends, educators, etc.indicated by the client in addressing technology needs.",,,Must require assistance with specialized technology developed for disabled individuals. Or must be a disabled individual in need of assistance with learning how to use technology.,204,315,No listed language support,315,204
+167,The Arc Thrift Store - North Spokane,65,91,Active,"Come on in for great deals on fantastic, thrifted finds and support The Arc’s services and programs for people with intellectual and developmental disabilities (IDD) and their families.","Monday-Saturday, 10 AM - 7 PM
+Sundays, 10 AM - 6 PM",,,NONE,205,316,No listed language support,316,205
+168,The Arc Thrift Store - Spokane Valley,65,92,Active,"Come on in for great deals on fantastic, thrifted finds and support The Arc’s services and programs for people with intellectual and developmental disabilities (IDD) and their families. ","Monday-Saturday, 10 AM - 7 PM
+Sundays: 10 AM - 6 PM",,,NONE,206,317,No listed language support,317,206
+169,The Community Center,65,90,Active,"Our community center is a fun, busy hub of activity with opportunities for adults to learn and grow. People with and without developmental disabilities are encouraged to build friendships in daily or weekly sessions through games, enrichment classes, and group outings around Spokane.
+
+Unannounced drop-ins are no longer being accepted. Members must reserve their time 24 hours in advance by calling (509) 789-8791, M-F, 8:30 a.m.-3:30 p.m. All available slots will be filled first-come, first-served. Members can reserve time up to one week in advance.","Community Center attendance will be capped based on staffing levels, typically with 60 members per session. The morning session is 8:30 a.m.-noon, and the afternoon session is from noon-3:30 p.m.",,,Restrictive health policy due to many participants being immunocompromised in one way or another. Must also either call this number: (509)789-8791 or apply online for an appointment.,207,318,No listed language support,318,207
+170,Business Support,66,93,Active,"We provide technical and financial support to local Black businesses to remove barriers to success and promote sustainability. We formed the Black Business & Professional Alliance, the Black Business Support Team and created an online Black Business Directory at blackspokane.com.",Call for an appointment,,,NONE,208,319,No listed language support,319,208
+171,COVID-19 Services,66,93,Active,"We provided access to COVID-19 education, resources and testing. We also partnered with the Native Project, Terrain, the Spokane Minister's Fellowship and Freedom Project East to provide COVID-19 vaccination clinics.",Call for availability,,,NONE,209,320,No listed language support,320,209
+172,Rental & Utility Assistance Program,66,93,Select Cases,"We partnered with the City of Spokane to provide rental assistance funding to African Americans and the BIPOC population in the greatest need.
+
+Our Rental Assistance Application Portal is not open to the general public. 
+
+We are accepting & reviewing applications on a case-by-case basis. A member of the rental assistance program team will contact you after your application has been submitted.",We are accepting & reviewing applications on a case-by-case basis. A member of the rental assistance program team will contact you after your application has been submitted.,,,NONE,210,321,No listed language support,321,210
+173,Student Tech Fund,66,93,Active,We partnered with Comcast to provide technology and supplies to students who struggled with remote learning during the COVID-19 pandemic in order to prevent students of color from falling further behind.,Call for an appointment.,,,NONE,211,322,No listed language support,322,211
+174,Free Books & Toys,67,94,Seasonal Closure,"Children in the home ages 17 and younger are eligible to receive one toy, and children ages 15 and younger will also receive an age-appropriate book.","Seasonal hours, check website.",,,"Please plan on bringing the items listed below when you arrive to the Fairgrounds:
+For adults (18yrs and older):
+Bring photo ID (for grocery voucher recipient), and proof of current address for each adult in the household. Examples of acceptable documentation: Bills; Rental Agreement?
+
+For children (17yrs and younger):
+Bring proof of name and date of birth, or age for each child. Examples of documentation for children: birth certificate; insurance card; letter from school, DSHS or day care; WA Apple Health Statement; WIC letter",212,323,No listed language support,323,212
+175,Grocery Vouchers,67,94,Seasonal Closure,Each eligible household will receive a grocery voucher. Your valid photo ID must match the name on the voucher to redeem at participating grocery stores.​,"Seasonal hours, check website.",,,"Please plan on bringing the items listed below when you arrive to the Fairgrounds:
+For adults (18yrs and older):
+Bring photo ID (for grocery voucher recipient), and proof of current address for each adult in the household. Examples of acceptable documentation: Bills; Rental Agreement?
+
+For children (17yrs and younger):
+Bring proof of name and date of birth, or age for each child. Examples of documentation for children: birth certificate; insurance card; letter from school, DSHS or day care; WA Apple Health Statement; WIC letter",213,324,No listed language support,324,213
+176,Clothing Outlet,68,95,Active,"Our clothing bank is open four days a week (Tues - Fri) during regular business hours (10:00 am to 2:30 pm). We provide a wide variety of clothing, shoes, coats, blankets and toiletries for men, women and teenagers. Each guest may use the clothing bank services one time per month as needed. Please come in at 10am OR 12:30pm, to ensure an appointment that day. Appointments are first come, first serve with walk-ins only.","Tuesdays / Wednesdays / Thurdays / Fridays, 10 AM - 2:30 PM",,,"Must provide proof of residency within these zipcodes: 99201, 99204, 99224.",214,325,No listed language support,325,214
+177,The Alberta House,68,95,Active,"The Alberta House apartments are a safe place designed to help those in need. Located above The City Gate, we own and operate 28 low-cost studio apartments, mainly SRO's (Single Room Occupancy's) and two emergency shelter rooms. During the Grand Opening in 2000, The City Gate was blessed by various churches and individuals taking part in adopting an apartment where they furnished and decorated accordingly. The idea of having furnished apartments is to meet the need for those who rent from us but have nothing. The Alberta House provides clean and safe low-cost housing with a family atmosphere including a common area for watching TV and relaxing. For more questions and/or availability, please call (509) 456-5466.",Call during standard business hours.,,,Call for information.,215,326,No listed language support,326,215
+178,The City Gate Food Bank,68,95,Active,"The City Gate food bank is one of Spokane's Second Harvest food distribution providers. We are able to serve our clients who live in the 99201 (south of the river), 99204 and parts of 99224 every 30 days with 35lbs of food for single dwellers. The food bank is a client choice food bank which allows clients to 'shop' for items they want/need rather than receiving a box of miscellaneous items.",Call during standard business hours.,,,"Must provide proof of residency within these zipcodes: 99201, 99204, 99224.",216,327,No listed language support,327,216
+179,The Kitchen,68,95,Active,"We receive food donations from several local grocery stores such as Albertsons, Costco, Walmart, Yokes and Rosauers as well as Union Gospel Mission and various churches and individuals. The kitchen always serves pastries and coffee. Breakfast (8 am) and lunch (11:30) are provided Tue-Fri. We have an amazing cook and one staff member who oversee the kitchen and several regular volunteers who help keep our kitchen running. We thank God for providing them as they are such a blessing!","Tuesdays / Wednesdays / Thurdays / Fridays, 8 AM & 11:30 AM",,,Call for information.,217,328,No listed language support,328,217
+180,Shelter Me Spokane,69,96,Active,Website that shows all available shelters in Spokane,Website application tool.,,,"If you or someone you know is a victim of domestic violence and need help, please contact the YWCA 24-Hour Helpline at 509.326.2255 or text 509.220.3725.",218,329,No listed language support,329,218
+181,Free Community Drop-In Legal Clinics,70,93,Active,"1st, 3rd, and 4th Thursdays in October. First Come, First Served. Please pre-register by emailing us at: selfhelplegal@carlmaxeycenter.org. Doors open at 4:45 for Thursday clinics, last check in at 6:00 p.m.
+
+We do not provide specific legal advice about your legal matter, but can help with general legal advice and information.  Our attorneys are volunteers and are available during our clinic times. We do not represent people in court.
+
+PLEASE preview information about your case type at WashingtonLawHelp.org prior to attending a Clinic.
+
+Free 30-minute consultation with an attorney or legal professional to ask questions.","1st, 3rd, & 4th Thursdays in October. 4:45 PM - 6 PM",,,NONE,219,330,No listed language support,330,219
+182,Legal Self-Help Center,70,93,Active,Self-help center for legal matters.,Call for an appointment,,,NONE,220,331,No listed language support,331,220
+183,Racial Justice Legal Clinics,70,93,Active,"2nd Wednesday of each month for Black, Indigenous, People of Color. Civil Rights and Discrimination in Housing, Employment, Services, governmental agencies, court services, law enforcement, language access. Civil Law including Family Law, Domestic Violence, Consumer, Credit, Evictions, Post Conviction Relief and all other areas excluding criminal law.
+
+If you are not sure if you have a legal matter and want to ask an attorney what options you may have and if your issue is a legal matter, please contact us at selfhelplegal@carlmaxeycenter.org","2nd Wednesday of the month, 10 AM - 2 PM",,,NONE,221,332,No listed language support,332,221
+241,Driver's Relicensing,97,97,Active,"We help our clients restore their driving privileges, by removing old court fines from collections and empowering our clients with resources to manage their finances and satisfy debts so they can support themselves and their families, and realize their dreams.",Contact to schedule an appointment. ([or use this link for online intake](https://docs.google.com/forms/d/e/1FAIpQLSdGNixCNrMgFnY2HtKfxLyXS1RbCKR6uYwx4Gg06V4gNJbJbg/viewform)),,,"* Defendant's criminal history (obtain a copy of your DCH from the clerk of court, located at the Public Safety Building, before your appointment)
+* Proof of insurance (required at time of service)
+* Driving Abstract (obtained through the DOL (cost $13.00))
+* Valid State Issued ID (required at time of service)
+* Payment Plan (once your fines are removed from collections, you will be responsible for making the monthly payment, which will be set by the Court after we file your motion)",222,333,No listed language support,333,222
+242,Post-Conviction Relief,97,97,Active,"The consequences of a criminal conviction do not end when the sentence is served. You may be eligible to clear your record, restore your rights, and reduce the amount of LFO's (legal financial obligations) you owe.",Contact for an appointment. ([or use this link for online intake](https://docs.google.com/forms/d/e/1FAIpQLSdGNixCNrMgFnY2HtKfxLyXS1RbCKR6uYwx4Gg06V4gNJbJbg/viewform)),,,Must have criminal history.,223,334,No listed language support,334,223
+224,EduCare,93,98,Active,"EduCare provides services seen in a typical preschool. You will find children coloring and learning their ABC’s during class. You will also find EduCare teachers that are qualified to help children recovering from the trauma of homelessness, or reconnecting with their moms. Teachers establish a positive partnership with parents to support the development, treatment and education of young children.
+
+Part of that partnership includes parenting groups where moms meet with staff to learn healthy parenting strategies and skills, breaking the cycle of poverty and homelessness. This enables our EduCare kiddos to flourish with stability in the classroom and at home.
+
+Licensed childcare on the TLC campus for infants, toddlers, and preschool children designed to meet the needs of formerly homeless children. EduCare provides a developmentally supportive environment, robust nutritional program, and trauma informed emotional support for this specific population of children.",Apply Online,,,Unlisted,224,335,No listed language support,335,224
+225,Home Yard Cottages,93,98,Active,"The Home Yard Cottages **provides affordable, permanent supportive housing units for families and individuals in 24 cottages.** Residents receive supportive services to help them maintain stability and meet goals. PSH is the term that Housing and Urban Development (HUD) uses to describe housing provided to persons who have a disability, are low-income and have been homeless",Call for appointment.,,,Unlisted,225,336,No listed language support,336,225
+226,Miryam's House,93,98,Active,"Transitional housing is available through **Miryam’s House**, where nine women experiencing homelessness are encouraged down the path to recovery and stability through case management and life-skills education. Life at Miryam’s House includes wrap-around supportive services, one-on-one case management, life-skills education, and continuing support for residents through an Alumnae Program. Women eligible for housing are homeless. 
+**To be referred to the program, a woman must complete the Singles Homeless Coordinated Assessment (SHCA) by calling SNAP at [(509) 456-7627] (tel:15094567627) **The Coordinated Assessment is based on need and prioritizes women fleeing domestic violence and those exiting a substance abuse or psychiatric treatment program. The SHCA may also refer you to other programs. The assessment does not guarantee placement at Miryam’s House; there is a significant wait for housing, but there is not a waiting list, as prioritization for housing is based on need.",Call for an appointment.,,,Must complete the Singles Homeless Coordinated Assessment (SHCA) by calling SNAP at (509) 456-7627,226,337,No listed language support,337,226
+227,New Leaf Café,93,98,Active,"**New Leaf Café** is a barista training program located at our two full-service café locations. You will gain full espresso knowledge, retail sales skills, and food industry experience.
+
+Our focus on training low-income individuals ensures that more people are able to gain employment and to achieve stability and self-sufficiency for themselves and their families.
+
+As a program of Transitions, New Leaf is also uniquely positioned to help families with the other primary obstacles to achieving and maintaining economic stability, including affordable childcare and housing support.","Depends on location:
+
+* 906 W Main St. (First floor of the Spokane Central Library)
+    * Phone Number: **(509) 290-8623**
+    * Mondays - Thursdays, 9 AM - 3 PM
+    * Fridays, 10 AM - 3 PM
+* 930 N Monroe St. (First floor of the YWCA)
+    * Phone Number: **(509) 425-6443**
+    * Mondays - Fridays, 7 AM - 1 PM",,,Must be enrolled in ICM with Transitions.,227,338,No listed language support,338,227
+228,Transitional Living Center (TLC),93,98,Active,"TLC provides transitional housing with supportive services for women and children experiencing homelessness in 15 apartments and one permanent housing unit. TLC is dedicated to helping women with children experiencing homelessness create stability in their lives; participating families may live for up to twenty-four months in one-, two- and three-bedroom apartments.
+
+TLC Provides:
+
+* Case Management designed to create stability
+* 15 units for families: 1, 2, 3 bedroom apartments
+* Life Skills Training
+* On-site Computer/Technology Center
+* On-site Child Care at [EduCare](https://help4women.org/educare/)
+* Family Focused Program-Parenting Support
+* Supportive Community Environment","To be referred to the program, a woman must complete an assessment through the Homeless Family Coordinated Assessment (HFCA) by calling Catholic Charities at [(509) 325-5005.](tel:15093255005)",,,"In order to qualify for services, a family must be homeless, which means living on the streets, in a car, in a shelter, in other transitional housing, having a current eviction notice, or fleeing domestic violence. Each family must be motivated to create change in their life and willing to make a commitment towards addressing the issues that resulted in their homelessness. TLC works with the family as a whole and provides a safe environment in which the family may heal, grow and stabilize.",228,339,No listed language support,339,228
+229,Women's Hearth,93,98,Active,"**Women’s Hearth** is a drop-in day center in downtown Spokane–a safe space for women who have experienced poverty, trauma and/or homelessness to find a “hearth” of welcome, respect, and community. Women’s Hearth provides activities, classes, social service referrals and housing-search case management in a compassionate and supportive environment 5 days a week. Participants also have access to phones, computers, internet, healthy food, hygiene supplies, and showers.
+
+The Hearth is a safe, welcoming community that promotes growth and well-being in body, mind, and spirit for women of diverse backgrounds. It fosters nurturing relationships, encourages self-determination, and advocates for change in systems that oppress women.","Mondays, 9 AM - 1:30 PM
+Wednesdays, 11 AM - 3:30 PM
+Tuesdays, Thursdays, Fridays, 9 AM - 3:30 PM",,,Unlisted,229,340,No listed language support,340,229
+184,Connection Point,72,99,Active,Connecting refugees with resources and organizations according to their need and connecting willing sponsors with willing refugees for U4U program.,"Monday/Wednesday/Friday, 10 AM - 5 PM",,,NONE,230,341,No listed language support,341,230
+185,Household Goods & Hygiene Products,72,99,Active,"Free clothing, toys, shoes, hygiene products, furniture, mattress and more","Monday/Wednesday/Friday, 10 AM - 5 PM",,,NONE,231,342,No listed language support,342,231
+186,Housing Assistance,72,99,Active,Housing assistance (website does not include more details),"Monday/Wednesday/Friday, 10 AM - 5 PM",,,NONE,232,343,No listed language support,343,232
+187,Job Connections,72,99,Active,Connecting employers to employees who have received their work authorization.,"Monday/Wednesday/Friday, 10 AM - 5 PM",,,NONE,233,344,No listed language support,344,233
+188,Legal Services,72,99,Active,"Notary Service (suggested donation $10), and translation of paperwork and Interpreting of documents.","Monday/Wednesday/Friday, 10 AM - 5 PM",,,NONE,234,345,No listed language support,345,234
+189,Moving Assistance,72,99,Active,Ukrainian Closet owns a box truck that partially exists for the purpose of helping refugees move from home to home.,"Monday/Wednesday/Friday, 10 AM - 5 PM",,,NONE,235,346,No listed language support,346,235
+190,Men's Shelter,73,100,Active,"Public meals served daily (Lunch 12:00, Dinner 6:00)
+Residents must be able to pass a breathalyzer upon intake and UA/BA's throughout their stay.
+Open 7:00 a.m. - 10:00 p.m. (+ 24-hour emergency intake)
+No pets allowed, except licensed service and therapy animals.
+Call ahead for medical clinic hours.","Daily, 7 AM - 10 PM, (+24hr Emergency Intake)",,,Residents must be able to pass a breathalyzer upon intake and UA/BA's throughout their stay.,236,347,No listed language support,347,236
+191,Soup Kitchen,73,100,Active,Lunches are served at 12:00pm and dinners are served at 6:00pm.,"Daily, 12 PM & 6 PM",,,"Must provide Social Security Number and be willing to have your picture taken for ID. You may attend up to three dinners with no obligation, but after that you will be asked to attend Chapel once before partaking in more dinners. You may attend any number of lunches, but if you are a man they will ask you to help out with a half-hour chore at the Men's Shelter for each five lunches.",237,348,No listed language support,348,237
+192,Women & Children's Shelter,73,101,Active,"Residents must be able to pass a breathalyzer upon intake and UA/BA's throughout their stay.
+Open 6:00 a.m. - 9:00 p.m. (+ 24-hour emergency intake)
+No pets allowed, except licensed service and therapy animals.","Daily, 6 AM - 9 PM, (+24hr Emergency Intake)",,,Residents must be able to pass a breathalyzer upon intake and UA/BA's throughout their stay.,238,349,No listed language support,349,238
+193,Diaper & Formula Assistance,74,57,Active,"Diapers, and depending on what has been donated, we may have formula, baby food, toys, books, clothing, and other miscellaneous items available for families. Diapers are given out for children up until their 4th birthday (unless a doctor’s note is provided in special cases). Formula (based on availability) is given out for babies up until their 1st birthday.","Parents can to come into Vanessa Behan to get diapers and formula for their children, free of charge every 30 days.
+
+Diaper and formula assistance is offered in the business office from Monday-Friday 8:30 am – 4:30 pm (excluding posted holidays).",,,"Parents picking up diapers and/or formula for the first time need to provide:
+- Picture ID for themselves (required every visit)
+- Documentation with the name and birthdate of the child on it.
+
+Acceptable forms of documentation for child:
+- Passport
+- Birth Certificate (Certified or Hospital Issued)
+- Immunization (Shot) Record
+- Molina Card
+
+NON Acceptable forms of documentation for child:
+- Provider One Card
+- Social Security Card
+- WIC Folder (unless name and DOB are included)
+
+After the first visit:
+Parents only need to bring their ID every visit once they have provided the child’s name/birthdate documentation on the first visit. Diapers and formula will not be given to a parent who does not have some form of ID.",239,350,No listed language support,350,239
+194,Parenting Classes,74,57,Active,"Vanessa Behan offers a series of 8-week parenting classes at various times during the year.
+Call 509.598.7490 to find out when our next class is available and to sign up!
+
+Circle of Security teaches parents a simple model for a secure, emotionally regulated relationship between parents and their children.  Through short video instruction and discussion, parents explore the foundations of secure attachment, where they might struggle with supporting healthy relationship, and how to reflect on and change those struggles.  Participants will attend 10.5 hours of instruction and receive a certificate of completion.
+Free on-site childcare during class.","Call for current class times.
+April 10 - May 22, 2024: Wednesdays, 6 PM - 7:30 PM",,,MUST pre-register. Registration can be done via phone call (509-598-7490).,240,351,No listed language support,351,240
+195,"Stay, Play & Learn",74,57,Active,"Vanessa Behan offers times when parents can bring their children to enjoy our beautiful Stay, Play & Learn space together. Come and engage with your child in a safe environment and meet other parents while you enjoy activities directed by our experienced staff.
+
+Playgroup every Tuesday & Wednesday (see calendar for details)","Weekdays, 9 AM - 12:30 PM
+Tuesdays, Wednesdays & Thursdays, 9 AM - 12:30 PM & 1 PM - 4 PM",,,NONE,241,352,No listed language support,352,241
+196,Disability Assistance Project,75,102,Active,"Mission: ""To provide compassionate assistance to individuals, in a respectful manner, throughout every stage of the disability process, by providing open and honest advice and services, meeting individuals wherever they are comfortable and providing assistance in navigating the disability process while maintaining dignity and leveraging community partnerships to provide needed referrals and services.""
+
+Free Services for Providers:
+     - Free Social Security Disability Trainings for Social Service Providers and Medical Professionals. 
+     - Free consultations on specific Social Security Disability issues or questions to help you better assist your clients.
+     - Call or see below contact form if you are interested in scheduling a training or have any questions on Social Security.
+
+Free Services for Claimants:
+     - Free application status checks​
+     - Free online appeals
+     - Free DSHS state disability benefit applications
+     - Free legal consultation with an attorney
+     - Free assistance with overpayments and continuing disability reviews
+     - Free referrals to community service providers","Wednesdays, 9 AM at 4320 E Trent Ave, Spokane, WA 99212
+Thursdays, 9 AM at 32 W Pacific Ave, Spokane, WA 99201
+Thursdays, 1 PM at 920 W 2nd Ave, Spokane, WA 99201",,,NONE,242,353,No listed language support,353,242
+197,Clothing Outlet,76,103,Active,Sometimes you not only need a warm meal but you need clothes on your back. Our Clothing Closet is stocked with all sizes and styles of clothing from infants through adult sizes. The clothing closet is open the same hours as the food pantry and both are free and open to the local community.,"Tuesdays, 9:30 AM - 11:30 AM",,,NONE,243,354,No listed language support,354,243
+198,WCN Food Pantry,76,103,Active,"In order to help meet the needs of the community around us, we have opened a food pantry which is available to anyone in need.","Tuesdays, 9:30 AM - 11:30 AM",,,NONE,244,355,No listed language support,355,244
+199,Learn English,77,104,Active,"Dive into English basics in just two weeks. Learn key vocabulary, basic grammar, and essential language skills to kickstart your journey. This is a 12-week program, and it is important to clarify that we are not an accredited school, and therefore, we will not provide any certification upon completion of the 12-week program.",Dependent on enrolled class.,,,Must be at least 17 years old.,245,356,No listed language support,356,245
+200,Curbside Grocery Service,78,105,Active,"Thanks to a generous grant from the Washington State Department of Agriculture's We Feed WA Pilot Program, WCFR is able to offer its clients fresh protein, produce, and dairy products at every food distribution event through June of 2025. In fact, at least 50% of the products purchased with WSDA funds are sourced from local growers and Washington food businesses. Every week, fresh dairy products are delivered on the morning of our curbside event so that our program families benefit from the freshest products available. Because of this important funding, we have developed relationships with several local farmers and ranchers, including a female-owned and operated cattle ranch. We plan to distribute over one ton of grass-finished beef in the coming year.
+
+The WSDA is committed to shaping a more effective, equitable approach to emergency food relief in Washington State. They bridge the gap between Washington growers and food businesses and Washington families by working with organizations like Women & Children's Free Restaurant. We are extremely grateful for their generous support!
+
+If you are an adult woman in need of food assistance, you may register for our services on our website. Please complete the registration form prior to joining the queue for curbside services. There is no qualifying or paperwork required, and registration is needed only once per year. Thank you and we look forward to serving you!","Drive-up Service: Wednesdays, 12 PM - 2 PM
+Walk-up Service: Fridays, 10 AM - 11 AM",,,This program is for adult women who have registered on their website.,246,357,No listed language support,357,246
+217,Cleone's Closet,88,106,Active,"Through the food pantry, free food is distributed to the Airway Heights and surrounding communities. Food is donated by 2nd Harvest, Safeway, Yokes, Grocery Outlet, Starbucks, farmers, etc. Through the closet clothing, furniture, houseware, etc. are provided to the community free of charge. The Resource Center provides information about available resources for community members.","Mondays / Fridays, 12 PM - 2 PM",,,Must reside within the boundaries of Airway Heights.,247,358,No listed language support,358,247
+218,Frieda’s Healing Center,88,106,Active,"**Frieda's Healing Center** is a facility for abused women with children (boys up to 10 years old). Residents can stay up to six months. School aged children are required to attend school. Residents are required to participate in group counseling, individual coaching, and other programs offered by WHEN. The center is situated on 5 acres in a beautiful country setting. All furniture, appliances, linens, towels, miscellaneous supplies, etc. are donated. We do not receive state or federal funding and depend on our generous donors to provide funds for utilities and other operational expenses to keep the center open. We do not pay rent. Use of the home is donated courtesy of the Upper Columbia Conference Corporation and family of the late Frieda Cook.
+
+The location of the healing center is confidential and not to be shared. The address we have here is the main office for WHEN.",Call to schedule an intake interview.,,,Unlisted,248,359,No listed language support,359,248
+219,Men of Compassion (MOC),88,107,Active,"MOC provides support, mentorship, healing and empowerment for abused and abusive men through support groups, crisis counseling, educational forums and other support services. **Groups are held at the Hillyard Baptist Church each 2nd and 4th Friday evening.**
+
+MOC also provides support, education, and personal skills training for men who are seeking recovery from controlling behaviors, abuse issues, dysfunctional patterns of thinking, feeling and doing, as they continue their journey of healing and empowerment.","2nd & 4th Fridays of the month, 7 PM - 9 PM",,,Unlisted,249,360,No listed language support,360,249
+201,Refugee Membership Discount,80,19,Active,"If you are a refugee you can apply for a free 3 month membership to the YMCA, which will give you access to everything a regular membership would.",Call during standard business hours.,,,NONE,250,361,No listed language support,361,250
+237,Computer Lab,81,19,Active,Available for walk-ins to any current clients. Call to schedule an appointment if not a current client.,"Mondays/Tuesdays/Thursdays, 9 AM - 4 PM
+Wednesdays, 10:30 AM - 4 PM",,,Must be a current client of YWCA.,251,362,No listed language support,362,251
+202,Domestic Violence Shelter,81,19,Active,"Our goal is to ensure the safety of survivors who are fleeing violence from an intimate partner by providing safe shelter, counseling, case management, education, and basic necessities like food, clothing, personal care items, and transportation. You and your children may need a temporary safe place away from your partner’s emotional abuse or violence. For many survivors, the shelter is a place to rest, sort out feelings, decide what is next, and get information and support to make changes.
+
+We have a confidential safe shelter within the Spokane city limits as well as in the Spokane Valley.","24 hours a day, 365 days a year.",,,Call (509) 326-2255 (24hr domestic violence hotline) for an assessment.,252,363,No listed language support,363,252
+231,Family Law,81,19,Active,"For assistance with divorce, custody, child support, and parentage, **complete our Civil Legal intake form either online or over the phone by calling [509-326-1190](tel:509-326-1190).**
+We accept DV-related family law intakes starting Monday morning, and the form remains open until we reach our weekly case limit. Intakes are reviewed in order and the team will contact you later that week to schedule an appointment either in person, over the phone, or virtually.",During regular business hours,,,Eligibility determined by intake form.,253,364,No listed language support,364,253
+235,FREE Preschool (Downtown 148),81,19,Active,This free preschool is for eligible families with children 3 and 4 years old. All five ECEAP (pronounced “e-cap”) classrooms follow a school day model with learning from 8am – 3pm.,"Weekdays, 8 AM - 3 PM",,,"Must apply online (eligibility determined in application) or fill out attached PDF and mail in or deliver in person to the YWCA main building at: 930 N Monroe St, Spokane, WA 99201",254,365,No listed language support,365,254
+236,FREE Preschool (Downtown 157),81,19,Active,This free preschool is for eligible families with children 3 and 4 years old. All five ECEAP (pronounced “e-cap”) classrooms follow a school day model with learning from 8am – 3pm.,"Weekdays, 8 AM - 3 PM",,,"Must apply online (eligibility determined in application) or fill out attached PDF and mail in or deliver in person to the YWCA main building at: 930 N Monroe St, Spokane, WA 99201",255,366,No listed language support,366,255
+234,FREE Preschool (Medical Lake),81,108,Active,This free preschool is for eligible families with children 3 and 4 years old. All five ECEAP (pronounced “e-cap”) classrooms follow a school day model with learning from 8am – 3pm.,"Weekdays, 8 AM - 3 PM",,,"Must apply online (eligibility determined in application) or fill out attached PDF and mail in or deliver in person to the YWCA main building at: 930 N Monroe St, Spokane, WA 99201",256,367,No listed language support,367,256
+233,FREE Preschool (West Plains A&B),81,109,Active,This free preschool is for eligible families with children 3 and 4 years old. All five ECEAP (pronounced “e-cap”) classrooms follow a school day model with learning from 8am – 3pm.,"Weekdays, 8 AM - 3 PM",,,"Must apply online (eligibility determined in application) or fill out attached PDF and mail in or deliver in person to the YWCA main building at: 930 N Monroe St, Spokane, WA 99201",257,368,No listed language support,368,257
+230,Housing Advocacy Clinic,81,19,Active,"Housing advocates can provide information about landlord/tenant issues, resources, safety planning, and referrals to other community partners.","Mondays, 9 AM - 11 AM
+(Due to capacity, only the first 8 individuals can be served)",,,Must be a survivor of Intimate Partner Violence (IPV),258,369,No listed language support,369,258
+232,Legal Advocacy Walk-In Service,81,19,Active,"For assistance with a Domestic Violence Protection Order, No Contact Order, or criminal case due to DV, **please call [509-477-3656](tel:509-477-3656) option #1.**","Mondays, 9 AM - 11 AM",,,"Must require assistance with DV, No Contact Orders, Protection Orders, or criminal cases.",259,370,No listed language support,370,259
+203,Our Sister's Closet,81,19,Active,"Our Sister's Closet (OSC) is a free, donation-based women's clothing & necessity boutique.
+OSC offers 90 minute appointments focused on outfitting a client with items to help them feel beautiful, boost confidence, and support achievement of personal and professional goals. On average, each client receives between 3 to 5 outfits, plus shoes, makeup, accessories, and personal hygiene products, as they are available.
+Appointments are available to anyone who is in need of this service.","Call on Fridays, 9 AM - 12 PM to schedule an appointment.",,,"Call 509-326-1190 on Friday mornings between 9:00am and noon to schedule an appointment for the following week. Note: due to our limited capacity, calls received outside this time frame will not be returned.
+
+Free on-site childcare is available upon request. Please communicate this need during scheduling.",260,371,No listed language support,371,260

@@ -1,0 +1,115 @@
+﻿id,street,unit ,city,state,zipcode,latitude,longitude,url_address,log_id
+3, 12322 W Sunset Hwy,,Airway Heights,WA,99001,47.64301154,-117.5816126,https://www.google.com/maps/search/%2012322%20W%20Sunset%20Hwy%2C%20Airway%20Heights%2C%20WA%2099001,372
+14,12 E 5th Ave,,Spokane,WA,99202,47.65137243,-117.4109823,https://www.google.com/maps/search/12%20E%205th%20Ave%2C%20Spokane%2C%20WA%2099202,373
+15,19 W Pacific Ave,,Spokane,WA,99201,47.655495,-117.412229,https://www.google.com/maps/search/19%20W%20Pacific%20Ave%2C%20Spokane%2C%20WA%2099201,374
+8,25 E North Foothills Dr,,Spokane,WA,99207,47.68279492,-117.4107686,https://www.google.com/maps/search/25%20E%20North%20Foothills%20Dr%2C%20Spokane%2C%20WA%2099207,375
+17,25 W 5th Ave,,Spokane,WA,99204,47.65138468,-117.4118543,https://www.google.com/maps/search/25%20W%205th%20Ave%2C%20Spokane%2C%20WA%2099204,376
+42,32 W Pacific Ave,,Spokane,WA,99201,47.65565819,-117.4125497,https://www.google.com/maps/search/32%20W%20Pacific%20Ave%2C%20Spokane%2C%20WA%2099201,377
+50,33 Irving Pl,Fl 5,New York,NY,10003,40.7351053,-73.9881133,https://www.google.com/maps/search/33%20Irving%20Pl%2C%20New%20York%2C%20NY%2010003,378
+55,35 W Main Ave,,Spokane,WA,99201,47.65900045,-117.4116063,https://www.google.com/maps/search/35%20W%20Main%20Ave%2C%20Spokane%2C%20WA%2099201,379
+69,55 W Mission Ave,,Spokane,WA,99201,47.6716522,-117.4123993,https://www.google.com/maps/search/55%20W%20Mission%20Ave%2C%20Spokane%2C%20WA%2099201,380
+87,101 E Hartson Ave,,Spokane,WA,99202,47.650003,-117.409391,https://www.google.com/maps/search/101%20E%20Hartson%20Ave%2C%20Spokane%2C%20WA%2099202,381
+64,101 W 8th Ave,,Spokane,WA,99204,47.6483761,-117.4117102,https://www.google.com/maps/search/101%20W%208th%20Ave%2C%20Spokane%2C%20WA%2099204,382
+9,104 W 9th St,Suite 205,Vancouver,WA,98660,45.6281543,-122.672386,https://www.google.com/maps/search/104%20W%209th%20St%2C%20Vancouver%2C%20WA%2098660,383
+2,110 E 4th Ave,,Spokane,WA,99202,47.66841473,-117.423495,https://www.google.com/maps/search/110%20E%204th%20Ave%2C%20Spokane%2C%20WA%2099202,384
+35,111 S Highland St,PMB 461,Memphis,TN,38111,35.1289237,-89.9457417,https://www.google.com/maps/search/111%20S%20Highland%20St%2C%20Memphis%2C%20TN%2038111,385
+108,119 N Lefevre St,,Medical Lake,WA,99022,47.5782163,-117.6826671,https://www.google.com/maps/search/119%20N%20Lefevre%20St%2C%20Medical%20Lake%2C%20WA%2099022,386
+116,124 E Pacific Ave,,Spokane,WA,99202,47.65535991,-117.40881874,https://www.google.com/maps/search/124%20E%20Pacific%20Ave%2C%20Spokane%2C%20WA%2099202,387
+68,127 E Nora Ave,,Spokane,WA,99207,47.67398127,-117.40902,https://www.google.com/maps/search/127%20E%20Nora%20Ave%2C%20Spokane%2C%20WA%2099207,388
+62,130 S Arthur St,,Spokane,WA,99202,47.65559915,-117.3958784,https://www.google.com/maps/search/130%20S%20Arthur%20St%2C%20Spokane%2C%20WA%2099202,389
+32,142 Berkeley St,,Boston,MA,2116,42.3453356,-71.0700294,https://www.google.com/maps/search/142%20Berkeley%20St%2C%20Boston%2C%20MA%202116,390
+95,170 S Madison St,,Spokane,WA,99201,47.6551276,-117.4281654,https://www.google.com/maps/search/170%20S%20Madison%20St%2C%20Spokane%2C%20WA%2099201,391
+84,200 N Bernard St,,Spokane,WA,99201,47.659735,-117.415877,https://www.google.com/maps/search/200%20N%20Bernard%20St%2C%20Spokane%2C%20WA%2099201,392
+11,203 E 3rd Ave,,Spokane,WA,99202,47.653628,-117.4079884,https://www.google.com/maps/search/203%20E%203rd%20Ave%2C%20Spokane%2C%20WA%2099202,393
+4,204 4th St ,,Cheney,WA,99004,47.65338665,-117.4463075,https://www.google.com/maps/search/204%204th%20St%20%2C%20Cheney%2C%20WA%2099004,394
+67,204 E Indiana Ave,,Spokane,WA,99207,47.67464855,-117.4076447,https://www.google.com/maps/search/204%20E%20Indiana%20Ave%2C%20Spokane%2C%20WA%2099207,395
+12,207 S Washington St,,Medical Lake,WA,99022,47.57159635,-117.6794265,https://www.google.com/maps/search/207%20S%20Washington%20St%2C%20Medical%20Lake%2C%20WA%2099022,396
+39,211 Fir Ave,,Deer Park,WA,99006,47.95631007,-117.4823099,https://www.google.com/maps/search/211%20Fir%20Ave%2C%20Deer%20Park%2C%20WA%2099006,397
+118,211 N Lefevre St,,Medical Lake,WA,99022,47.57399625,-117.6828001,https://www.google.com/maps/search/211%20N%20Lefevre%20St%2C%20Medical%20Lake%2C%20WA%2099022,398
+117,212 W 2nd Ave,,Spokane,WA,99201,47.65461689,-117.4152697,https://www.google.com/maps/search/212%20W%202nd%20Ave%2C%20Spokane%2C%20WA%2099201,399
+66,222 E Indiana Ave,,Spokane,WA,99207,47.674916,-117.4075842,https://www.google.com/maps/search/222%20E%20Indiana%20Ave%2C%20Spokane%2C%20WA%2099207,400
+88,307 E Sprague Ave,,Spokane,WA,99202,47.65736531,-117.4064478,https://www.google.com/maps/search/307%20E%20Sprague%20Ave%2C%20Spokane%2C%20WA%2099202,401
+75,310 S Spruce St,,Spokane,WA,99201,47.65341932,-117.4463069,https://www.google.com/maps/search/310%20S%20Spruce%20St%2C%20Spokane%2C%20WA%2099201,402
+26,316 W Boone Ave,,Spokane,WA,99201,47.66816977,-117.4162285,https://www.google.com/maps/search/316%20W%20Boone%20Ave%2C%20Spokane%2C%20WA%2099201,403
+34,318 S Cedar St,,Spokane,WA,99201,47.652781,-117.432566,https://www.google.com/maps/search/318%20S%20Cedar%20St%2C%20Spokane%2C%20WA%2099201,404
+90,320 E 2nd Ave,,Spokane,WA,99202,47.65437735,-117.4055966,https://www.google.com/maps/search/320%20E%202nd%20Ave%2C%20Spokane%2C%20WA%2099202,405
+97,321 W Boone Ave,,Spokane,WA,99201,47.66800563,-117.4162744,https://www.google.com/maps/search/321%20W%20Boone%20Ave%2C%20Spokane%2C%20WA%2099201,406
+73,400 Fairview Ave N,Suite 800,Seattle,WA,98109,47.6225908,-122.3340855,https://www.google.com/maps/search/400%20Fairview%20Ave%20N%2C%20Seattle%2C%20WA%2098109,407
+54,401 2nd Ave S,,Seattle,WA,98104,47.5987509,-122.331954,https://www.google.com/maps/search/401%202nd%20Ave%20S%2C%20Seattle%2C%20WA%2098104,408
+6,402 N Perry St,,Spokane,WA,99202,38.85815117,-77.38321609,https://www.google.com/maps/search/402%20N%20Perry%20St%2C%20Spokane%2C%20WA%2099202,409
+94,404 N Havana St,,Spokane,WA,99212,47.66328706,-117.34677,https://www.google.com/maps/search/404%20N%20Havana%20St%2C%20Spokane%2C%20WA%2099212,410
+49,500 S Stone St,,Spokane,WA,99202,47.651082,-117.37679,https://www.google.com/maps/search/500%20S%20Stone%20St%2C%20Spokane%2C%20WA%2099202,411
+86,503 N Walnut Rd,,Spokane Valley,WA,99206,47.66165279,-117.2708979,https://www.google.com/maps/search/503%20N%20Walnut%20Rd%2C%20Spokane%20Valley%2C%20WA%2099206,412
+122,512 S Bernard St,,Spokane,WA,99204,47.6512271,-117.4165499,https://www.google.com/maps/search/512%20S%20Bernard%20St%2C%20Spokane%2C%20WA%2099204,413
+72,518 W 3rd Ave,,Spokane,WA,99201,47.65356351,-117.4198933,https://www.google.com/maps/search/518%20W%203rd%20Ave%2C%20Spokane%2C%20WA%2099201,414
+70,525 S Main St,Suite 1,Colville,WA,99114,48.53984206,-117.9055804,https://www.google.com/maps/search/525%20S%20Main%20St%2C%20Colville%2C%20WA%2099114,415
+102,601 W 1st Ave,Suite 1400,Spokane,WA,99201,47.656493,-117.421246,https://www.google.com/maps/search/601%20W%201st%20Ave%2C%20Spokane%2C%20WA%2099201,416
+21,615 4th St,,Cheney,WA,99004,47.4897173,-117.5757016,https://www.google.com/maps/search/615%204th%20St%2C%20Cheney%2C%20WA%2099004,417
+20,624 3rd St,,Cheney,WA,99004,47.48941637,-117.575877,https://www.google.com/maps/search/624%203rd%20St%2C%20Cheney%2C%20WA%2099004,418
+45,806 W Knox Ave,,Spokane,WA,99205,47.658991,-117.413473,https://www.google.com/maps/search/806%20W%20Knox%20Ave%2C%20Spokane%2C%20WA%2099205,419
+96,808 W Spokane Falls Blvd,,Spokane,WA,99201,47.6605613,-117.4241938,https://www.google.com/maps/search/808%20W%20Spokane%20Falls%20Blvd%2C%20Spokane%2C%20WA%2099201,420
+52,830 Morris Tpke,Suite 401,Short Hills,NJ,7078,40.72323785,-74.33680548,https://www.google.com/maps/search/830%20Morris%20Tpke%2C%20Short%20Hills%2C%20NJ%207078,421
+38,919 E Trent Ave,,Spokane,WA,99202,47.66191698,-117.3961834,https://www.google.com/maps/search/919%20E%20Trent%20Ave%2C%20Spokane%2C%20WA%2099202,422
+25,925 W Montgomery Ave,,Spokane,WA,99205,47.6783847,-117.4263174,https://www.google.com/maps/search/925%20W%20Montgomery%20Ave%2C%20Spokane%2C%20WA%2099205,423
+19,930 N Monroe St,,Spokane,WA,99201,47.6661721,-117.4258924,https://www.google.com/maps/search/930%20N%20Monroe%20St%2C%20Spokane%2C%20WA%2099201,424
+41,975 E North Foothills Dr,Bldg A,Spokane,WA,99207,47.68355264,-117.3956614,https://www.google.com/maps/search/975%20E%20North%20Foothills%20Dr%2C%20Spokane%2C%20WA%2099207,425
+5,1025 W Indiana Ave,,Spokane,WA,99205,47.67485,-117.4271455,https://www.google.com/maps/search/1025%20W%20Indiana%20Ave%2C%20Spokane%2C%20WA%2099205,426
+85,1101 W College Ave,Suite 240,Spokane,WA,99201,47.6630926,-117.4283084,https://www.google.com/maps/search/1101%20W%20College%20Ave%2C%20Spokane%2C%20WA%2099201,427
+79,1116 W Broadway Ave,4th Floor Annex County Courthouse,Spokane,WA,99260,47.66445657,-117.4285122,https://www.google.com/maps/search/1116%20W%20Broadway%20Ave%2C%20Spokane%2C%20WA%2099260,428
+24,1175 Shaw Ave,,Clovis,CA,93612,36.80860711,-119.6942375,https://www.google.com/maps/search/1175%20Shaw%20Ave%2C%20Clovis%2C%20CA%2093612,429
+77,1212 N Howard St,,Spokane,WA,99201,47.66832267,-117.4209667,https://www.google.com/maps/search/1212%20N%20Howard%20St%2C%20Spokane%2C%20WA%2099201,430
+48,1222 W 2nd Ave,,Spokane,WA,99201,47.6547549,-117.4304339,https://www.google.com/maps/search/1222%20W%202nd%20Ave%2C%20Spokane%2C%20WA%2099201,431
+100,1224 E Trent Ave,,Spokane,WA,99202,47.66179896,-117.3924198,https://www.google.com/maps/search/1224%20E%20Trent%20Ave%2C%20Spokane%2C%20WA%2099202,432
+13,1228 W Nebraska Ave,,Spokane,WA,99205,47.70919125,-117.430038,https://www.google.com/maps/search/1228%20W%20Nebraska%20Ave%2C%20Spokane%2C%20WA%2099205,433
+112,1234 E Front Ave ,,Spokane,WA,99202,47.66005092,-117.39126767,https://www.google.com/maps/search/1234%20E%20Front%20Ave%20%2C%20Spokane%2C%20WA%2099202,434
+27,1313 N Maple St,Unit 104,Spokane,WA,99201,47.6690582,-117.4356511,https://www.google.com/maps/search/1313%20N%20Maple%20St%2C%20Spokane%2C%20WA%2099201,435
+105,1408 N Washington St,,Spokane,WA,99201,47.67046344,-117.417193,https://www.google.com/maps/search/1408%20N%20Washington%20St%2C%20Spokane%2C%20WA%2099201,436
+92,1441 N Argonne Rd,,Spokane Valley,WA,99212,47.67010897,-117.282921,https://www.google.com/maps/search/1441%20N%20Argonne%20Rd%2C%20Spokane%20Valley%2C%20WA%2099212,437
+61,1502 N Monroe St,,Spokane,WA,99201,47.67137429,-117.4265539,https://www.google.com/maps/search/1502%20N%20Monroe%20St%2C%20Spokane%2C%20WA%2099201,438
+29,1504 W Grace Ave,,Spokane,WA,99205,47.68360188,-117.4341129,https://www.google.com/maps/search/1504%20W%20Grace%20Ave%2C%20Spokane%2C%20WA%2099205,439
+58,1509 W College Ave,,Spokane,WA,99201,47.663538,-117.4340759,https://www.google.com/maps/search/1509%20W%20College%20Ave%2C%20Spokane%2C%20WA%2099201,440
+101,1515 E Illinois Ave,,Spokane,WA,99207,47.67852867,-117.3877788,https://www.google.com/maps/search/1515%20E%20Illinois%20Ave%2C%20Spokane%2C%20WA%2099207,441
+40,1805 E Trent Ave,,Spokane,WA,99202,47.66199324,-117.3840989,https://www.google.com/maps/search/1805%20E%20Trent%20Ave%2C%20Spokane%2C%20WA%2099202,442
+33,1807 N Washington St,Suite C101,Spokane,WA,99205,47.67459474,-117.41747,https://www.google.com/maps/search/1807%20N%20Washington%20St%2C%20Spokane%2C%20WA%2099205,443
+78,1810 N Greene St,,Spokane,WA,99217,47.67460604,-117.363887,https://www.google.com/maps/search/1810%20N%20Greene%20St%2C%20Spokane%2C%20WA%2099217,444
+81,1821 E Sprague Ave,,Spokane,WA,99202,47.65732651,-117.3838114,https://www.google.com/maps/search/1821%20E%20Sprague%20Ave%2C%20Spokane%2C%20WA%2099202,445
+23,1960 N Holy Names Ct,3rd Floor,Spokane,WA,99224,47.67551941,-117.4534161,https://www.google.com/maps/search/1960%20N%20Holy%20Names%20Ct%2C%20Spokane%2C%20WA%2099224,446
+30,2002 E Mission Ave,,Spokane,WA,99202,47.6714753,-117.3808596,https://www.google.com/maps/search/2002%20E%20Mission%20Ave%2C%20Spokane%2C%20WA%2099202,447
+31,2002 E. Mission Ave,,Spokane,WA,99202,47.6571973,-117.3762823,https://www.google.com/maps/search/2002%20E.%20Mission%20Ave%2C%20Spokane%2C%20WA%2099202,448
+36,2011 W Garland Ave,,Spokane,WA,99205,47.693429,-117.4406328,https://www.google.com/maps/search/2011%20W%20Garland%20Ave%2C%20Spokane%2C%20WA%2099205,449
+37,2107 W Garland Ave,,Spokane,WA,99205,47.693437,-117.4420412,https://www.google.com/maps/search/2107%20W%20Garland%20Ave%2C%20Spokane%2C%20WA%2099205,450
+107,2121 E Wabash Ave,,Spokane,WA,99217,47.70246071,-117.3779455,https://www.google.com/maps/search/2121%20E%20Wabash%20Ave%2C%20Spokane%2C%20WA%2099217,451
+80,2128 N Pines Rd,Suite 1,Spokane Valley,WA,99216,47.67629711,-117.2394775,https://www.google.com/maps/search/2128%20N%20Pines%20Rd%2C%20Spokane%20Valley%2C%20WA%2099216,452
+56,2225 W Mallon Ave,,Spokane,WA,99201,47.66514896,-117.4448041,https://www.google.com/maps/search/2225%20W%20Mallon%20Ave%2C%20Spokane%2C%20WA%2099201,453
+57,2230 E Sprague Ave,,Spokane,WA,99202,47.65697325,-117.3773214,https://www.google.com/maps/search/2230%20E%20Sprague%20Ave%2C%20Spokane%2C%20WA%2099202,454
+60,2492 Doswell Ave,,St Paul,MN,55108,44.98111374,-93.20526229,https://www.google.com/maps/search/2492%20Doswell%20Ave%2C%20St%20Paul%2C%20MN%2055108,455
+103,2820 W Francis Ave,,Spokane,WA,99205,47.71549963,-117.4519613,https://www.google.com/maps/search/2820%20W%20Francis%20Ave%2C%20Spokane%2C%20WA%2099205,456
+74,2934 E 27th Ave,,Spokane,WA,99223,47.630118,-117.3682237,https://www.google.com/maps/search/2934%20E%2027th%20Ave%2C%20Spokane%2C%20WA%2099223,457
+10,3004 E Queen Ave,,Spokane,WA,99217,47.6564254,-117.4245325,https://www.google.com/maps/search/3004%20E%20Queen%20Ave%2C%20Spokane%2C%20WA%2099217,458
+115,3102 W Whistalks Wy,,Spokane,WA,99224,47.67918334,-117.45937836,https://www.google.com/maps/search/3102%20W%20Whistalks%20Wy%2C%20Spokane%2C%20WA%2099224,459
+93,3114 E 5th Ave,,Spokane,WA,99202,47.651646,-117.365499,https://www.google.com/maps/search/3114%20E%205th%20Ave%2C%20Spokane%2C%20WA%2099202,460
+98,3128 N Hemlock St,,Spokane,WA,99205,47.68638758,-117.444482,https://www.google.com/maps/search/3128%20N%20Hemlock%20St%2C%20Spokane%2C%20WA%2099205,461
+51,3203 N Market St,,Spokane,WA,99207,47.68670434,-117.3652614,https://www.google.com/maps/search/3203%20N%20Market%20St%2C%20Spokane%2C%20WA%2099207,462
+110,3715 S Grove Rd,,Spokane,WA,99224,47.62051665,-117.49881403,https://www.google.com/maps/search/3715%20S%20Grove%20Rd%2C%20Spokane%2C%20WA%2099224,463
+65,3846 N Deer Lake Rd,,Loon Lake,WA,99148,48.11557784,-117.6018431,https://www.google.com/maps/search/3846%20N%20Deer%20Lake%20Rd%2C%20Loon%20Lake%2C%20WA%2099148,464
+7,3908 N. Driscoll Blvd,,Spokane,WA,99205,47.6938891,-117.4527683,https://www.google.com/maps/search/3908%20N.%20Driscoll%20Blvd%2C%20Spokane%2C%20WA%2099205,465
+63,3909 W Rowan Ave,,Spokane,WA,99205,47.70847974,-117.4694652,https://www.google.com/maps/search/3909%20W%20Rowan%20Ave%2C%20Spokane%2C%20WA%2099205,466
+83,4001 N Cook St,,Spokane,WA,99207,47.6946574,-117.3747383,https://www.google.com/maps/search/4001%20N%20Cook%20St%2C%20Spokane%2C%20WA%2099207,467
+18,4301 W  Sunset Blvd,,Spokane,WA,99224,47.639664,-117.4722125,https://www.google.com/maps/search/4301%20W%20%20Sunset%20Blvd%2C%20Spokane%2C%20WA%2099224,468
+53,4520 N Crestline St,,Spokane,WA,99207,47.69907902,-117.3787782,https://www.google.com/maps/search/4520%20N%20Crestline%20St%2C%20Spokane%2C%20WA%2099207,469
+47,4620 Haygood Rd,Unit 1,Virginia Beach,VA,23455,36.87542715,-76.13614981,https://www.google.com/maps/search/4620%20Haygood%20Rd%2C%20Virginia%20Beach%2C%20VA%2023455,470
+114,5825 Burlington Lp,,Pasco,WA,99301,46.28138238,-119.10192338,https://www.google.com/maps/search/5825%20Burlington%20Lp%2C%20Pasco%2C%20WA%2099301,471
+22,7000 Executive Center Dr,"Bldg 2, Suite 105",Brentwood,TN,37027,36.029726,-86.788593,https://www.google.com/maps/search/7000%20Executive%20Center%20Dr%2C%20Brentwood%2C%20TN%2037027,472
+71,8303 N Division St,,Spokane,WA,99208,47.7328962,-117.4115562,https://www.google.com/maps/search/8303%20N%20Division%20St%2C%20Spokane%2C%20WA%2099208,473
+99,9431 N Division St,,Spokane,WA,99218,47.74269396,-117.4116444,https://www.google.com/maps/search/9431%20N%20Division%20St%2C%20Spokane%2C%20WA%2099218,474
+44,10600 Jollyville Rd,,Austin,TX,78759,30.3995606,-97.7494621,https://www.google.com/maps/search/10600%20Jollyville%20Rd%2C%20Austin%2C%20TX%2078759,475
+59,10814 E Broadway,,Spokane Valley,WA,99206,47.664257,-117.2591681,https://www.google.com/maps/search/10814%20E%20Broadway%2C%20Spokane%20Valley%2C%20WA%2099206,476
+91,11008 N Newport Hwy,,Spokane,WA,99218,47.75688336,-117.3947146,https://www.google.com/maps/search/11008%20N%20Newport%20Hwy%2C%20Spokane%2C%20WA%2099218,477
+1,11707 E Sprague Ave,Suite 106,Spokane Valley,WA,99206,47.65776999,-117.24772989,https://www.google.com/maps/search/11707%20E%20Sprague%20Ave%2C%20Spokane%20Valley%2C%20WA%2099206,478
+46,12509 N Market St,,Mead,WA,99021,47.77072024,-117.3540966,https://www.google.com/maps/search/12509%20N%20Market%20St%2C%20Mead%2C%20WA%2099021,479
+76,12615 E Mission Ave,Unit 312,Spokane Valley,WA,99216,47.67171311,-117.235067,https://www.google.com/maps/search/12615%20E%20Mission%20Ave%2C%20Spokane%20Valley%2C%20WA%2099216,480
+106,13114 W Sunset Hwy,,Airway Heights,WA,99001,47.643048,-117.558055,https://www.google.com/maps/search/13114%20W%20Sunset%20Hwy%2C%20Airway%20Heights%2C%20WA%2099001,481
+89,13120 N Pittsburg St,,Spokane,WA,99208,47.77665012,-117.3842142,https://www.google.com/maps/search/13120%20N%20Pittsburg%20St%2C%20Spokane%2C%20WA%2099208,482
+109,13513 W 6th Ave,Arrow Point,Airway Heights,WA,99001,47.64990057,-117.5975701,https://www.google.com/maps/search/13513%20W%206th%20Ave%2C%20Airway%20Heights%2C%20WA%2099001,483
+104,13707 8th Ave E,,Tacoma,WA,98445,47.13216426,-122.4207404,https://www.google.com/maps/search/13707%208th%20Ave%20E%2C%20Tacoma%2C%20WA%2098445,484
+28,14516 E Wellesley Ave,,Spokane Valley,WA,99216,47.70038083,-117.210628,https://www.google.com/maps/search/14516%20E%20Wellesley%20Ave%2C%20Spokane%20Valley%2C%20WA%2099216,485
