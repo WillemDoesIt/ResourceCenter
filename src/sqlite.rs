@@ -60,7 +60,7 @@ pub async fn print_table(table: &Table) {
 /// ```rust
 /// let output: Table = query("SELECT Content FROM Table");
 /// ```
-pub fn query(db_bytes: Vec<u8>, query: &str) -> Table {
+pub fn query(db_bytes: &Vec<u8>, query: &str) -> Table {
     let mut db = std::ptr::null_mut();
     let open_db_result = unsafe {
         ffi::sqlite3_open_v2(

@@ -8,10 +8,10 @@ MVP: A search box that queries a sqlite db that we made the schema of and then d
     - [X] Setup deploy script for automation
 - [X] Setup sample db file
 - [X] Use wasm to do a proof of concept query
-- [ ] Create db file
+- [X] Create db file
     - [X] Create db schema
     - [X] Sample db of real data
-    - [ ] Finished version of db for proj
+    - [X] Finished version of db for proj
 - [ ] Turn searches into queries
 - [X] Dynamically load content from query
 - [ ] Toggle-able options to specify queries

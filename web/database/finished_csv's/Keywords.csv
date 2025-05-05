@@ -1,261 +1,261 @@
-id,Service Type-NEW,Quick Filter-NEW,Service Type id,Service Groups,Service Group Types,Tags-NEW,Tag Groups,Tag ids
-1,Resource Finder,,42,Anyone In Need,General,Food,Basic Needs,11
-2,Case Management,Medical,27,,,"Case Management,In-Home Medical Care,Medical","Case Management, Medical","99, 59, 41"
-3,Medical Services,Medical,20,,,"Case Management,In-Home Medical Care,Medical","Case Management, Medical","99, 59, 41"
-4,Interpersonal Services,Wellness,17,,,,,
-5,Health and Wellness,Wellness,12,"Seniors: 55 Years+,Physical Disability,Developmental Disability,Intellectual Disability,Learning Disability","Age Group, Disability",Case Management,Case Management,99
-6,Case Management,Medical,27,,,,,
-7,Medical Services,Medical,20,,,Medical,Medical,41
-8,Pharmaceutical Assistance,Medical,22,,,"Medical,Medication",Medical,"41, 51"
-9,Food Distribution Center,Food,4,Anyone In Need,General,"Free,Food","Financial, Basic Needs","72, 11"
-10,Food Distribution Center,Food,4,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs","72, 11, 13"
-11,Food Distribution Center,Food,4,Anyone In Need,General,"Free,Food","Financial, Basic Needs","72, 11"
-12,Technology Assistance,Financial,14,Anyone In Need,General,"Free,Computer,Computer Lab","Financial, Education","72, 75, 83"
-13,Case Management,Medical,27,Anyone In Need,General,Free,Financial,72
-14,Recovery Assistance,Wellness,33,"Legal Teens: 18 - 19 Years,Young Adults: 20 - 30 Years,Adults: 31 - 54 Years,Seniors: 55 Years+",Age Group,Mental-Health,Mental-Health,89
-15,Food Assistance,Food,5,Seniors: 55 Years+,Age Group,"Free,Food","Financial, Basic Needs","72, 11"
-16,Financial Assistance,Financial,13,,,Gov Program,Gov Programs,93
-17,Optometry Services,Medical,24,,,"Medical,Vision,Free","Medical, Financial","41, 54, 72"
-18,Food Distribution Center,Food,4,Anyone In Need,General,"Food,Free","Basic Needs, Financial","11, 72"
-19,Hygiene Assistance,Wellness,8,Anyone In Need,General,"Cleaning Supplies,Hygiene,Free","Basic Needs, Financial","16, 14, 72"
-20,Free Meals,Food,6,Anyone In Need,General,"Groceries,Meals,Community,Free","Basic Needs, Community & Recreation, Financial","13, 12, 8, 72"
-21,Dental Services,Medical,25,,,"Medical,Dental,Free,Clinic","Medical, Financial","41, 53, 72, 57"
-22,Food Distribution Center,Food,4,Anyone In Need,General,"Food,Free","Basic Needs, Financial","11, 72"
-23,Interpersonal Services,Wellness,17,,,,,
-24,Financial Assistance,Financial,13,Anyone In Need,General,"Financial,Medical Bill","Financial, Medical","71, 42"
-25,Health and Wellness,Wellness,12,Anyone In Need,General,"Free,Education,Suicide Prevention,Community","Financial, Education, Mental-Health, Community & Recreation","72, 82, 91, 8"
-26,Free Meals,Food,6,Anyone In Need,General,"Free,Food","Financial, Basic Needs","72, 11"
-27,Educational Services,Wellness,15,,,,,
-28,Hygiene Assistance,Wellness,8,"Mothers,Fathers,Parents,Caregivers",Roles,"Free,Infant Care Items","Financial, Infant Care","72, 21"
-29,Case Management,Medical,27,,,,,
-30,Educational Services,Wellness,15,,,,,
-31,Educational Services,Wellness,15,,,,,
-32,Basic Necessities,Wellness,10,Anyone In Need,General,"Free,Clothing,Infant Care Items","Financial, Basic Needs, Infant Care","72, 17, 21"
-33,Educational Services,Wellness,15,,,,,
-34,Interpersonal Services,Wellness,17,,,,,
-35,Food Distribution Center,Food,4,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs","72, 11, 13"
-36,Transportation Assistance,Financial,32,,,"Bus Pass,Fuel Voucher",Financial,"76, 77"
-37,Food Distribution Center,Food,4,Anyone In Need,General,"Food,Free","Basic Needs, Financial","11, 72"
-38,Hygiene Assistance,Wellness,8,,,"Cleaning Supplies,Feminine Products,Hygiene,Diapers","Basic Needs, Infant Care","16, 15, 14, 22"
-39,Financial Assistance,Financial,13,,,Utilities,Housing,38
-40,Housing Assistance,Housing,29,,,,,
-41,Legal Assistance,Financial,28,,,"Green Card,Immigration,Naturalization,Legal","Immigration, Legal","69, 68, 70, 61"
-42,Case Management,Medical,27,,,,,
-43,Recovery Assistance,Wellness,33,"Alcohol Dependency,Opioid Dependency,Substance Dependency",Substance Dependency,"Recovery Group,Case Management,Education,Employment,Counseling,Job","Support & Recovery, Case Management, Education, Employment, Mental-Health","105, 99, 82, 79, 90, 80"
-44,Childcare,Wellness,11,Anyone In Need,General,"Free,Childcare (infant: 0 months - 1 year),Childcare (toddler: 1 - 2 years),Childcare (preschooler: 3 - 4 years),Childcare (school-aged: 5 - 12 years)","Financial, Childcare","72, 24, 25, 26, 27"
-45,Shelter (Individuals),Housing,40,"Legal Teens: 18 - 19 Years,Young Adults: 20 - 30 Years,Adults: 31 - 54 Years,Seniors: 55 Years+",Age Group,Shelter,Housing,39
-46,Childcare,Wellness,11,Anyone In Need,General,"Free,Childcare (infant: 0 months - 1 year)","Financial, Childcare","72, 24"
-47,Food Distribution Center,Food,4,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs","72, 11, 13"
-48,Food Distribution Center,Food,4,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs","72, 11, 13"
-49,Financial Assistance,Financial,13,,,,,
-50,Case Management,Medical,27,,,,,
-51,Interpersonal Services,Wellness,17,,,,,
-52,Interpersonal Services,Wellness,17,,,,,
-53,Interpersonal Services,Wellness,17,,,,,
-54,Interpersonal Services,Wellness,17,,,,,
-55,Technology Assistance,Financial,14,Anyone In Need,General,Computer,Financial,75
-56,Interpersonal Services,Wellness,17,,,,,
-57,Case Management,Medical,27,,,Child Support,Legal,65
-58,Youth Services,Wellness,19,"Teens: 13 - 19 Years,Tweens: 11 - 12 Years",Age Group,Counseling,Mental-Health,90
-59,Youth Services,Wellness,19,,,"Housing,Budgeting Assistance,Employment,Education,Medical,Job","Housing, Financial, Employment, Education, Medical","34, 78, 79, 82, 41, 80"
-60,Youth Services,Wellness,19,"Children: 2 - 12 Years,Teens: 13 - 19 Years,Legal Teens: 18 - 19 Years",Age Group,Criminal History,Legal,63
-61,Financial Assistance,Financial,13,,,"Gov Program,Childcare (infant: 0 months - 1 year),Childcare (toddler: 1 - 2 years),Childcare (preschooler: 3 - 4 years),Childcare (school-aged: 5 - 12 years)","Gov Programs, Childcare","93, 24, 25, 26, 27"
-62,Food Assistance,Food,5,,,,,
-63,Financial Assistance,Financial,13,,,"Gov Program,TANF",Gov Programs,"93, 95"
-64,Food Distribution Center,Food,4,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs","72, 11, 13"
-65,Recovery Assistance,Wellness,33,Alcohol Dependency,Substance Dependency,"Recovery Group,Alcoholics Anonymous",Support & Recovery,"105, 106"
-66,Food Distribution Center,Food,4,Anyone In Need,General,"Free,Food","Financial, Basic Needs","72, 11"
-67,Food Rescue,Food,7,Anyone In Need,General,"Free,Food","Financial, Basic Needs","72, 11"
-68,Recovery Assistance,Wellness,33,,,Recovery Group,Support & Recovery,105
-69,Recovery Assistance,Wellness,33,,,"Recovery Group,Food","Support & Recovery, Basic Needs","105, 11"
-70,Recovery Assistance,Wellness,33,,,"Recovery Group,Narcotics Addicts Anonymous",Support & Recovery,"105, 107"
-71,Shelter (Families),Housing,39,"Individuals,With Children,Single Parent,Two-Parent Household",Household,"Coordinated Entry,Shelter",Housing,"40, 39"
-72,Interpersonal Services,Wellness,17,,,Eviction,Housing,35
-73,Housing Assistance,Housing,29,"Individuals,With Children,Single Parent,Two-Parent Household",Household,"Housing,Rent,Case Management","Housing, Case Management","34, 37, 99"
-74,Case Management,Medical,27,"Individuals,With Children,Single Parent,Two-Parent Household",Household,Case Management,Case Management,99
-75,Financial Assistance,Financial,13,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial","41, 94, 71, 42"
-76,Financial Assistance,Financial,13,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial","41, 94, 71, 42"
-77,Financial Assistance,Financial,13,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial","41, 94, 71, 42"
-78,Financial Assistance,Financial,13,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial","41, 94, 71, 42"
-79,Financial Assistance,Financial,13,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial","41, 94, 71, 42"
-80,Financial Assistance,Financial,13,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial","41, 94, 71, 42"
-81,Financial Assistance,Financial,13,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial","41, 94, 71, 42"
-82,Educational Services,Wellness,15,"Immigrants,Refugees,School-Aged Children: 5 - 12 Years,Teens: 13 - 19 Years","Citizenship, Age Group","High School,Middle School,Elementary School",School,"33, 32, 31"
-83,Language Classes,Wellness,16,,,"English Class,Language Class",Education,"86, 85"
-84,Financial Assistance,Financial,13,,,,,
-85,Housing Assistance,Housing,29,,,,,
-86,Legal Assistance,Financial,28,,,,,
-87,Food Rescue,Food,7,Anyone In Need,General,"Food,Free","Basic Needs, Financial","11, 72"
-88,Transitional Housing,Housing,34,Refugees,Citizenship,Housing,Housing,34
-89,Language Classes,Wellness,16,,,"Language Class,English Class",Education,"85, 86"
-90,Employment Assistance,Financial,31,,,,,
-91,Food Assistance,Food,5,Anyone In Need,General,"EBT,Food,Groceries","Gov Programs, Basic Needs","96, 11, 13"
-92,Clothing Center,Wellness,9,Anyone In Need,General,"Free,Clothing,Household Items","Financial, Basic Needs","72, 17, 19"
-93,Food Distribution Center,Food,4,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs","72, 11, 13"
-94,Hygiene Assistance,Wellness,8,Anyone In Need,General,"Free,Hygiene,Feminine Products,Cleaning Supplies,Infant Care Items","Financial, Basic Needs, Infant Care","72, 14, 15, 16, 21"
-95,Food Assistance,Food,5,Seniors: 55 Years+,Age Group,"Free,Food","Financial, Basic Needs","72, 11"
-96,Financial Assistance,Financial,13,,,,,
-97,Financial Assistance,Financial,13,,,,,
-98,Basic Necessities,Wellness,10,Anyone In Need,General,"Reduced Cost,Household Items","Financial, Basic Needs","73, 19"
-99,Case Management,Medical,27,,,,,
-100,Financial Assistance,Financial,13,,,,,
-101,Housing Assistance,Housing,29,,,,,
-102,Interpersonal Services,Wellness,17,,,,,
-103,Shelter (Men),Housing,36,Men,Gender And Identity,"Shelter,Free","Housing, Financial","39, 72"
-104,Medical Services,Medical,20,,,"Medical,Medical Transportation,Clinic",Medical,"41, 108, 57"
-105,Employment Assistance,Financial,31,,,,,
-106,Transitional Housing,Housing,34,Anyone In Need,General,"Housing,Medical,Case Management","Housing, Medical, Case Management","34, 41, 99"
-107,Educational Services,Wellness,15,"Parents,Mothers,Fathers,Caregivers,Infants: 0 Months - 1 Year,Toddlers: 1 -2 Years,Preschoolers: 3 - 4 Years,Young Children: 2 - 6 Years","Roles, Age Group","Free,Education,Parenting Class","Financial, Education","72, 82, 87"
-108,Case Management,Medical,27,,,,,
-109,Educational Services,Wellness,15,,,,,
-110,Interpersonal Services,Wellness,17,,,,,
-111,Case Management,Medical,27,,,,,
-112,Recovery Assistance,Wellness,33,,,Recovery Group,Support & Recovery,105
-113,Interpersonal Services,Wellness,17,,,,,
-114,Case Management,Medical,27,,,,,
-115,Language Classes,Wellness,16,,,,,
-116,Language Classes,Wellness,16,,,,,
-117,Legal Assistance,Financial,28,"Anyone In Need,Refugees,Immigrants","General, Citizenship","Green Card,Immigration,Naturalization,Legal","Immigration, Legal","69, 68, 70, 61"
-118,Food Distribution Center,Food,4,,,,,
-119,Medical Services,Medical,20,,,"Medical,Medical Transportation",Medical,"41, 108"
-120,Medical Services,Medical,20,,,"Medical,Medical Transportation",Medical,"41, 108"
-121,Free Meals,Food,6,,,Meals,Basic Needs,12
-122,Food Distribution Center,Food,4,,,,,
-123,Childcare,Wellness,11,,,"ECEAP,Gov Program","Childcare, Gov Programs","28, 93"
-124,Youth Services,Wellness,19,,,,,
-125,Food Assistance,Food,5,,,,,
-126,Interpersonal Services,Wellness,17,Seniors: 55 Years+,Age Group,"Activities,Community,Education,Emotional Wellbeing","Community & Recreation, Education, Mental-Health","4, 8, 82, 92"
-127,Youth Services,Wellness,19,,,,,
-128,Youth Services,Wellness,19,,,,,
-129,Financial Assistance,Financial,13,,,Financial,Financial,71
-130,Medical Equipment,Medical,21,Anyone In Need,General,"Medical,Medical Equipment,Reduced Cost,Wheelchair,Neck Brace,Crutches,Back Brace,Arm Brace,Ankle Brace,Leg Brace","Medical, Financial","41, 43, 73, 50, 48, 49, 46, 45, 44, 47"
-131,Optometry Services,Medical,24,,,"Glasses,Medical,Vision,Free","Medical, Financial","55, 41, 54, 72"
-132,Childcare,Wellness,11,School-Aged Children: 5 - 12 Years,Age Group,"Activities,Meals,Childcare (school-aged: 5 - 12 years)","Community & Recreation, Basic Needs, Childcare","4, 12, 27"
-133,Childcare,Wellness,11,School-Aged Children: 5 - 12 Years,Age Group,"Activities,Meals,Childcare (school-aged: 5 - 12 years)","Community & Recreation, Basic Needs, Childcare","4, 12, 27"
-134,Educational Services,Wellness,15,"Preschoolers: 3 - 4 Years,Low-Income","Age Group, Income","Activities,Meals,ECEAP,Preschool,Education","Community & Recreation, Basic Needs, Childcare, Education","4, 12, 28, 29, 82"
-135,Childcare,Wellness,11,School-Aged Children: 5 - 12 Years,Age Group,"Activities,Meals","Community & Recreation, Basic Needs","4, 12"
-136,Hygiene Assistance,Wellness,8,Anyone In Need,General,"Cleaning Supplies,Household Items,Hygiene,Free","Basic Needs, Financial","16, 19, 14, 72"
-137,Interpersonal Services,Wellness,17,"School-Aged Children: 5 - 12 Years,Parents","Age Group, Roles","Activities,Meals","Community & Recreation, Basic Needs","4, 12"
-138,Food Distribution Center,Food,4,Anyone In Need,General,"Food,Free","Basic Needs, Financial","11, 72"
-139,Legal Assistance,Financial,28,,,"Legal,Immigration","Legal, Immigration","61, 68"
-140,Legal Assistance,Financial,28,,,,,
-141,Eviction Mediation,Housing,30,,,,,
-142,Free Meals,Food,6,,,,,
-143,Food Distribution Center,Food,4,,,,,
-144,Transportation Assistance,Financial,32,,,Car Seats,Basic Needs,20
-145,Financial Assistance,Financial,13,,,Utilities,Housing,38
-146,Transportation Assistance,Financial,32,Anyone In Need,General,Bus Pass,Financial,76
-147,Basic Necessities,Wellness,10,Anyone In Need,General,"Clothing,Household Items,Hygiene,Diapers,Infant Care Items,Free","Basic Needs, Infant Care, Financial","17, 19, 14, 22, 21, 72"
-148,Food Distribution Center,Food,4,Anyone In Need,General,"Food,Groceries,Free","Basic Needs, Financial","11, 13, 72"
-149,Hygiene Assistance,Wellness,8,Anyone In Need,General,"Laundry,Free","Basic Needs, Financial","18, 72"
-150,Hygiene Assistance,Wellness,8,Anyone In Need,General,"Feminine Products,Hygiene,Free","Basic Needs, Financial","15, 14, 72"
-151,Clothing Center,Wellness,9,,,,,
-152,Food Assistance,Food,5,"School-Aged Children: 5 - 12 Years,Older Children: 7 - 10 Years,Teens: 13 - 19 Years,Students","Age Group, Education","Food,Meals,Elementary School,High School,Middle School,Free","Basic Needs, School, Financial","11, 12, 31, 33, 32, 72"
-153,Food Distribution Center,Food,4,Anyone In Need,General,"Food,Free","Basic Needs, Financial","11, 72"
-154,Financial Assistance,Financial,13,,,,,
-155,Financial Assistance,Financial,13,,,,,
-156,Legal Assistance,Financial,28,,,,,
-157,Legal Assistance,Financial,28,,,"Immigration,Legal","Immigration, Legal","68, 61"
-158,Legal Assistance,Financial,28,,,,,
-159,Legal Assistance,Financial,28,Has Criminal History,Justice System,"Criminal History,Legal",Legal,"63, 61"
-160,Legal Assistance,Financial,28,,,"Green Card,Immigration,Naturalization",Immigration,"69, 68, 70"
-161,Technology Assistance,Financial,14,Low-Income,Income,Reduced Cost,Financial,73
-162,Housing Assistance,Housing,29,Low-Income,Income,Housing,Housing,34
-163,Childcare,Wellness,11,,,"Employment,Gov Program,Job","Employment, Gov Programs","79, 93, 80"
-164,Clothing Center,Wellness,9,,,,,
-165,Food Distribution Center,Food,4,,,,,
-166,Food Rescue,Food,7,,,,,
-167,Hygiene Assistance,Wellness,8,,,,,
-168,Transportation Assistance,Financial,32,,,Car Seats,Basic Needs,20
-169,Youth Services,Wellness,19,"Older Children: 7 - 10 Years,Tweens: 11 - 12 Years",Age Group,Summer Camp,Community & Recreation,6
-170,Recovery Assistance,Wellness,33,,,,,
-171,Shelter (Families),Housing,39,"With Children,Homeless (No Shelter)","Household, Housing","Shelter,Free,Case Management","Housing, Financial, Case Management","39, 72, 99"
-172,Food Distribution Center,Food,4,,,,,
-173,Transitional Housing,Housing,34,"With Children,Homeless (No Shelter),Low-Income","Household, Housing, Income","Housing,Shelter,Free,Case Management","Housing, Financial, Case Management","34, 39, 72, 99"
-174,Shelter (Individuals),Housing,40,"Adults: 31 - 54 Years,Young Adults: 20 - 30 Years,Homeless (No Shelter)","Age Group, Housing","Food,Housing,Free","Basic Needs, Housing, Financial","11, 34, 72"
-175,Food Distribution Center,Food,4,,,,,
-176,Health and Wellness,Wellness,12,,,,,
-177,Food Assistance,Food,5,"School-Aged Children: 5 - 12 Years,Young Children: 2 - 6 Years,Children: 2 - 12 Years,Older Children: 7 - 10 Years",Age Group,"Food,Meals,Free","Basic Needs, Financial","11, 12, 72"
-178,Basic Necessities,Wellness,10,Anyone In Need,General,"Clothing,Free,Household Items","Basic Needs, Financial","17, 72, 19"
-179,Food Distribution Center,Food,4,"Anyone In Need,Seniors: 55 Years+","General, Age Group","Food,Groceries,Free,Meals","Basic Needs, Financial","11, 13, 72, 12"
-180,Free Meals,Food,6,,,,,
-181,Dental Services,Medical,25,,,,,
-182,Food Distribution Center,Food,4,,,,,
-183,Food Distribution Center,Food,4,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs","72, 11, 13"
-184,Youth Services,Wellness,19,,,"Activities,Summer Camp",Community & Recreation,"4, 6"
-185,Transportation Assistance,Financial,32,,,Medical Transportation,Medical,108
-186,Financial Assistance,Financial,13,,,,,
-187,Food Distribution Center,Food,4,"Adult Students,Students",Education,"Food,Hygiene,Feminine Products,Free","Basic Needs, Financial","11, 14, 15, 72"
-188,Legal Assistance,Financial,28,,,,,
-189,Legal Assistance,Financial,28,,,,,
-190,Food Distribution Center,Food,4,,,,,
-191,Childcare,Wellness,11,,,,,
-192,Childcare,Wellness,11,,,,,
-193,Childcare,Wellness,11,,,,,
-194,Transportation Assistance,Financial,32,,,,,
-195,Financial Assistance,Financial,13,,,,,
-196,Transportation Assistance,Financial,32,,,,,
-197,Dental Services,Medical,25,,,Dental,Medical,53
-198,Financial Assistance,Financial,13,,,,,
-199,Transitional Housing,Housing,34,,,,,
-200,Shelter (Families),Housing,39,,,,,
-201,Interpersonal Services,Wellness,17,,,,,
-202,Clothing Center,Wellness,9,"Infants: 0 Months - 1 Year,Children: 2 - 12 Years,Teens: 13 - 19 Years",Age Group,"Clothing,Free","Basic Needs, Financial","17, 72"
-203,Clothing Center,Wellness,9,"Infants: 0 Months - 1 Year,Children: 2 - 12 Years,Teens: 13 - 19 Years",Age Group,"Clothing,Free","Basic Needs, Financial","17, 72"
-204,Technology Assistance,Financial,14,,,,,
-205,Basic Necessities,Wellness,10,,,,,
-206,Basic Necessities,Wellness,10,,,,,
-207,Interpersonal Services,Wellness,17,,,,,
-208,Financial Assistance,Financial,13,,,,,
-209,Health and Wellness,Wellness,12,,,,,
-210,Financial Assistance,Financial,13,,,,,
-211,Financial Assistance,Financial,13,,,,,
-212,Youth Services,Wellness,19,,,,,
-213,Food Assistance,Food,5,,,,,
-214,Clothing Center,Wellness,9,"Anyone In Need,Teens: 13 - 19 Years,Adults: 31 - 54 Years,Young Adults: 20 - 30 Years,Seniors: 55 Years+","General, Age Group","Clothing,Feminine Products,Hygiene,Free","Basic Needs, Financial","17, 15, 14, 72"
-215,Housing Assistance,Housing,29,,,"Housing,Rent,Reduced Cost","Housing, Financial","34, 37, 73"
-216,Food Distribution Center,Food,4,Anyone In Need,General,"Food,Free","Basic Needs, Financial","11, 72"
-217,Free Meals,Food,6,,,"Meals,Free","Basic Needs, Financial","12, 72"
-218,Resource Finder,,42,Anyone In Need,General,Shelter,Housing,39
-219,Legal Assistance,Financial,28,,,Legal,Legal,61
-220,Legal Assistance,Financial,28,,,Legal,Legal,61
-221,Legal Assistance,Financial,28,,,Legal,Legal,61
-222,Transportation Assistance,Financial,32,"Has Criminal History,Released From Jail",Justice System,Criminal History,Legal,63
-223,Legal Assistance,Financial,28,,,,,
-224,Childcare,Wellness,11,"Preschoolers: 3 - 4 Years,Parents,Infants: 0 Months - 1 Year,Toddlers: 1 -2 Years","Age Group, Roles","Education,Small Group","Education, Community & Recreation","82, 9"
-225,Housing Assistance,Housing,29,"Single Parent,Two-Parent Household,With Children,Individuals,All Disabilities","Household, Disability",Housing,Housing,34
-226,Transitional Housing,Housing,34,,,,,
-227,Employment Assistance,Financial,31,,,,,
-228,Transitional Housing,Housing,34,,,,,
-229,Basic Necessities,Wellness,10,,,,,
-230,Interpersonal Services,Wellness,17,,,,,
-231,Basic Necessities,Wellness,10,,,,,
-232,Housing Assistance,Housing,29,,,,,
-233,Employment Assistance,Financial,31,,,,,
-234,Legal Assistance,Financial,28,,,Legal,Legal,61
-235,Interpersonal Services,Wellness,17,,,,,
-236,Shelter (Men),Housing,36,,,,,
-237,Free Meals,Food,6,,,,,
-238,Shelter (Women & Children),Housing,38,"With Children,Women","Household, Gender And Identity",Shelter,Housing,39
-239,Basic Necessities,Wellness,10,"Parents,Infants: 0 Months - 1 Year,Young Children: 2 - 6 Years","Roles, Age Group","Diapers,Formula,Infant Care Items,Free","Infant Care, Financial","22, 23, 21, 72"
-240,Interpersonal Services,Wellness,17,Parents,Roles,"Parenting Class,Free","Education, Financial","87, 72"
-241,Interpersonal Services,Wellness,17,"Infants: 0 Months - 1 Year,Toddlers: 1 -2 Years,Young Children: 2 - 6 Years",Age Group,"Activities,Free","Community & Recreation, Financial","4, 72"
-242,Legal Assistance,Financial,28,,,,,
-243,Clothing Center,Wellness,9,,,,,
-244,Food Distribution Center,Food,4,Anyone In Need,General,"Food,Free","Basic Needs, Financial","11, 72"
-245,Language Classes,Wellness,16,,,English Class,Education,86
-246,Food Distribution Center,Food,4,"Adults: 31 - 54 Years,Young Adults: 20 - 30 Years,Seniors: 55 Years+,Women","Age Group, Gender And Identity","Food,Groceries,Meals,Free","Basic Needs, Financial","11, 13, 12, 72"
-247,Food Distribution Center,Food,4,,,,,
-248,Recovery Assistance,Wellness,33,,,,,
-249,Recovery Assistance,Wellness,33,,,,,
-250,Health and Wellness,Wellness,12,,,,,
-251,Technology Assistance,Financial,14,,,Computer Lab,Education,83
-252,Shelter (Women & Children),Housing,38,,,,,
-253,Legal Assistance,Financial,28,,,,,
-254,Childcare,Wellness,11,,,,,
-255,Childcare,Wellness,11,,,,,
-256,Childcare,Wellness,11,,,,,
-257,Childcare,Wellness,11,,,,,
-258,Housing Assistance,Housing,29,,,,,
-259,Legal Assistance,Financial,28,,,"Criminal Case,Criminal History,Domestic Violence,Legal,Free","Legal, Financial","64, 63, 62, 61, 72"
-260,Basic Necessities,Wellness,10,,,,,
+id,service_type,quick_filter,service_group,service_group_types,tags,tag_groups
+1,Resource Finder,,Anyone In Need,General,Food,Basic Needs
+2,Case Management,Medical,,,"Case Management,In-Home Medical Care,Medical","Case Management, Medical"
+3,Medical Services,Medical,,,"Case Management,In-Home Medical Care,Medical","Case Management, Medical"
+4,Interpersonal Services,Wellness,,,,
+5,Health and Wellness,Wellness,"Seniors: 55 Years+,Physical Disability,Developmental Disability,Intellectual Disability,Learning Disability","Age Group, Disability",Case Management,Case Management
+6,Case Management,Medical,,,,
+7,Medical Services,Medical,,,Medical,Medical
+8,Pharmaceutical Assistance,Medical,,,"Medical,Medication",Medical
+9,Food Distribution Center,Food,Anyone In Need,General,"Free,Food","Financial, Basic Needs"
+10,Food Distribution Center,Food,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs"
+11,Food Distribution Center,Food,Anyone In Need,General,"Free,Food","Financial, Basic Needs"
+12,Technology Assistance,Financial,Anyone In Need,General,"Free,Computer,Computer Lab","Financial, Education"
+13,Case Management,Medical,Anyone In Need,General,Free,Financial
+14,Recovery Assistance,Wellness,"Legal Teens: 18 - 19 Years,Young Adults: 20 - 30 Years,Adults: 31 - 54 Years,Seniors: 55 Years+",Age Group,Mental-Health,Mental-Health
+15,Food Assistance,Food,Seniors: 55 Years+,Age Group,"Free,Food","Financial, Basic Needs"
+16,Financial Assistance,Financial,,,Gov Program,Gov Programs
+17,Optometry Services,Medical,,,"Medical,Vision,Free","Medical, Financial"
+18,Food Distribution Center,Food,Anyone In Need,General,"Food,Free","Basic Needs, Financial"
+19,Hygiene Assistance,Wellness,Anyone In Need,General,"Cleaning Supplies,Hygiene,Free","Basic Needs, Financial"
+20,Free Meals,Food,Anyone In Need,General,"Groceries,Meals,Community,Free","Basic Needs, Community & Recreation, Financial"
+21,Dental Services,Medical,,,"Medical,Dental,Free,Clinic","Medical, Financial"
+22,Food Distribution Center,Food,Anyone In Need,General,"Food,Free","Basic Needs, Financial"
+23,Interpersonal Services,Wellness,,,,
+24,Financial Assistance,Financial,Anyone In Need,General,"Financial,Medical Bill","Financial, Medical"
+25,Health and Wellness,Wellness,Anyone In Need,General,"Free,Education,Suicide Prevention,Community","Financial, Education, Mental-Health, Community & Recreation"
+26,Free Meals,Food,Anyone In Need,General,"Free,Food","Financial, Basic Needs"
+27,Educational Services,Wellness,,,,
+28,Hygiene Assistance,Wellness,"Mothers,Fathers,Parents,Caregivers",Roles,"Free,Infant Care Items","Financial, Infant Care"
+29,Case Management,Medical,,,,
+30,Educational Services,Wellness,,,,
+31,Educational Services,Wellness,,,,
+32,Basic Necessities,Wellness,Anyone In Need,General,"Free,Clothing,Infant Care Items","Financial, Basic Needs, Infant Care"
+33,Educational Services,Wellness,,,,
+34,Interpersonal Services,Wellness,,,,
+35,Food Distribution Center,Food,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs"
+36,Transportation Assistance,Financial,,,"Bus Pass,Fuel Voucher",Financial
+37,Food Distribution Center,Food,Anyone In Need,General,"Food,Free","Basic Needs, Financial"
+38,Hygiene Assistance,Wellness,,,"Cleaning Supplies,Feminine Products,Hygiene,Diapers","Basic Needs, Infant Care"
+39,Financial Assistance,Financial,,,Utilities,Housing
+40,Housing Assistance,Housing,,,,
+41,Legal Assistance,Financial,,,"Green Card,Immigration,Naturalization,Legal","Immigration, Legal"
+42,Case Management,Medical,,,,
+43,Recovery Assistance,Wellness,"Alcohol Dependency,Opioid Dependency,Substance Dependency",Substance Dependency,"Recovery Group,Case Management,Education,Employment,Counseling,Job","Support & Recovery, Case Management, Education, Employment, Mental-Health"
+44,Childcare,Wellness,Anyone In Need,General,"Free,Childcare (infant: 0 months - 1 year),Childcare (toddler: 1 - 2 years),Childcare (preschooler: 3 - 4 years),Childcare (school-aged: 5 - 12 years)","Financial, Childcare"
+45,Shelter (Individuals),Housing,"Legal Teens: 18 - 19 Years,Young Adults: 20 - 30 Years,Adults: 31 - 54 Years,Seniors: 55 Years+",Age Group,Shelter,Housing
+46,Childcare,Wellness,Anyone In Need,General,"Free,Childcare (infant: 0 months - 1 year)","Financial, Childcare"
+47,Food Distribution Center,Food,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs"
+48,Food Distribution Center,Food,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs"
+49,Financial Assistance,Financial,,,,
+50,Case Management,Medical,,,,
+51,Interpersonal Services,Wellness,,,,
+52,Interpersonal Services,Wellness,,,,
+53,Interpersonal Services,Wellness,,,,
+54,Interpersonal Services,Wellness,,,,
+55,Technology Assistance,Financial,Anyone In Need,General,Computer,Financial
+56,Interpersonal Services,Wellness,,,,
+57,Case Management,Medical,,,Child Support,Legal
+58,Youth Services,Wellness,"Teens: 13 - 19 Years,Tweens: 11 - 12 Years",Age Group,Counseling,Mental-Health
+59,Youth Services,Wellness,,,"Housing,Budgeting Assistance,Employment,Education,Medical,Job","Housing, Financial, Employment, Education, Medical"
+60,Youth Services,Wellness,"Children: 2 - 12 Years,Teens: 13 - 19 Years,Legal Teens: 18 - 19 Years",Age Group,Criminal History,Legal
+61,Financial Assistance,Financial,,,"Gov Program,Childcare (infant: 0 months - 1 year),Childcare (toddler: 1 - 2 years),Childcare (preschooler: 3 - 4 years),Childcare (school-aged: 5 - 12 years)","Gov Programs, Childcare"
+62,Food Assistance,Food,,,,
+63,Financial Assistance,Financial,,,"Gov Program,TANF",Gov Programs
+64,Food Distribution Center,Food,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs"
+65,Recovery Assistance,Wellness,Alcohol Dependency,Substance Dependency,"Recovery Group,Alcoholics Anonymous",Support & Recovery
+66,Food Distribution Center,Food,Anyone In Need,General,"Free,Food","Financial, Basic Needs"
+67,Food Rescue,Food,Anyone In Need,General,"Free,Food","Financial, Basic Needs"
+68,Recovery Assistance,Wellness,,,Recovery Group,Support & Recovery
+69,Recovery Assistance,Wellness,,,"Recovery Group,Food","Support & Recovery, Basic Needs"
+70,Recovery Assistance,Wellness,,,"Recovery Group,Narcotics Addicts Anonymous",Support & Recovery
+71,Shelter (Families),Housing,"Individuals,With Children,Single Parent,Two-Parent Household",Household,"Coordinated Entry,Shelter",Housing
+72,Interpersonal Services,Wellness,,,Eviction,Housing
+73,Housing Assistance,Housing,"Individuals,With Children,Single Parent,Two-Parent Household",Household,"Housing,Rent,Case Management","Housing, Case Management"
+74,Case Management,Medical,"Individuals,With Children,Single Parent,Two-Parent Household",Household,Case Management,Case Management
+75,Financial Assistance,Financial,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial"
+76,Financial Assistance,Financial,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial"
+77,Financial Assistance,Financial,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial"
+78,Financial Assistance,Financial,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial"
+79,Financial Assistance,Financial,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial"
+80,Financial Assistance,Financial,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial"
+81,Financial Assistance,Financial,,,"Medical,Grant,Financial,Medical Bill","Medical, Gov Programs, Financial"
+82,Educational Services,Wellness,"Immigrants,Refugees,School-Aged Children: 5 - 12 Years,Teens: 13 - 19 Years","Citizenship, Age Group","High School,Middle School,Elementary School",School
+83,Language Classes,Wellness,,,"English Class,Language Class",Education
+84,Financial Assistance,Financial,,,,
+85,Housing Assistance,Housing,,,,
+86,Legal Assistance,Financial,,,,
+87,Food Rescue,Food,Anyone In Need,General,"Food,Free","Basic Needs, Financial"
+88,Transitional Housing,Housing,Refugees,Citizenship,Housing,Housing
+89,Language Classes,Wellness,,,"Language Class,English Class",Education
+90,Employment Assistance,Financial,,,,
+91,Food Assistance,Food,Anyone In Need,General,"EBT,Food,Groceries","Gov Programs, Basic Needs"
+92,Clothing Center,Wellness,Anyone In Need,General,"Free,Clothing,Household Items","Financial, Basic Needs"
+93,Food Distribution Center,Food,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs"
+94,Hygiene Assistance,Wellness,Anyone In Need,General,"Free,Hygiene,Feminine Products,Cleaning Supplies,Infant Care Items","Financial, Basic Needs, Infant Care"
+95,Food Assistance,Food,Seniors: 55 Years+,Age Group,"Free,Food","Financial, Basic Needs"
+96,Financial Assistance,Financial,,,,
+97,Financial Assistance,Financial,,,,
+98,Basic Necessities,Wellness,Anyone In Need,General,"Reduced Cost,Household Items","Financial, Basic Needs"
+99,Case Management,Medical,,,,
+100,Financial Assistance,Financial,,,,
+101,Housing Assistance,Housing,,,,
+102,Interpersonal Services,Wellness,,,,
+103,Shelter (Men),Housing,Men,Gender And Identity,"Shelter,Free","Housing, Financial"
+104,Medical Services,Medical,,,"Medical,Medical Transportation,Clinic",Medical
+105,Employment Assistance,Financial,,,,
+106,Transitional Housing,Housing,Anyone In Need,General,"Housing,Medical,Case Management","Housing, Medical, Case Management"
+107,Educational Services,Wellness,"Parents,Mothers,Fathers,Caregivers,Infants: 0 Months - 1 Year,Toddlers: 1 -2 Years,Preschoolers: 3 - 4 Years,Young Children: 2 - 6 Years","Roles, Age Group","Free,Education,Parenting Class","Financial, Education"
+108,Case Management,Medical,,,,
+109,Educational Services,Wellness,,,,
+110,Interpersonal Services,Wellness,,,,
+111,Case Management,Medical,,,,
+112,Recovery Assistance,Wellness,,,Recovery Group,Support & Recovery
+113,Interpersonal Services,Wellness,,,,
+114,Case Management,Medical,,,,
+115,Language Classes,Wellness,,,,
+116,Language Classes,Wellness,,,,
+117,Legal Assistance,Financial,"Anyone In Need,Refugees,Immigrants","General, Citizenship","Green Card,Immigration,Naturalization,Legal","Immigration, Legal"
+118,Food Distribution Center,Food,,,,
+119,Medical Services,Medical,,,"Medical,Medical Transportation",Medical
+120,Medical Services,Medical,,,"Medical,Medical Transportation",Medical
+121,Free Meals,Food,,,Meals,Basic Needs
+122,Food Distribution Center,Food,,,,
+123,Childcare,Wellness,,,"ECEAP,Gov Program","Childcare, Gov Programs"
+124,Youth Services,Wellness,,,,
+125,Food Assistance,Food,,,,
+126,Interpersonal Services,Wellness,Seniors: 55 Years+,Age Group,"Activities,Community,Education,Emotional Wellbeing","Community & Recreation, Education, Mental-Health"
+127,Youth Services,Wellness,,,,
+128,Youth Services,Wellness,,,,
+129,Financial Assistance,Financial,,,Financial,Financial
+130,Medical Equipment,Medical,Anyone In Need,General,"Medical,Medical Equipment,Reduced Cost,Wheelchair,Neck Brace,Crutches,Back Brace,Arm Brace,Ankle Brace,Leg Brace","Medical, Financial"
+131,Optometry Services,Medical,,,"Glasses,Medical,Vision,Free","Medical, Financial"
+132,Childcare,Wellness,School-Aged Children: 5 - 12 Years,Age Group,"Activities,Meals,Childcare (school-aged: 5 - 12 years)","Community & Recreation, Basic Needs, Childcare"
+133,Childcare,Wellness,School-Aged Children: 5 - 12 Years,Age Group,"Activities,Meals,Childcare (school-aged: 5 - 12 years)","Community & Recreation, Basic Needs, Childcare"
+134,Educational Services,Wellness,"Preschoolers: 3 - 4 Years,Low-Income","Age Group, Income","Activities,Meals,ECEAP,Preschool,Education","Community & Recreation, Basic Needs, Childcare, Education"
+135,Childcare,Wellness,School-Aged Children: 5 - 12 Years,Age Group,"Activities,Meals","Community & Recreation, Basic Needs"
+136,Hygiene Assistance,Wellness,Anyone In Need,General,"Cleaning Supplies,Household Items,Hygiene,Free","Basic Needs, Financial"
+137,Interpersonal Services,Wellness,"School-Aged Children: 5 - 12 Years,Parents","Age Group, Roles","Activities,Meals","Community & Recreation, Basic Needs"
+138,Food Distribution Center,Food,Anyone In Need,General,"Food,Free","Basic Needs, Financial"
+139,Legal Assistance,Financial,,,"Legal,Immigration","Legal, Immigration"
+140,Legal Assistance,Financial,,,,
+141,Eviction Mediation,Housing,,,,
+142,Free Meals,Food,,,,
+143,Food Distribution Center,Food,,,,
+144,Transportation Assistance,Financial,,,Car Seats,Basic Needs
+145,Financial Assistance,Financial,,,Utilities,Housing
+146,Transportation Assistance,Financial,Anyone In Need,General,Bus Pass,Financial
+147,Basic Necessities,Wellness,Anyone In Need,General,"Clothing,Household Items,Hygiene,Diapers,Infant Care Items,Free","Basic Needs, Infant Care, Financial"
+148,Food Distribution Center,Food,Anyone In Need,General,"Food,Groceries,Free","Basic Needs, Financial"
+149,Hygiene Assistance,Wellness,Anyone In Need,General,"Laundry,Free","Basic Needs, Financial"
+150,Hygiene Assistance,Wellness,Anyone In Need,General,"Feminine Products,Hygiene,Free","Basic Needs, Financial"
+151,Clothing Center,Wellness,,,,
+152,Food Assistance,Food,"School-Aged Children: 5 - 12 Years,Older Children: 7 - 10 Years,Teens: 13 - 19 Years,Students","Age Group, Education","Food,Meals,Elementary School,High School,Middle School,Free","Basic Needs, School, Financial"
+153,Food Distribution Center,Food,Anyone In Need,General,"Food,Free","Basic Needs, Financial"
+154,Financial Assistance,Financial,,,,
+155,Financial Assistance,Financial,,,,
+156,Legal Assistance,Financial,,,,
+157,Legal Assistance,Financial,,,"Immigration,Legal","Immigration, Legal"
+158,Legal Assistance,Financial,,,,
+159,Legal Assistance,Financial,Has Criminal History,Justice System,"Criminal History,Legal",Legal
+160,Legal Assistance,Financial,,,"Green Card,Immigration,Naturalization",Immigration
+161,Technology Assistance,Financial,Low-Income,Income,Reduced Cost,Financial
+162,Housing Assistance,Housing,Low-Income,Income,Housing,Housing
+163,Childcare,Wellness,,,"Employment,Gov Program,Job","Employment, Gov Programs"
+164,Clothing Center,Wellness,,,,
+165,Food Distribution Center,Food,,,,
+166,Food Rescue,Food,,,,
+167,Hygiene Assistance,Wellness,,,,
+168,Transportation Assistance,Financial,,,Car Seats,Basic Needs
+169,Youth Services,Wellness,"Older Children: 7 - 10 Years,Tweens: 11 - 12 Years",Age Group,Summer Camp,Community & Recreation
+170,Recovery Assistance,Wellness,,,,
+171,Shelter (Families),Housing,"With Children,Homeless (No Shelter)","Household, Housing","Shelter,Free,Case Management","Housing, Financial, Case Management"
+172,Food Distribution Center,Food,,,,
+173,Transitional Housing,Housing,"With Children,Homeless (No Shelter),Low-Income","Household, Housing, Income","Housing,Shelter,Free,Case Management","Housing, Financial, Case Management"
+174,Shelter (Individuals),Housing,"Adults: 31 - 54 Years,Young Adults: 20 - 30 Years,Homeless (No Shelter)","Age Group, Housing","Food,Housing,Free","Basic Needs, Housing, Financial"
+175,Food Distribution Center,Food,,,,
+176,Health and Wellness,Wellness,,,,
+177,Food Assistance,Food,"School-Aged Children: 5 - 12 Years,Young Children: 2 - 6 Years,Children: 2 - 12 Years,Older Children: 7 - 10 Years",Age Group,"Food,Meals,Free","Basic Needs, Financial"
+178,Basic Necessities,Wellness,Anyone In Need,General,"Clothing,Free,Household Items","Basic Needs, Financial"
+179,Food Distribution Center,Food,"Anyone In Need,Seniors: 55 Years+","General, Age Group","Food,Groceries,Free,Meals","Basic Needs, Financial"
+180,Free Meals,Food,,,,
+181,Dental Services,Medical,,,,
+182,Food Distribution Center,Food,,,,
+183,Food Distribution Center,Food,Anyone In Need,General,"Free,Food,Groceries","Financial, Basic Needs"
+184,Youth Services,Wellness,,,"Activities,Summer Camp",Community & Recreation
+185,Transportation Assistance,Financial,,,Medical Transportation,Medical
+186,Financial Assistance,Financial,,,,
+187,Food Distribution Center,Food,"Adult Students,Students",Education,"Food,Hygiene,Feminine Products,Free","Basic Needs, Financial"
+188,Legal Assistance,Financial,,,,
+189,Legal Assistance,Financial,,,,
+190,Food Distribution Center,Food,,,,
+191,Childcare,Wellness,,,,
+192,Childcare,Wellness,,,,
+193,Childcare,Wellness,,,,
+194,Transportation Assistance,Financial,,,,
+195,Financial Assistance,Financial,,,,
+196,Transportation Assistance,Financial,,,,
+197,Dental Services,Medical,,,Dental,Medical
+198,Financial Assistance,Financial,,,,
+199,Transitional Housing,Housing,,,,
+200,Shelter (Families),Housing,,,,
+201,Interpersonal Services,Wellness,,,,
+202,Clothing Center,Wellness,"Infants: 0 Months - 1 Year,Children: 2 - 12 Years,Teens: 13 - 19 Years",Age Group,"Clothing,Free","Basic Needs, Financial"
+203,Clothing Center,Wellness,"Infants: 0 Months - 1 Year,Children: 2 - 12 Years,Teens: 13 - 19 Years",Age Group,"Clothing,Free","Basic Needs, Financial"
+204,Technology Assistance,Financial,,,,
+205,Basic Necessities,Wellness,,,,
+206,Basic Necessities,Wellness,,,,
+207,Interpersonal Services,Wellness,,,,
+208,Financial Assistance,Financial,,,,
+209,Health and Wellness,Wellness,,,,
+210,Financial Assistance,Financial,,,,
+211,Financial Assistance,Financial,,,,
+212,Youth Services,Wellness,,,,
+213,Food Assistance,Food,,,,
+214,Clothing Center,Wellness,"Anyone In Need,Teens: 13 - 19 Years,Adults: 31 - 54 Years,Young Adults: 20 - 30 Years,Seniors: 55 Years+","General, Age Group","Clothing,Feminine Products,Hygiene,Free","Basic Needs, Financial"
+215,Housing Assistance,Housing,,,"Housing,Rent,Reduced Cost","Housing, Financial"
+216,Food Distribution Center,Food,Anyone In Need,General,"Food,Free","Basic Needs, Financial"
+217,Free Meals,Food,,,"Meals,Free","Basic Needs, Financial"
+218,Resource Finder,,Anyone In Need,General,Shelter,Housing
+219,Legal Assistance,Financial,,,Legal,Legal
+220,Legal Assistance,Financial,,,Legal,Legal
+221,Legal Assistance,Financial,,,Legal,Legal
+222,Transportation Assistance,Financial,"Has Criminal History,Released From Jail",Justice System,Criminal History,Legal
+223,Legal Assistance,Financial,,,,
+224,Childcare,Wellness,"Preschoolers: 3 - 4 Years,Parents,Infants: 0 Months - 1 Year,Toddlers: 1 -2 Years","Age Group, Roles","Education,Small Group","Education, Community & Recreation"
+225,Housing Assistance,Housing,"Single Parent,Two-Parent Household,With Children,Individuals,All Disabilities","Household, Disability",Housing,Housing
+226,Transitional Housing,Housing,,,,
+227,Employment Assistance,Financial,,,,
+228,Transitional Housing,Housing,,,,
+229,Basic Necessities,Wellness,,,,
+230,Interpersonal Services,Wellness,,,,
+231,Basic Necessities,Wellness,,,,
+232,Housing Assistance,Housing,,,,
+233,Employment Assistance,Financial,,,,
+234,Legal Assistance,Financial,,,Legal,Legal
+235,Interpersonal Services,Wellness,,,,
+236,Shelter (Men),Housing,,,,
+237,Free Meals,Food,,,,
+238,Shelter (Women & Children),Housing,"With Children,Women","Household, Gender And Identity",Shelter,Housing
+239,Basic Necessities,Wellness,"Parents,Infants: 0 Months - 1 Year,Young Children: 2 - 6 Years","Roles, Age Group","Diapers,Formula,Infant Care Items,Free","Infant Care, Financial"
+240,Interpersonal Services,Wellness,Parents,Roles,"Parenting Class,Free","Education, Financial"
+241,Interpersonal Services,Wellness,"Infants: 0 Months - 1 Year,Toddlers: 1 -2 Years,Young Children: 2 - 6 Years",Age Group,"Activities,Free","Community & Recreation, Financial"
+242,Legal Assistance,Financial,,,,
+243,Clothing Center,Wellness,,,,
+244,Food Distribution Center,Food,Anyone In Need,General,"Food,Free","Basic Needs, Financial"
+245,Language Classes,Wellness,,,English Class,Education
+246,Food Distribution Center,Food,"Adults: 31 - 54 Years,Young Adults: 20 - 30 Years,Seniors: 55 Years+,Women","Age Group, Gender And Identity","Food,Groceries,Meals,Free","Basic Needs, Financial"
+247,Food Distribution Center,Food,,,,
+248,Recovery Assistance,Wellness,,,,
+249,Recovery Assistance,Wellness,,,,
+250,Health and Wellness,Wellness,,,,
+251,Technology Assistance,Financial,,,Computer Lab,Education
+252,Shelter (Women & Children),Housing,,,,
+253,Legal Assistance,Financial,,,,
+254,Childcare,Wellness,,,,
+255,Childcare,Wellness,,,,
+256,Childcare,Wellness,,,,
+257,Childcare,Wellness,,,,
+258,Housing Assistance,Housing,,,,
+259,Legal Assistance,Financial,,,"Criminal Case,Criminal History,Domestic Violence,Legal,Free","Legal, Financial"
+260,Basic Necessities,Wellness,,,,

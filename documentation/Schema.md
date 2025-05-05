@@ -16,11 +16,14 @@ JOIN Address AS A ON A.id = S.address_id
 
 # Todos:
 - [x] Schema defined
-- [ ] Modify csvs to schema
+- [X] Modify csvs to schema
 	- [X] Orgs
 	- [X] Services
-	- [ ] Locations
-- [ ] Set types manually in `create.sql`
+	- [X] Locations
+	- [X] Cost
+	- [X] Keywords
+	- [X] Contacts
+- [X] Set types manually in `create.sql`
 
 # create.sh
 I have created a bash script that converts a collection of CSV's like that in `finished_csv\'s`:
