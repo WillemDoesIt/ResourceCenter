@@ -1,5 +1,5 @@
 # Resource Center
-This is the source code to a [Resource Center](link_here) webpage. The page acts as a search engine to Organizations and Services in the Spokane Area provided by Spokane World Relief.
+This is the source code to a [Resource Center](https://willemdoesit.github.io/ResourceCenter/) webpage. The page acts as a search engine to Organizations and Services in the Spokane Area provided by Spokane World Relief.
 For more information, check out the documentation directory to explain the "What?"s and "Why?"s of the project, specifically starting at [[Overview.md]].
 
 # Roadmap
