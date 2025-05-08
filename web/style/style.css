@@ -1,6 +1,6 @@
 body {
     background-color: #222;
-    font-family: system-ui;
+    font-family: "Roboto", sans-serif;
     color: #fff;
 }
 
@@ -15,6 +15,11 @@ h1 {
 
 .name, .name * {
     color: #fff;
+}
+
+.location a {
+    padding: 2px;
+    color: #fff
 }
 
 p {
@@ -111,4 +116,19 @@ svg:hover {
 .status {
     margin: 0;
     float: right;
+}
+
+footer a {
+    color: #FFF;
+}
+
+footer p {
+    text-align: center;
+    background-color: #111;
+    width: 100%;
+    margin: 0;
+    padding: 2px;
+    left: 0;
+    position: fixed;
+    bottom: 0;
 }

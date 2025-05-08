@@ -24,6 +24,14 @@ fn dynamic_loading_div_contents(output: sqlite::Table, div_container: &HtmlEleme
             details = row.get("details").unwrap_or(&empty);
         }
 
+        let address = format!("<a href=\"{0}\">{1}<br>{2}, {3}<br>{4}</a>",
+            row.get("url_address").unwrap(),
+            row.get("street").unwrap(),
+            row.get("city").unwrap(),
+            row.get("state").unwrap(),
+            row.get("zipcode").unwrap()
+        );
+
         combined_contents.push_str(&format!(
             "<div class=\"main\">
                 <p class=\"status {7}\">Status: {7}</p>
@@ -32,6 +40,9 @@ fn dynamic_loading_div_contents(output: sqlite::Table, div_container: &HtmlEleme
                 <p class=\"hours\"><b>Hours:</b> {8}</p>
                 <div class=\"details\"> 
                     <p>{1:1}</p>
+                </div>
+                <div class=\"location\">
+                    {11}
                 </div>
                 <div class=\"contact\">
                     <p>
@@ -49,7 +60,8 @@ fn dynamic_loading_div_contents(output: sqlite::Table, div_container: &HtmlEleme
             row.get("status").unwrap(),
             row.get("open_hours").unwrap(),
             row.get("org_name").unwrap(),
-            row.get("org_website").unwrap()
+            row.get("org_website").unwrap(),
+            address
         ));
     }
     div_container.set_inner_html(&combined_contents);
@@ -74,25 +86,42 @@ pub async fn main() {
 
     let closure = Closure::<dyn Fn()>::new(move || {
         let input = input_box.value();
-        let mut words = input.split(' ');
+        //let mut words = input.split(' ');
         /*
         for word in words {
             log(&word);
         }*/
 
-        let query = format!("SELECT O.name AS org_name, S.name AS service_name, S.status, 
+        // this is the base search the non advanced searching
+
+        // For some reason L.unit makes it error????
+        let query = format!("
+            SELECT O.name AS org_name, S.name AS service_name, S.status, 
             S.details, S.open_hours, S.is_online_only, S.is_application_only, 
             S.eligibility, OrgC.website AS org_website, ServC.website AS service_website,
-            ServC.email AS service_email, ServC.uri_phone AS service_uri_phone
+            ServC.email AS service_email, ServC.uri_phone AS service_uri_phone,
+            L.url_address, L.street, L.city, L.state, L.zipcode
+
             FROM Services AS S
             JOIN Contacts AS ServC ON ServC.id = S.contact_id
             JOIN Orgs AS O ON O.id = S.org_id
             JOIN Contacts AS OrgC ON OrgC.id = O.contact_id
-            WHERE O.name LIKE '%{0}%' OR S.name LIKE '%{0}%';", words.next().unwrap_or(""));
+            JOIN Keywords AS K ON S.keyword_id = K.id
+            JOIN Locations AS L ON S.location_id = L.id
+
+            WHERE O.name LIKE '%{0}%' 
+            OR S.name LIKE '%{0}%'
+            OR S.details LIKE '%{0}%'
+            OR O.description LIKE '%{0}%'
+            OR K.service_type LIKE '%{0}%'
+            OR K.quick_filter LIKE '%{0}%'
+            OR K.service_groups LIKE '%{0}%'
+            OR K.tags LIKE '%{0}%'
+            OR K.tag_groups LIKE '%{0}%';", input);
 
         log(&query);
 
-
+        //words.next().unwrap_or(""));
         let output = sqlite::query(&db, &query);
         dynamic_loading_div_contents(output, &div_container);
     });
