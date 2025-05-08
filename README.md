@@ -1,6 +1,6 @@
 # Resource Center
 This is the source code to a [Resource Center](https://willemdoesit.github.io/ResourceCenter/) webpage. The page acts as a search engine to Organizations and Services in the Spokane Area provided by Spokane World Relief.
-For more information, check out the documentation directory to explain the "What?"s and "Why?"s of the project, specifically starting at [[Overview.md]].
+For more information, check out the documentation directory to explain the "What?"s and "Why?"s of the project, specifically starting at [documentation/Overview.md](https://github.com/WillemDoesIt/ResourceCenter/blob/main/documentation/Overview.md).
 
 # Roadmap
 MVP: A search box that queries a sqlite db that we made the schema of and then dynamically load bellow the organizations or services.
@@ -12,10 +12,10 @@ MVP: A search box that queries a sqlite db that we made the schema of and then d
     - [X] Create db schema
     - [X] Sample db of real data
     - [X] Finished version of db for proj
-- [ ] Turn searches into queries
+- [X] Turn searches into queries
 - [X] Dynamically load content from query
 - [ ] Toggle-able options to specify queries
-- [ ] Make website pretty
+- [X] Make website pretty
 
 
 # Usage
@@ -23,8 +23,8 @@ MVP: A search box that queries a sqlite db that we made the schema of and then d
 [Install nix](https://nixos.org/download/) if you haven't already. Then run the following Bash:
 ```bash
 # Download
-git clone git@whitgit.whitworth.edu:2025/spring/CS-374-1/Group_Projects/vanzwol-gustafson.git
-cd vanzwol-gustafson/
+git clone https://github.com/WillemDoesIt/ResourceCenter.git
+cd ResourceCenter/
 
 # Enter developer shell
 nix develop
@@ -41,12 +41,12 @@ chmod +x deploy.sh
 > This has yet to be tested on MacOS or WSL, but given it runs on linux, it should work.
 
 ## Windows
-[Install rust](https://www.rust-lang.org/tools/install) if you haven't already.
+Install rust from [winget](https://winget.run/pkg/Rustlang/Rustup) or [rust-lang.org](https://www.rust-lang.org/tools/install) if you haven't already.
 Then run this in GitBash:
 ```bash
 # Download
-git clone git@whitgit.whitworth.edu:2025/spring/CS-374-1/Group_Projects/vanzwol-gustafson.git
-cd vanzwol-gustafson/
+git clone https://github.com/WillemDoesIt/ResourceCenter.git
+cd ResourceCenter/
 
 # Install dependencies 
 rustup target add wasm32-unknown-unknown        # Adds ability to compile to wasm32-unknown-unknown
@@ -61,4 +61,10 @@ chmod +x deploy.sh
 ```
 
 > [!NOTE]
+> If you install via winget you will need to restart your gitbash session before cargo will act as installed.
+>
+> All except for the last two lines can be run in Powershell.
+>
+> `./deploy.sh` may take a minute upon the first compilation.
+> 
 > If running `./deploy.sh` has trouble in compiling, there may be an issue with your rust install, check to see if you can make any rust project with `cargo init` and `cargo run` in GitBash or Powershell, if this gives a linking error, installing [Visual Studio C++ Build tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) should fix the problem.
