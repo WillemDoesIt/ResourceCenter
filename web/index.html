@@ -5,42 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resource Center</title>
-    <link rel="icon" type="image/x-icon" href="/style/favicon.ico">
-    <link href="./style/format.css" rel="stylesheet" type="text/css" media="all">
-    <link href="./style/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="/ui/favicon.ico">
+    <link href="/ui/styles.css" rel="stylesheet" type="text/css" media="all">
     <script type="module">
-        import init, {main} from './wasm/vanzwol_gustafson.js';
+        import init, {main} from './wasm/ResourceCenter.js';
         await init();
         main();
     </script>
 </head>
 
 <body>
-    <br>
-    <div class="main" id="main">
-        <h1 id="resource-center">Resource Center Search Page</h1>
-        <div id="search" class="search-container">
-            <input
-                type="text"
-                id="query"
-                name="q"
-                placeholder="Search resources..."
-                class="search-input"
-            />
-            <input
-                type="button"
-                id="submit"
-                value="Search"
-                class="search-button"
-            />
-        </div>
-        <div>
-            <p style="text-align: center; margin: 0; padding: 0;">One word or exact phrase searches work best</p>
-        </div>
+  <div class="main" id="main">
+    <h1 id="resource-center">Resource Center Search Page</h1>
+    <h3>What help are you looking for?</h3>
+    <div class="inline-container">
+      <span>Service Type: </span>
+      <div class="search-container">
+        <input class="formLine" type="text" id="search-input" placeholder="Food, Clothing, Shelter, ect..." data-error="Not a valid service type">
+        <div class="dropdown" id="dropdown"></div>
+        <div class="validation-message" id="type-validation"></div>
+      </div>
     </div>
-    <div id="dynamic-content">
+    <div class="inline-container">
+      <span>Service Group: </span>
+      <div class="search-container">
+        <input class="formLine" type="text" id="group-input" placeholder="Immigrants, Refugees, Pregnant, ect..." data-error="Not a valid group type">
+        <div class="dropdown" id="group-dropdown"></div>
+        <div class="validation-message" id="group-validation"></div>
+      </div>
     </div>
-    <footer><p>Created by Willem Van Zwol and Grant Gustafson 2025, <a href="https://github.com/WillemDoesIt/ResourceCenter">Github Source Code</a></p></footer>
-</body>
+  </div>
+  <div id="dynamic-content"></div>
 
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <script src="/ui/ui.js"></script>
+</body>
 </html>

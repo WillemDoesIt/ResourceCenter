@@ -15,14 +15,22 @@ use web_sys::Response;
 /// Must called within async function
 pub async fn get_file_bytes(path: &str) -> Vec<u8> {
     let window = web_sys::window().expect_log("No window found");
-    let resp_value = JsFuture::from(window.fetch_with_str(path)).await.expect_log("Failed to get response from path and window");
+    let resp_value = JsFuture::from(window.fetch_with_str(path))
+        .await
+        .expect_log("Failed to get response from path and window");
 
     // `resp_value` is a `Response` object.
-    let resp: Response = resp_value.dyn_into().expect_log("Failed to get response from response value");
+    let resp: Response = resp_value
+        .dyn_into()
+        .expect_log("Failed to get response from response value");
 
     // Convert response to an ArrayBuffer
-    let promise = resp.array_buffer().expect_log("Failed to Create array_buffer promise");
-    let buffer = JsFuture::from(promise).await.expect_log("Failed to get JsFuture (buffer) from promise");
+    let promise = resp
+        .array_buffer()
+        .expect_log("Failed to Create array_buffer promise");
+    let buffer = JsFuture::from(promise)
+        .await
+        .expect_log("Failed to get JsFuture (buffer) from promise");
 
     // Convert Buffer to Uint8Array to Vec and return it
     return js_sys::Uint8Array::new(&buffer).to_vec();
@@ -64,34 +72,6 @@ pub fn force_length(input: &str, length: usize, filler: char) -> String {
     result
 }
 
-
-/// ### Description
-/// Simplifies a URL by removing common prefixes and returning only the base domain
-///
-/// This function:
-/// - Strips the `https://` or `http://` scheme prefix if present
-/// - Removes the leading `www.` if present
-/// - Discards any path, query parameters, or fragments after the domain
-///
-/// ### Example
-/// ```rust
-/// let url = "https://www.example.com/path?query=1";
-/// let simplified = simplify_url(url);
-/// assert_eq!(simplified, "example.com");
-/// ```
-pub fn simplify_url(input: &str) -> String {
-    let input = input
-        .strip_prefix("https://")
-        .or_else(|| input.strip_prefix("http://"))
-        .unwrap_or(input);
-
-    let input = input.strip_prefix("www.").unwrap_or(input);
-
-    // Cut off any path, query, or fragment
-    input.split('/').next().unwrap_or("").to_string()
-}
-
-
 #[wasm_bindgen]
 extern "C" {
     #[wasm_bindgen(js_namespace = console)]
@@ -120,27 +100,3 @@ impl<T, E> ExpectLog<T> for Result<T, E> {
     }
 }
 
-
-/// ### Description
-/// Turns a uri_phone number into how it should be displayed
-/// 
-/// ### Example
-/// ```rust
-/// uri_phone_to_display("tel://5093254541"); // returns "(509) 325-4541"
-/// uri_phone_to_display("tel://15093254541"); // returns "+1 (509) 325-4541"
-/// uri_phone_to_display("tel://5093254541.ext1127"); // returns "(509) 325-4541 ext. 1127"
-/// ```
-pub fn uri_phone_to_display(uri_phone: &str) -> String {
-    let digits = uri_phone.strip_prefix("tel://").unwrap_or(uri_phone);
-
-    match digits.len() {
-        10 => { format!("({}) {}-{}", &digits[0..3], &digits[3..6], &digits[6..10]) }
-        11 => { format!("+1 ({}) {}-{}", &digits[1..4], &digits[4..7], &digits[7..11]) }
-        n if n > 12 => { 
-            format!("({}) {}-{}  ext. {}", &digits[0..3], &digits[3..6], &digits[6..10], &digits[14..]) 
-        }
-        _ => {
-            digits.to_string()
-        }
-    }
-}

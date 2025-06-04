@@ -6,7 +6,7 @@ export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembl
 
 export interface InitOutput {
   readonly memory: WebAssembly.Memory;
-  readonly main: () => any;
+  readonly main: () => void;
   readonly rust_sqlite_wasm_shim_localtime_js: (a: bigint, b: number) => void;
   readonly rust_sqlite_wasm_shim_tzset_js: (a: number, b: number, c: number, d: number) => void;
   readonly rust_sqlite_wasm_shim_emscripten_get_now: () => number;
@@ -24,9 +24,8 @@ export interface InitOutput {
   readonly __wbindgen_malloc: (a: number, b: number) => number;
   readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
   readonly __wbindgen_export_5: WebAssembly.Table;
-  readonly _dyn_core__ops__function__Fn_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hdc9bb1a1da26cafc: (a: number, b: number) => void;
-  readonly closure584_externref_shim: (a: number, b: number, c: any) => void;
-  readonly closure612_externref_shim: (a: number, b: number, c: any, d: any) => void;
+  readonly _dyn_core__ops__function__Fn_____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hfda5cb9723237575: (a: number, b: number) => void;
+  readonly closure586_externref_shim: (a: number, b: number, c: any) => void;
   readonly __wbindgen_start: () => void;
 }
 

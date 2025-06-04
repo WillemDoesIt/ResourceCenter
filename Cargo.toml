@@ -1,15 +1,31 @@
 [package]
-name = "vanzwol-gustafson"
+name = "ResourceCenter"
 version = "0.1.0"
 edition = "2024"
 
 [lib]
 crate-type = ["cdylib"]
 
+[dependencies.web-sys]
+version = "0.3.77"
+features = [
+  "Window",
+  "Document",
+  "Element",
+  "DomTokenList",
+  "HtmlElement",
+  "HtmlInputElement",
+  "HtmlSpanElement",
+  "Response",
+  "EventTarget",
+  "Event",
+  "console",
+  "CssStyleDeclaration"
+]
+
 [dependencies]
 wasm-bindgen = "0.2.74"
 wasm-bindgen-futures = "0.4.50"
 sqlite-wasm-rs = { version = "0.3", default-features = false, features = ["precompiled"] }
-web-sys = { version = "0.3.77", features = ["Response", "Document", "Window", "HtmlElement", "console", "HtmlInputElement"] }
 js-sys = "0.3.77"
 markdown-to-html = "0.1.3"

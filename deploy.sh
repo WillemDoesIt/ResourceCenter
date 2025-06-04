@@ -21,7 +21,7 @@ safe_runner "cargo build --target wasm32-unknown-unknown" "Compiled to WASM"
 # display warnings
 cargo build --target wasm32-unknown-unknown -q
 
-safe_runner "wasm-bindgen --target web --out-dir web/wasm ./target/wasm32-unknown-unknown/debug/vanzwol_gustafson.wasm" "Created JS bindings"
+safe_runner "wasm-bindgen --target web --out-dir web/wasm ./target/wasm32-unknown-unknown/debug/ResourceCenter.wasm" "Created JS bindings"
 
 safe_runner "miniserve --version" "Miniserve check"
 

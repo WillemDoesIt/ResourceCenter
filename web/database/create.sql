@@ -938,7 +938,7 @@ INSERT INTO Keywords VALUES('260','Basic Necessities','Wellness','','','','');
 CREATE TABLE IF NOT EXISTS "Locations"(
     "id" INTEGER NOT NULL PRIMARY KEY,
     "street" TEXT, 
-    "unit " TEXT, 
+    "unit" TEXT, 
     "city" TEXT,
     "state" TEXT CHECK ( "state" IN (
         'AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'FL', 'GA',

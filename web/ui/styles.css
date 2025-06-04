@@ -1,0 +1,122 @@
+:root {
+    --bg: #f9f9f9;
+    --text: #222;
+    --heading: #333;
+    --border: #ccc;
+    --hover-bg: #f0f0f0;
+    --active-bg: #d0d0d0;
+    --input-border: #aaa;
+    --input-focus-border: #333;
+    --input-focus-bg: rgba(0, 0, 0, 0.05);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.main {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 4rem;
+    border: 1px solid var(--border);
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--heading);
+}
+
+.search-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto 1rem auto;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid var(--border);
+    border-top: none;
+    z-index: 1000;
+    display: none;
+}
+
+#dropdown, #group-dropdown {
+    max-height: calc(6 * 2em);
+    overflow-y: auto;
+}
+
+.inline-container {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.inline-container span {
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.search-container {
+    position: relative;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.formLine {
+    border: none;
+    border-bottom: 1px solid var(--input-border);
+    padding: 0.25rem;
+    font-size: 1rem;
+    width: 100%;
+    background: transparent;
+    outline: none;
+}
+
+.formLine:focus {
+    border-bottom: 2px solid var(--input-focus-border);
+    margin-bottom: -1px;
+    background: var(--input-focus-bg);
+}
+
+.dropdown-item {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: var(--hover-bg);
+}
+
+.dropdown-item.active {
+    background-color: var(--active-bg);
+}
+
+#dynamic-content {
+    padding: 1rem;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .main {
+        padding: 0.5rem;
+    }
+
+    #dynamic-content {
+        padding: 0.5rem;
+    }
+}
