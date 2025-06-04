@@ -229,8 +229,8 @@ pub async fn main() -> Result<(), JsValue> {
     });
 
     // Trigger on input changes
-    search_input.set_oninput(Some(closure.as_ref().unchecked_ref()));
-    group_input.set_oninput(Some(closure.as_ref().unchecked_ref()));
+    search_input.set_onblur(Some(closure.as_ref().unchecked_ref()));
+    group_input.set_onblur(Some(closure.as_ref().unchecked_ref()));
 
     // Trigger on dropdown click
     let document = web_sys::window().unwrap().document().unwrap();

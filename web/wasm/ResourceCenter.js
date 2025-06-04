@@ -436,8 +436,8 @@ function __wbg_get_imports() {
     imports.wbg.__wbg_setinnerHTML_31bde41f835786f7 = function(arg0, arg1, arg2) {
         arg0.innerHTML = getStringFromWasm0(arg1, arg2);
     };
-    imports.wbg.__wbg_setoninput_9b4bdebbe5689033 = function(arg0, arg1) {
-        arg0.oninput = arg1;
+    imports.wbg.__wbg_setonblur_5371e54c902d52e0 = function(arg0, arg1) {
+        arg0.onblur = arg1;
     };
     imports.wbg.__wbg_slice_972c243648c9fd2e = function(arg0, arg1, arg2) {
         const ret = arg0.slice(arg1 >>> 0, arg2 >>> 0);
