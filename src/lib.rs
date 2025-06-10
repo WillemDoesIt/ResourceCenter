@@ -202,6 +202,7 @@ pub async fn main() -> Result<(), JsValue> {
         let search_val = search_input_clone.value();
         let group_val = group_input_clone.value();
 
+        if search_val.is_empty() { return; } // helps a lot with performance
 
         let query = format!("
             SELECT O.name AS org_name, S.name AS service_name, S.status, 
@@ -217,20 +218,19 @@ pub async fn main() -> Result<(), JsValue> {
             JOIN Keywords AS K ON S.keyword_id = K.id
             JOIN Locations AS L ON S.location_id = L.id
 
-            WHERE K.service_type LIKE '%{search_val}%'
-            OR K.service_groups LIKE '%{group_val}%';
+            WHERE K.service_type = '{search_val}'
+            AND K.service_groups LIKE '%{group_val}%';
         ");
 
         log(&query);
 
-        //words.next().unwrap_or(""));
         let output = sqlite::query(&db, &query);
         dynamic_loading_div_contents(output, &div_container);
     });
 
     // Trigger on input changes
-    search_input.set_onblur(Some(closure.as_ref().unchecked_ref()));
-    group_input.set_onblur(Some(closure.as_ref().unchecked_ref()));
+    search_input.set_oninput(Some(closure.as_ref().unchecked_ref()));
+    group_input.set_oninput(Some(closure.as_ref().unchecked_ref()));
 
     // Trigger on dropdown click
     let document = web_sys::window().unwrap().document().unwrap();

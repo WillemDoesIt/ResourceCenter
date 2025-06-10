@@ -9,8 +9,7 @@
         "Technology Assistance", "Transportation Assistance", "Case Management",
         "Dental Services", "Medical Equipment", "Medical Services", 
         "Optometry Services", "Pharmaceutical Assistance", "Physical Therapy",
-        "Eviction Mediation", "Housing Assistance", "Shelter",
-        "Shelter", "Shelter (Families)", "Shelter (Individuals)",
+        "Eviction Mediation", "Housing Assistance", "Shelter (Families)", "Shelter (Individuals)",
         "Shelter (Men)", "Shelter (Teens)", "Shelter (Women)", "Transitional Housing"
     ],
     "groupOptions": [

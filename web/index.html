@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resource Center</title>
-    <link rel="icon" type="image/x-icon" href="/ui/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/ui/icons/favicon-new.png">
     <link href="/ui/styles.css" rel="stylesheet" type="text/css" media="all">
     <script type="module">
         import init, {main} from './wasm/ResourceCenter.js';
@@ -35,6 +35,45 @@
       </div>
     </div>
   </div>
+
+  <style>
+    .icon-link {
+      display: flex;
+      position: fixed;
+      top: 0.3rem;
+      left: 0.3rem;
+    }
+    .icon-link img {
+      width: 1.5rem;
+      height: 1.5rem;
+      padding: 0.6rem;
+      background-color: var(--header);
+    }
+    a.icon-link {
+      text-decoration: none;
+      color: #000;
+    }
+    a.icon-link:hover {
+      text-decoration: underline;
+    }
+    .icon-link img.hover {
+      display: none;
+    }
+    .icon-link:hover img.default {
+      display: none;
+    }
+    .icon-link:hover img.hover {
+      display: block;
+    }
+  </style>
+  
+  <a href="/" class="icon-link">
+    <img class="default" src="./ui/icons/home.svg" alt="home icon" />
+    <img class="hover" src="./ui/icons/home-hover.svg" alt="home icon hover" />
+    <p>Home</p>
+  </a>
+  <button id="toggle_theme" class="btn_1 theme-toggle-btn">Toggle Theme</button>
+
   <div id="dynamic-content"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
