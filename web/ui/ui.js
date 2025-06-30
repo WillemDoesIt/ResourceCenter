@@ -13,9 +13,9 @@ function setupSearch(inputId, dropdownId, options, validationId) {
             div.className = 'dropdown-item';
             if (i === selectedIndex) div.classList.add('active');
             div.onclick = () => {
-            input.value = item;
-            dropdown.style.display = 'none';
-            validateInput(item);
+                input.value = item;
+                dropdown.style.display = 'none';
+                validateInput(item);
             };
             dropdown.appendChild(div);
         });
@@ -24,20 +24,23 @@ function setupSearch(inputId, dropdownId, options, validationId) {
     function validateInput(value) {
         if (value === '') {
             input.style.borderBottom = '';
+            input.style.marginBottom = '1px';
             validation.textContent = '';
             return;
         }
         if (options.includes(value)) {
-            input.style.borderBottom =  "2px solid var(--input-border)";
+            input.style.borderBottom = "2px solid var(--input-border)";
+            input.style.marginBottom = "0px"
             validation.textContent = '';
         } else {
             input.style.borderBottom = '2px solid var(--error)';
+            input.style.marginBottom = "0px"
             validation.textContent = validation.getAttribute('data-error') || 'Invalid input';
-            validation.style.color = 'red';
+            validation.style.color = 'var(--error)';
             validation.style.fontSize = '0.8em';
         }
     }
-    
+
 
     input.addEventListener('input', () => {
         const val = input.value.trim();
@@ -84,9 +87,9 @@ function setupSearch(inputId, dropdownId, options, validationId) {
     });
 
     input.addEventListener('blur', () => {
-    if (!isClickInsideDropdown) {
-        validateInput(input.value.trim());
-    }
+        if (!isClickInsideDropdown) {
+            validateInput(input.value.trim());
+        }
     });
 
     document.addEventListener('click', (e) => {
@@ -104,7 +107,7 @@ fetch('/ui/ui_options.json')
     });
 
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function() {
     const themeToggleButtons = document.querySelectorAll(".theme-toggle-btn");
     const htmlElement = document.documentElement;
 
@@ -116,8 +119,8 @@ document.addEventListener("DOMContentLoaded", function () {
     applyTheme(currentTheme);
 
     // Loop through all toggle buttons and add click event
-    themeToggleButtons.forEach(function (btn) {
-        btn.addEventListener("click", function () {
+    themeToggleButtons.forEach(function(btn) {
+        btn.addEventListener("click", function() {
             const newTheme = htmlElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
             applyTheme(newTheme);
         });
@@ -128,9 +131,9 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("theme", theme);
 
         // Update all toggle buttons
-        themeToggleButtons.forEach(function (btn) {
+        themeToggleButtons.forEach(function(btn) {
             btn.classList.toggle("dark-mode", theme === "dark");
         });
     }
 });
-    
+
