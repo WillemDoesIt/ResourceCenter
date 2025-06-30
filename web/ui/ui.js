@@ -24,7 +24,7 @@ function setupSearch(inputId, dropdownId, options, validationId) {
     function validateInput(value) {
         if (value === '') {
             input.style.borderBottom = '';
-            input.style.marginBottom = '1px';
+            input.style.marginBottom = '';
             validation.textContent = '';
             return;
         }
