@@ -1,11 +1,13 @@
 :root {
     --bg: #f9f9f9;
     --text: #222;
+    --subtext: #777;
     --heading: #333;
     --menubar: #d0d0d0;
+    --hovermenu: #c0c0c0;
     --border: #ccc;
-    --hover-bg: #f0f0f0;
-    --active-bg: #d0d0d0;
+    --hover-bg: #d6d6d6;
+    --active-bg: #c6c6c6;
     --links: #327dcd;
     --error: #D00;
     --input-border: #aaa;
@@ -16,16 +18,25 @@
 [data-theme="dark"] {
     --bg: #1e1e1e;
     --text: #e0e0e0;
+    --subtext: #666;
     --heading: #ffffff;
     --menubar: #2c2c2c;
+    --hovermenu: #3c3c3c;
     --border: #3a3a3a;
-    --hover-bg: #2a2a2a;
+    --hover-bg: #2e2e2e;
     --active-bg: #3a3a3a;
     --links: #539bf5;
     --error: #C11;
     --input-border: #555;
     --input-focus-border: #3a3a3a;
     --input-focus-bg: rgba(255, 255, 255, 0.05);
+}
+
+* {
+    transition:
+        color 0.05s ease-in-out,
+        background-color 0.2s ease-in-out,
+        border-color 0.2s ease-in-out;
 }
 
 ::-webkit-scrollbar {
@@ -42,24 +53,25 @@
     border: 2px solid var(--bg);
 }
 
-
-
-
-
 body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background-color: var(--bg);
     color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 .main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     margin-top: 1rem;
-    padding: 4rem;
+    margin-bottom: 1rem;
+    padding: 3rem;
     border: 1px solid var(--border);
+    border-radius: 3px;
 }
 
 p {
@@ -75,6 +87,47 @@ h1 {
 
 a {
     color: var(--links);
+}
+
+
+    .topnav {
+        display: flex;
+        position: fixed;
+        top: 0rem;
+        width: 100%;
+        overflow: hidden;
+        background-color: var(--menubar);
+        align-items: center;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 0.7rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .topnav a:hover {
+        background-color: var(--hovermenu);
+        text-decoration: underline;
+    }
+
+    .topnav a.active {
+        background-color: var(--links);
+        color: white;
+    }
+
+    .topnav .icon {
+        display: none;
+    }
+
+.subtext {
+    font-size: 0.8rem;
+    color: var(--subtext);
 }
 
 .search-container {
@@ -151,10 +204,6 @@ input {
 
 .dropdown-item.active {
     background-color: var(--active-bg);
-}
-
-#dynamic-content {
-    padding: 1rem;
 }
 
 @media (max-width: 600px) {

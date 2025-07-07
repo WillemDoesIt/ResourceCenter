@@ -99,41 +99,9 @@ function setupSearch(inputId, dropdownId, options, validationId) {
     });
 }
 
-fetch('/ui/ui_options.json')
+fetch('/ui/dropdown_options.json')
     .then(response => response.json())
     .then(data => {
         setupSearch('search-input', 'dropdown', data.typeOptions, 'type-validation');
         setupSearch('group-input', 'group-dropdown', data.groupOptions, 'group-validation');
     });
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    const themeToggleButtons = document.querySelectorAll(".theme-toggle-btn");
-    const htmlElement = document.documentElement;
-
-    // Detect and apply stored or system theme
-    const storedTheme = localStorage.getItem("theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const currentTheme = storedTheme ? storedTheme : (prefersDark ? "dark" : "light");
-
-    applyTheme(currentTheme);
-
-    // Loop through all toggle buttons and add click event
-    themeToggleButtons.forEach(function(btn) {
-        btn.addEventListener("click", function() {
-            const newTheme = htmlElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
-            applyTheme(newTheme);
-        });
-    });
-
-    function applyTheme(theme) {
-        htmlElement.setAttribute("data-theme", theme);
-        localStorage.setItem("theme", theme);
-
-        // Update all toggle buttons
-        themeToggleButtons.forEach(function(btn) {
-            btn.classList.toggle("dark-mode", theme === "dark");
-        });
-    }
-});
-

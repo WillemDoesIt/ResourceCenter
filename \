@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resource Center</title>
-    <link rel="icon" type="image/x-icon" href="/ui/icons/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/ui/icons/favicon-new.png">
     <link href="/ui/styles.css" rel="stylesheet" type="text/css" media="all">
 
     <link href="https://unpkg.com/open-props/easings.min.css" rel="stylesheet" type="text/css" media="all">
@@ -18,6 +18,43 @@
         main();
     </script>
 </head>
+
+<style>
+    .topnav {
+        display: flex;
+        position: fixed;
+        top: 0rem;
+        width: 100%;
+        overflow: hidden;
+        background-color: var(--menubar);
+        align-items: center;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 0.7rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .topnav a:hover {
+        background-color: var(--hover-bg);
+        text-decoration: underline;
+    }
+
+    .topnav a.active {
+        background-color: var(--links);
+        color: white;
+    }
+
+    .topnav .icon {
+        display: none;
+    }
+</style>
 
 <body>
     <div class="topnav">
@@ -49,26 +86,26 @@
                     </path>
                 </g>
             </svg></a>
-        <button class="theme-toggle" id="theme-toggle" title="Toggles light & dark" aria-label="auto"
-            aria-live="polite">
-            <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="-4 -3 28 28">
-                <mask class="moon" id="moon-mask">
-                    <rect x="0" y="0" width="100%" height="100%" fill="white" />
-                    <circle cx="24" cy="10" r="6" fill="black" />
-                </mask>
-                <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
-                <g class="sun-beams" stroke="currentColor">
-                    <line x1="12" y1="1" x2="12" y2="3" />
-                    <line x1="12" y1="21" x2="12" y2="23" />
-                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-                    <line x1="1" y1="12" x2="3" y2="12" />
-                    <line x1="21" y1="12" x2="23" y2="12" />
-                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-                </g>
-            </svg>
-        </button>
+        <div style="float:right; display:block; padding-left: 1rem;"><button class="theme-toggle" id="theme-toggle"
+                title="Toggles light & dark" aria-label="auto" aria-live="polite">
+                <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="-4 -3 28 28">
+                    <mask class="moon" id="moon-mask">
+                        <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                        <circle cx="24" cy="10" r="6" fill="black" />
+                    </mask>
+                    <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+                    <g class="sun-beams" stroke="currentColor">
+                        <line x1="12" y1="1" x2="12" y2="3" />
+                        <line x1="12" y1="21" x2="12" y2="23" />
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                        <line x1="1" y1="12" x2="3" y2="12" />
+                        <line x1="21" y1="12" x2="23" y2="12" />
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                    </g>
+                </svg>
+            </button></div>
     </div>
 
     <div class="main" id="main" style="margin-top: 3.5rem;">
@@ -99,7 +136,7 @@
     <div id="dynamic-content"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
-    <script src="/ui/dropdown.js"></script>
+    <script src="/ui/ui.js"></script>
 </body>
 
 </html>
