@@ -1,4 +1,5 @@
 use std::collections::HashMap;
+use url::Url;
 use utils::ExpectLog;
 use wasm_bindgen::JsCast;
 use wasm_bindgen::prelude::*;
@@ -80,7 +81,7 @@ fn dynamic_loading_div_contents(
     /// uri_phone_to_display("tel://15093254541"); // returns "+1 (509) 325-4541"
     /// uri_phone_to_display("tel://5093254541.ext1127"); // returns "(509) 325-4541 ext. 1127"
     /// ```
-    pub fn uri_phone_to_display(uri_phone: &str) -> String {
+    fn uri_phone_to_display(uri_phone: &str) -> String {
         let digits = uri_phone.strip_prefix("tel://").unwrap_or(uri_phone);
 
         match digits.len() {
@@ -122,7 +123,7 @@ fn dynamic_loading_div_contents(
     /// let simplified = simplify_url(url);
     /// assert_eq!(simplified, "example.com");
     /// ```
-    pub fn simplify_url(input: &str) -> String {
+    fn simplify_url(input: &str) -> String {
         let input = input
             .strip_prefix("https://")
             .or_else(|| input.strip_prefix("http://"))
@@ -134,30 +135,40 @@ fn dynamic_loading_div_contents(
         input.split('/').next().unwrap_or("").to_string()
     }
 
-    let results: i32 = output.contents.len().try_into().unwrap();
-    let mut result_count = format!("{results} Results in {duration_ms} miliseconds</p>");
+    fn guess_favicon_url(page_url: &str) -> Option<String> {
+        let url = Url::parse(page_url).ok()?;
+        let origin = format!("{}://{}", url.scheme(), url.host_str()?);
+        Some(format!("{}/favicon.ico", origin))
+    }
+
+    let results: i32 = output.contents.len().try_into().unwrap_or(0);
+    let result_count = format!("{results} Results in {duration_ms} miliseconds</p>");
     div_result_count.set_inner_html(&result_count);
 
     let mut combined_contents = String::new();
+    let unwrap_fail_text = &format!("");
 
     for (id, row) in output.contents.iter().enumerate() {
-        let service_name = row.get("service_name").unwrap();
+        let service_name = row.get("service_name").unwrap_or(&unwrap_fail_text);
         let details = fix_details(&row);
-        let website_url = row.get("service_website").unwrap();
+        let website_url = row.get("service_website").unwrap_or(&unwrap_fail_text);
+        let favicon_url = guess_favicon_url(website_url)
+            .unwrap_or(format!("https://www.svgrepo.com/show/532532/globe-alt.svg"));
         let simple_url = simplify_url(website_url);
-        let email = row.get("service_email").unwrap();
-        let uri_phone = row.get("service_uri_phone").unwrap();
+        let email = row.get("service_email").unwrap_or(&unwrap_fail_text);
+        let uri_phone = row.get("service_uri_phone").unwrap_or(&unwrap_fail_text);
         let display_phone = uri_phone_to_display(uri_phone);
-        let status = row.get("status").unwrap();
-        let hours = row.get("open_hours").unwrap();
-        let org_name = row.get("org_name").unwrap();
-        let org_url = row.get("org_website").unwrap();
+        let status = row.get("status").unwrap_or(&unwrap_fail_text);
+        let hours = row.get("open_hours").unwrap_or(&unwrap_fail_text);
+        let org_name = row.get("org_name").unwrap_or(&unwrap_fail_text);
+        let org_url = row.get("org_website").unwrap_or(&unwrap_fail_text);
         let address = build_address(&row);
 
         combined_contents.push_str(&format!(
             "<div class=\"main read-more-container\">
             <div class=\"read-more-content\" id=\"read-more-content#{id}\">
                 <p class=\"status {status}\">Status: {status}</p>
+                <img class=\"favicon\" src=\"{favicon_url}\" />
                 <p class=\"org-name\"><a href=\"{org_url}\">{org_name}</a>:</p>
                 <h2 class=\"name\"><a href=\"{website_url}\">{service_name}</a></h2>
                 <p class=\"hours\"><b>Hours:</b> {hours}</p>
@@ -168,9 +179,9 @@ fn dynamic_loading_div_contents(
                     {address}
                 </div>
                 <div class=\"contact\">
-                    <p>
-                        🌐 <a href=\"{website_url}\">{simple_url}</a> | 📧 <a href=\"mailto:{email}\">{email}</a> | 📞 <a href=\"{uri_phone}\">{display_phone}</a>
-                    </p>
+                    <a href=\"{website_url}\"><div class=\"pill\">🌐 {simple_url}</div></a>
+                    <a href=\"mailto:{email}\"><div class=\"pill\">📧 {email}</div></a> 
+                    <a href=\"{uri_phone}\"><div class=\"pill\">📞 {display_phone}</div></a>
                 </div>
             </div>
             </div>"
@@ -238,7 +249,11 @@ pub async fn main() -> Result<(), JsValue> {
             JOIN Locations AS L ON S.location_id = L.id
 
             WHERE K.service_type = '{search_val}'
-            AND K.service_groups LIKE '%{group_val}%';
+            ORDER BY 
+                CASE 
+                    WHEN K.service_groups LIKE '%{group_val}%' THEN 0 
+                    ELSE 1 
+                END;
         "
         );
 

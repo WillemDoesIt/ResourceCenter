@@ -34,9 +34,9 @@
 
 * {
     transition:
-        color 0.05s ease-in-out,
-        background-color 0.2s ease-in-out,
-        border-color 0.2s ease-in-out;
+        color 0.05s ease-out,
+        background-color 0.3s ease-in-out,
+        border-color 0.3s ease-in-out;
 }
 
 ::-webkit-scrollbar {
@@ -69,8 +69,8 @@ body {
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    padding: 3rem;
-    border: 1px solid var(--border);
+    padding: 1.5rem;
+    /*border: 1px solid var(--border);*/
     border-radius: 3px;
 }
 
@@ -87,43 +87,72 @@ h1 {
 
 a {
     color: var(--links);
+    text-decoration: none;
 }
 
+.favicon {
+    width: 1rem;
+    height: 1rem;
+}
 
-    .topnav {
-        display: flex;
-        position: fixed;
-        top: 0rem;
-        width: 100%;
-        overflow: hidden;
-        background-color: var(--menubar);
-        align-items: center;
-    }
+.org-name {
+    display: inline;
+}
 
-    .topnav a {
-        float: left;
-        display: block;
-        text-align: center;
-        padding: 0.7rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        text-decoration: none;
-        font-size: 1rem;
-    }
+.name {
+    margin-top: 0;
+}
 
-    .topnav a:hover {
-        background-color: var(--hovermenu);
-        text-decoration: underline;
-    }
+.contact {
+    position: relative;
+    display: inline-flex;
+}
 
-    .topnav a.active {
-        background-color: var(--links);
-        color: white;
-    }
+.pill {
+    margin: 0.1rem 0.3rem;
+    padding: 0.5rem 0.6rem;
+    border: 1px solid var(--links);
+    border-radius: 2rem;
+}
 
-    .topnav .icon {
-        display: none;
-    }
+.pill:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.topnav {
+    display: flex;
+    position: fixed;
+    top: 0rem;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--menubar);
+    align-items: center;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0.7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.topnav a:hover {
+    background-color: var(--hovermenu);
+    text-decoration: underline;
+}
+
+.topnav a.active {
+    background-color: var(--links);
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
 
 .subtext {
     font-size: 0.8rem;
