@@ -67,9 +67,9 @@ body {
 .main {
     max-width: 1000px;
     margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
     /*border: 1px solid var(--border);*/
     border-radius: 3px;
 }
@@ -101,6 +101,11 @@ a {
 
 .name {
     margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+
+.hours {
+    margin-bottom: 0.7rem;
 }
 
 .contact {
@@ -109,14 +114,23 @@ a {
 }
 
 .pill {
-    margin: 0.1rem 0.3rem;
-    padding: 0.5rem 0.6rem;
+    margin: 0.7rem 0.3rem 0.2rem 0;
+    padding: 0.4rem 0.6rem;
+    display: flex;
+    align-items: center;
     border: 1px solid var(--links);
     border-radius: 2rem;
 }
 
+.pill svg {
+    fill: var(--links);
+    padding-right: 0.3rem;
+    width: 1.15rem;
+    height: 1.15rem;
+}
+
 .pill:hover {
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .topnav {
