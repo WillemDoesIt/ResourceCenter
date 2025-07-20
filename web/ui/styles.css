@@ -70,8 +70,6 @@ body {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     padding: 1rem;
-    /*border: 1px solid var(--border);*/
-    border-radius: 3px;
 }
 
 p {
@@ -108,6 +106,23 @@ a {
     margin-bottom: 0.7rem;
 }
 
+.details {
+    position: relative;
+    max-height: 4.75rem;
+    overflow: hidden;
+}
+
+.details::after {
+    content: "";
+    position: absolute;
+    top: 3rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1.75rem;
+    background: linear-gradient(to bottom, transparent, var(--bg));
+}
+
 .contact {
     position: relative;
     display: inline-flex;
@@ -117,6 +132,7 @@ a {
     margin: 0.7rem 0.3rem 0.2rem 0;
     padding: 0.4rem 0.6rem;
     display: flex;
+    z-index: 0;
     align-items: center;
     border: 1px solid var(--links);
     border-radius: 2rem;
@@ -133,8 +149,55 @@ a {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+
+.modal {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal:target~.content {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 1000px;
+    min-width: 400px;
+    width: 90%;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
 .topnav {
     display: flex;
+    z-index: 10;
     position: fixed;
     top: 0rem;
     width: 100%;

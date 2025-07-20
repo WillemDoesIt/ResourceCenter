@@ -162,20 +162,20 @@ fn dynamic_loading_div_contents(
         let hours = row.get("open_hours").unwrap_or(&unwrap_fail_text);
         let org_name = row.get("org_name").unwrap_or(&unwrap_fail_text);
         let org_url = row.get("org_website").unwrap_or(&unwrap_fail_text);
-        let _address = build_address(&row);
+        let address = build_address(&row);
         let url_address = row.get("url_address").unwrap_or(&unwrap_fail_text);
 
         combined_contents.push_str(&format!(
-            "<div class=\"main read-more-container\">
-            <div class=\"read-more-content\" id=\"read-more-content#{id}\">
-                <img class=\"favicon\" src=\"{favicon_url}\" />
-                <p class=\"org-name\"><a href=\"{org_url}\">{org_name}</a>:</p>
-                <h2 class=\"name\"><a href=\"{website_url}\">{service_name}</a></h2>
+            "          
+            <div class=\"main\">
+            <a href=\"#Modal\">
+            <img class=\"favicon\" src=\"{favicon_url}\" />
+                <p class=\"org-name\">{org_name}:</p>
+                <h2 class=\"name\">{service_name}</h2></a>
                 <p class=\"hours\"><b>Hours:</b> {hours}</p>
                 <div class=\"details\"> 
                     <p>{details}</p>
                 </div>
-                <div class=\"location\"></div>
                 <div class=\"contact\">
                     <a href=\"{url_address}\"><div class=\"pill\">
 
@@ -236,9 +236,30 @@ fn dynamic_loading_div_contents(
 </svg>
 
              Phone</div></a>
-                </div>
             </div>
-            </div>"
+            </div>
+           
+
+            <div id=\"Modal\" class=\"modal\">
+                <div class=\"modal-content\">
+                    <a href=\"#\" class=\"close\">×</a>
+                    <p class=\"org-name\">{org_name}:</p>
+                    <h2 class=\"name\">{service_name}</h2></a>
+                    <p class=\"hours\"><b>Hours:</b> {hours}</p>
+                    <p>{details}</p>
+<div class=\"location\">
+                    {address}
+                </div>
+                <div class=\"contact\">
+                    <p>
+                        🌐 <a href=\"{website_url}\">{simple_url}</a><br>
+                        📧 <a href=\"mailto:{email}\">{email}</a><br>
+                        📞 <a href=\"{uri_phone}\">{display_phone}</a>
+                    </p>
+                </div>
+                </div>
+              </div>
+            </div> "
         ));
     }
 
