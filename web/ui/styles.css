@@ -5,7 +5,7 @@
     --heading: #333;
     --menubar: #d0d0d0;
     --hovermenu: #c0c0c0;
-    --border: #ccc;
+    --border: #d2d2d2;
     --hover-bg: #d6d6d6;
     --active-bg: #c6c6c6;
     --links: #327dcd;
@@ -22,11 +22,13 @@
     --heading: #ffffff;
     --menubar: #2c2c2c;
     --hovermenu: #3c3c3c;
-    --border: #3a3a3a;
+    --border: #444746;
     --hover-bg: #2e2e2e;
     --active-bg: #3a3a3a;
     --links: #539bf5;
     --error: #C11;
+    /* even darker than bg: */
+    --shadow: #050505;
     --input-border: #555;
     --input-focus-border: #3a3a3a;
     --input-focus-bg: rgba(255, 255, 255, 0.05);
@@ -62,18 +64,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 .main {
-    max-width: 1000px;
+    position: relative;
+    max-width: 800px;
+    min-width: 450px;
+    width: 60%;
     margin: auto;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 p {
     margin: 0;
+}
+
+p a:hover {
+    text-decoration: underline;
 }
 
 h1 {
@@ -93,6 +100,14 @@ a {
     height: 1rem;
 }
 
+.status {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    text-decoration: none;
+    color: var(--subtext);
+}
+
 .org-name {
     display: inline;
 }
@@ -108,7 +123,7 @@ a {
 
 .details {
     position: relative;
-    max-height: 4.75rem;
+    max-height: 4.5rem;
     overflow: hidden;
 }
 
@@ -126,15 +141,22 @@ a {
 .contact {
     position: relative;
     display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 0.9rem
+}
+
+.location {
+    margin-left: 3rem;
+    margin-right: 1rem;
 }
 
 .pill {
-    margin: 0.7rem 0.3rem 0.2rem 0;
+    margin: 0 0.3rem 0.2rem 0;
     padding: 0.4rem 0.6rem;
     display: flex;
     z-index: 0;
     align-items: center;
-    border: 1px solid var(--links);
+    border: 1px solid var(--border);
     border-radius: 2rem;
 }
 
@@ -146,7 +168,7 @@ a {
 }
 
 .pill:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: var(--hover-bg);
 }
 
 
@@ -177,13 +199,15 @@ a {
 }
 
 .modal-content {
-    background: white;
+    background: var(--bg);
     padding: 2rem;
     border-radius: 1rem;
     max-width: 1000px;
-    min-width: 400px;
-    width: 90%;
+    min-width: 200px;
+    max-height: 1400px;
+    width: 80%;
     position: relative;
+    box-shadow: 0 1rem 4rem var(--shadow);
 }
 
 .close {
@@ -191,8 +215,8 @@ a {
     top: 0.5rem;
     right: 1rem;
     text-decoration: none;
-    font-size: 1.5rem;
-    color: black;
+    font-size: 2.25rem;
+    color: var(--text);
 }
 
 .topnav {
@@ -318,10 +342,17 @@ input {
     }
 
     .main {
-        padding: 0.5rem;
+        padding: 1rem;
+    }
+
+    .topnav span {
+        display: none;
     }
 
     #dynamic-content {
         padding: 0.5rem;
     }
+}
+}
+}
 }
