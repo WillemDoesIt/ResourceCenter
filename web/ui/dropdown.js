@@ -99,7 +99,7 @@ function setupSearch(inputId, dropdownId, options, validationId) {
     });
 }
 
-fetch('/ui/dropdown_options.json')
+fetch('./ui/dropdown_options.json')
     .then(response => response.json())
     .then(data => {
         setupSearch('search-input', 'dropdown', data.typeOptions, 'type-validation');
