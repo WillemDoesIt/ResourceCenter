@@ -410,6 +410,10 @@ function __wbg_get_imports() {
         const ret = new Date(arg0 >>> 0, arg1, arg2);
         return ret;
     };
+    imports.wbg.__wbg_now_807e54c39636c349 = function() {
+        const ret = Date.now();
+        return ret;
+    };
     imports.wbg.__wbg_now_ffb89993ffe8c9e9 = function(arg0) {
         const ret = globalThis.performance.now();
         getDataViewMemory0().setFloat64(arg0 + 8 * 1, isLikeNone(ret) ? 0 : ret, true);
@@ -487,11 +491,11 @@ function __wbg_get_imports() {
         const ret = false;
         return ret;
     };
-    imports.wbg.__wbindgen_closure_wrapper285 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper292 = function(arg0, arg1, arg2) {
         const ret = makeClosure(arg0, arg1, 7, __wbg_adapter_26);
         return ret;
     };
-    imports.wbg.__wbindgen_closure_wrapper3486 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper3492 = function(arg0, arg1, arg2) {
         const ret = makeMutClosure(arg0, arg1, 587, __wbg_adapter_29);
         return ret;
     };

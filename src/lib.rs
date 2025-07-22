@@ -2,7 +2,7 @@ use std::collections::HashMap;
 use utils::ExpectLog;
 use wasm_bindgen::JsCast;
 use wasm_bindgen::prelude::*;
-use web_sys::{window, Element, Event, HtmlElement, HtmlInputElement, CssStyleDeclaration};
+use web_sys::{CssStyleDeclaration, Element, Event, HtmlElement, HtmlInputElement, window};
 
 mod sqlite;
 mod utils;
@@ -13,7 +13,12 @@ extern "C" {
     fn log(s: &str);
 }
 
-fn dynamic_loading_div_contents(output: sqlite::Table, div_container: &HtmlElement) {
+fn dynamic_loading_div_contents(
+    output: sqlite::Table,
+    div_container: &HtmlElement,
+    div_result_count: &HtmlElement,
+    duration_ms: i32,
+) {
     /// ### Description
     /// Creates a string for the address based on contents from the row
     /// This is necessary because unit may be absent sometimes
@@ -129,6 +134,10 @@ fn dynamic_loading_div_contents(output: sqlite::Table, div_container: &HtmlEleme
         input.split('/').next().unwrap_or("").to_string()
     }
 
+    let results: i32 = output.contents.len().try_into().unwrap();
+    let mut result_count = format!("{results} Results in {duration_ms} miliseconds</p>");
+    div_result_count.set_inner_html(&result_count);
+
     let mut combined_contents = String::new();
 
     for (id, row) in output.contents.iter().enumerate() {
@@ -178,8 +187,15 @@ pub async fn main() -> Result<(), JsValue> {
     let window = window().expect("no global `window` exists");
     let document = window.document().expect("should have a document");
 
-    let div_container = document.get_element_by_id("dynamic-content")
+    let div_container = document
+        .get_element_by_id("dynamic-content")
         .expect_log("Element with ID 'dynamic-content' not found")
+        .dyn_into::<HtmlElement>()
+        .expect_log("Failed to cast element to HtmlElement");
+
+    let div_result_count = document
+        .get_element_by_id("dynamic-result-count")
+        .expect_log("Element with ID 'dynamic-result-count' not found")
         .dyn_into::<HtmlElement>()
         .expect_log("Failed to cast element to HtmlElement");
 
@@ -202,9 +218,12 @@ pub async fn main() -> Result<(), JsValue> {
         let search_val = search_input_clone.value();
         let group_val = group_input_clone.value();
 
-        if search_val.is_empty() { return; } // helps a lot with performance
+        if search_val.is_empty() {
+            return;
+        } // helps a lot with performance
 
-        let query = format!("
+        let query = format!(
+            "
             SELECT O.name AS org_name, S.name AS service_name, S.status, 
             S.details, S.open_hours, S.is_online_only, S.is_application_only, 
             S.eligibility, OrgC.website AS org_website, ServC.website AS service_website,
@@ -220,12 +239,23 @@ pub async fn main() -> Result<(), JsValue> {
 
             WHERE K.service_type = '{search_val}'
             AND K.service_groups LIKE '%{group_val}%';
-        ");
+        "
+        );
 
-        log(&query);
+        use js_sys::Date;
+        let start = Date::now();
 
         let output = sqlite::query(&db, &query);
-        dynamic_loading_div_contents(output, &div_container);
+
+        let duration_ms = Date::now() - start;
+        let duration_ms = duration_ms.round() as u32;
+
+        dynamic_loading_div_contents(
+            output,
+            &div_container,
+            &div_result_count,
+            duration_ms.try_into().unwrap(),
+        );
     });
 
     // Trigger on input changes
@@ -239,7 +269,10 @@ pub async fn main() -> Result<(), JsValue> {
     for id in dropdowns.iter() {
         if let Some(dropdown) = document.get_element_by_id(id) {
             let closure_ref = closure.as_ref().clone();
-            let _ = dropdown.add_event_listener_with_callback("click", closure_ref.dyn_ref::<js_sys::Function>().unwrap());
+            let _ = dropdown.add_event_listener_with_callback(
+                "click",
+                closure_ref.dyn_ref::<js_sys::Function>().unwrap(),
+            );
         }
     }
 
