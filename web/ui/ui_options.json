@@ -1,0 +1,48 @@
+{
+    "typeOptions": [
+        "Resource Finder", "Food Assistance", "Food Distribution Center",
+        "Food Rescue", "Free Meals", "Basic Necessities", "Childcare", 
+        "Clothing Center", "Educational Services", "Health and Wellness",
+        "Hygiene Assistance", "Interpersonal Services", "Language Classes",
+        "Recovery Assistance", "Recreational Activity", "Youth Services",
+        "Employment Assistance", "Financial Assistance", "Legal Assistance",
+        "Technology Assistance", "Transportation Assistance", "Case Management",
+        "Dental Services", "Medical Equipment", "Medical Services", 
+        "Optometry Services", "Pharmaceutical Assistance", "Physical Therapy",
+        "Eviction Mediation", "Housing Assistance", "Shelter",
+        "Shelter", "Shelter (Families)", "Shelter (Individuals)",
+        "Shelter (Men)", "Shelter (Teens)", "Shelter (Women)", "Transitional Housing"
+    ],
+    "groupOptions": [
+        "Anyone In Need", "Adults: 31 - 54 Years", "Children: 2 - 12 Years",
+        "Infants: 0 Months - 1 Year", "Legal Teens: 18 - 19 Years", "Older Children: 7 - 10 Years",
+        "Preschoolers: 3 - 4 Years", "School-Aged Children: 5 - 12 Years", "Seniors: 55 Years+",
+        "Teens: 13 - 19 Years", "Toddlers: 1 -2 Years", "Tweens: 11 - 12 Years",
+        "Young Adults: 20 - 30 Years", "Young Children: 2 - 6 Years", "Emancipated Minor",
+        "Individuals", "Single Father", "Single Mother", "Single Parent", "Two-Parent Household",
+        "With Children", "Caregivers", "Dependents", "Fathers", "Mothers", "Parents", "Spouses",
+        "Lgbtqia+", "Men", "Non-Binary", "Transgender", "Women", "All Disabilities",
+        "Deaf or Hard of Hearing", "Developmental Disability", "Intellectual Disability",
+        "Learning Disability", "Limited Mobility", "Physical Disability", "Visual Impairment",
+        "All Mental Health", "Anxiety", "Bipolar", "Brain Injury", "Depression",
+        "Eating Disorder", "Ptsd", "Suicidal Thoughts", "All Cancer Types", "Breast Cancer",
+        "Cervical Cancer", "Colon Cancer", "Hodgkin Lymphoma", "Leukemia", "Lung Cancer",
+        "Lymphoma", "Non-Hodgkin Lymphoma", "Ovarian Cancer", "Rectal Cancer",
+        "Testicular Cancer", "Alzheimer", "Autism", "Chronic Illness", "Diabetes",
+        "End Of Life Care", "Genetic Disorder", "Hiv/Aids", "Hospitalized",
+        "Neuromuscular Disease", "On-Treatment", "Post-Treatment", "Pregnant",
+        "Recently Diagnosed", "Seizures", "Terminal Illness", "Immigrants", "Refugees",
+        "Undocumented", "Adult Students", "Dropouts", "Students", "Apartment Renters",
+        "Eviction Notice", "Home Owners", "Home Renters", "Homeless (In Shelter)",
+        "Homeless (No Shelter)", "Near Homeless", "30% Federal Poverty Level",
+        "50% Federal Poverty Level", "70% Federal Poverty Level", "Benefit Recipients",
+        "Low-Income", "Employed", "Retired", "Unable To Work", "Unemployed", "Fluent English",
+        "Limited English", "No English", "Has Criminal History", "In Jail", "No Criminal History",
+        "Released From Jail", "Alcohol Dependency", "Dual Diagnosis", "Opioid Dependency",
+        "Smoker", "Substance Dependency", "Abuse Or Neglect Survivors", "Adult Cancer Survivors",
+        "All Cancer Survivors", "Burn Survivors", "Domestic Violence Survivors",
+        "Human Trafficking Survivors", "Sexual Assault Survivors", "Trauma Survivors",
+        "Young Adult Cancer Survivors"
+    ]
+}
+  
