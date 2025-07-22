@@ -149,6 +149,7 @@ fn dynamic_loading_div_contents(
     let unwrap_fail_text = &format!("");
 
     for (id, row) in output.contents.iter().enumerate() {
+        let service_id = row.get("id").unwrap_or(&unwrap_fail_text);
         let service_name = row.get("service_name").unwrap_or(&unwrap_fail_text);
         let details = fix_details(&row);
         let website_url = row.get("service_website").unwrap_or(&unwrap_fail_text);
@@ -165,35 +166,55 @@ fn dynamic_loading_div_contents(
         let address = build_address(&row);
         let url_address = row.get("url_address").unwrap_or(&unwrap_fail_text);
 
-        combined_contents.push_str(&format!(
-            "          
-            <div class=\"main\">
-            <a href=\"#Modal\">
-            <img class=\"favicon\" src=\"{favicon_url}\" />
-                <p class=\"org-name\">{org_name}:</p>
-                <h2 class=\"name\">{service_name}</h2></a>
-                <p class=\"hours\"><b>Hours:</b> {hours}</p>
-                <div class=\"details\"> 
-                    <p>{details}</p>
-                </div>
-                <div class=\"contact\">
-                    <a href=\"{url_address}\"><div class=\"pill\">
+        let status_display = {
+            if status != "Active" {
+                format!("<div class=\"status\" style=\"color: var(--error)\">{status}</div>")
+            } else {
+                format!("<div class=\"status\">{status} ✓</div>")
+            }
+        };
 
-<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 512 512\" xml:space=\"preserve\">
-    <g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g>
-    <g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g>
-<g id=\"SVGRepo_iconCarrier\"> 
-    <g> <g> 
-        <path d=\"M256,100.174c-46.03,0-83.478,37.448-83.478,83.478S209.97,267.131,256,267.131s83.478-37.448,83.478-83.478 S302.03,100.174,256,100.174z M256,233.74c-27.618,0-50.087-22.469-50.087-50.087c0-27.618,22.469-50.087,50.087-50.087 c27.618,0,50.087,22.469,50.087,50.087C306.087,211.271,283.618,233.74,256,233.74z\"></path> 
-    </g> </g> 
-    <g> <g> 
-        <path d=\"M256,0C154.734,0,72.347,82.387,72.347,183.653c0,70.835,21.232,98.615,169.771,320.928 c6.603,9.882,21.148,9.903,27.764,0c149.325-223.389,169.771-250.792,169.771-320.928C439.652,82.387,357.266,0,256,0z M256.001,465.261C122.631,265.788,105.74,241.56,105.74,183.653C105.739,100.799,173.146,33.391,256,33.391 s150.261,67.407,150.261,150.261C406.261,239.551,393.41,259.681,256.001,465.261z\"></path> 
-    </g> </g> 
-    </g>
-</svg>
+        let outgoing_link_svg = "
+            <svg viewBox=\"0 0 16 16\" style=\"padding-left: 0.3rem; width: 0.9rem; height: 0.9rem;\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\">
+                <g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g><g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g><g id=\"SVGRepo_iconCarrier\"> 
+                    <g> 
+                        <path d=\"M9 .75A.75.75 0 019.75 0h4.5c.206 0 .393.083.529.218l.001.002.002.001A.748.748 0 0115 .75v4.5a.75.75 0 01-1.5 0V2.56L7.28 8.78a.75.75 0 01-1.06-1.06l6.22-6.22H9.75A.75.75 0 019 .75z\"></path> 
+                        <path d=\"M3.25 3.5a.75.75 0 00-.75.75v7.5c0 .414.336.75.75.75h7.5a.75.75 0 00.75-.75v-4a.75.75 0 011.5 0v4A2.25 2.25 0 0110.75 14h-7.5A2.25 2.25 0 011 11.75v-7.5A2.25 2.25 0 013.25 2h4a.75.75 0 010 1.5h-4z\"></path> 
+                    </g> 
+                </g>
+            </svg>
+        ";
 
-            Location</div></a>
-                    <a href=\"{website_url}\"><div class=\"pill\">
+        let location_pill = {
+            if url_address != "" {
+                format!("
+            <a href=\"{url_address}\"><div class=\"pill\">
+            <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"0 0 512 512\" xml:space=\"preserve\">
+                <g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g>
+                <g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g>
+                <g id=\"SVGRepo_iconCarrier\"> 
+                <g>
+                    <g> 
+                        <path d=\"M256,100.174c-46.03,0-83.478,37.448-83.478,83.478S209.97,267.131,256,267.131s83.478-37.448,83.478-83.478 S302.03,100.174,256,100.174z M256,233.74c-27.618,0-50.087-22.469-50.087-50.087c0-27.618,22.469-50.087,50.087-50.087 c27.618,0,50.087,22.469,50.087,50.087C306.087,211.271,283.618,233.74,256,233.74z\"></path> 
+                    </g>
+                </g> 
+                <g> 
+                    <g> 
+                        <path d=\"M256,0C154.734,0,72.347,82.387,72.347,183.653c0,70.835,21.232,98.615,169.771,320.928 c6.603,9.882,21.148,9.903,27.764,0c149.325-223.389,169.771-250.792,169.771-320.928C439.652,82.387,357.266,0,256,0z M256.001,465.261C122.631,265.788,105.74,241.56,105.74,183.653C105.739,100.799,173.146,33.391,256,33.391 s150.261,67.407,150.261,150.261C406.261,239.551,393.41,259.681,256.001,465.261z\"></path> 
+                    </g> 
+                </g> 
+                </g>
+            </svg>
+            Location {outgoing_link_svg}</div></a>")
+            } else {
+                format!("")
+            }
+        };
+
+        let website_pill = {
+            if website_url != "" {
+                format!("
+<a href=\"{website_url}\"><div class=\"pill\">
 
 <svg version=\"1.1\" id=\"_x32_\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" 
 	 viewBox=\"0 0 512 512\"  xml:space=\"preserve\">
@@ -202,8 +223,17 @@ fn dynamic_loading_div_contents(
 </g>
 </svg>
 
-             Website</div></a>
-                    <a href=\"mailto:{email}\"><div class=\"pill\">
+             Website {outgoing_link_svg}</div></a>
+        ")
+            } else {
+                format!("")
+            }
+        };
+
+        let email_pill = {
+            if email != "" {
+                format!("
+<a href=\"mailto:{email}\"><div class=\"pill\">
 
 <svg version=\"1.1\" id=\"_x32_\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" 
 	 viewBox=\"0 0 512 512\"  xml:space=\"preserve\">
@@ -224,10 +254,18 @@ fn dynamic_loading_div_contents(
 </g>
 </svg>
 
-            Email</div></a> 
-                    <a href=\"{uri_phone}\"><div class=\"pill\">
+            Email {outgoing_link_svg}</div></a>")
+            } else {
+                format!("")
+            }
+        };
 
-<svg viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
+        let phone_pill = {
+            if uri_phone != "" {
+                format!("
+<a href=\"{uri_phone}\"><div class=\"pill\">
+
+<svg viewBox=\"2 2 22 22\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
     <g id=\"SVGRepo_bgCarrier\" stroke-width=\"0\"></g>
     <g id=\"SVGRepo_tracerCarrier\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></g>
     <g id=\"SVGRepo_iconCarrier\"> 
@@ -235,27 +273,54 @@ fn dynamic_loading_div_contents(
     </g>
 </svg>
 
-             Phone</div></a>
-            </div>
+             Phone {outgoing_link_svg}</div></a>
+        ")
+            } else {
+                format!("")
+            }
+        };
+
+        combined_contents.push_str(&format!(
+            "          
+            <div class=\"main\">
+                {status_display}
+                <a href=\"#Modal{service_id}\">
+                    <img class=\"favicon\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='block';\" src=\"{favicon_url}\" />
+                    <p class=\"org-name\">{org_name}:</p>
+                    <h2 class=\"name\">{service_name}</h2>
+                </a>
+                <p class=\"hours\"><b>Hours:</b> {hours}</p>
+                <div class=\"details\"> 
+                    <p>{details}</p>
+                </div>
+                <div class=\"contact\">
+                    {location_pill}
+                    {website_pill}
+                    {email_pill}
+                    {phone_pill}            
+                </div>
             </div>
            
 
-            <div id=\"Modal\" class=\"modal\">
+            <div id=\"Modal{service_id}\" class=\"modal\">
                 <div class=\"modal-content\">
                     <a href=\"#\" class=\"close\">×</a>
                     <p class=\"org-name\">{org_name}:</p>
                     <h2 class=\"name\">{service_name}</h2></a>
-                    <p class=\"hours\"><b>Hours:</b> {hours}</p>
+                    <p><b>Status:</b> {status}</p>
+                    <p><b>Hours:</b> {hours}</p><br>
                     <p>{details}</p>
-<div class=\"location\">
-                    {address}
-                </div>
                 <div class=\"contact\">
                     <p>
-                        🌐 <a href=\"{website_url}\">{simple_url}</a><br>
-                        📧 <a href=\"mailto:{email}\">{email}</a><br>
-                        📞 <a href=\"{uri_phone}\">{display_phone}</a>
+                        🌐 Org website: <a href=\"{org_url}\">{org_url}</a><br> 
+                        🌐 Service website: <a href=\"{website_url}\">{simple_url}</a><br>
+                        📧 Service email: <a href=\"mailto:{email}\">{email}</a><br>
+                        📞 Service phone: <a href=\"{uri_phone}\">{display_phone}</a>
                     </p>
+                    <div class=\"location\">
+                        <p>Location:</p>
+                    </div>
+                    <p>{address}</p>
                 </div>
                 </div>
               </div>
@@ -310,7 +375,7 @@ pub async fn main() -> Result<(), JsValue> {
 
         let query = format!(
             "
-            SELECT O.name AS org_name, S.name AS service_name, S.status, 
+            SELECT S.id, O.name AS org_name, S.name AS service_name, S.status, 
             S.details, S.open_hours, S.is_online_only, S.is_application_only, 
             S.eligibility, OrgC.website AS org_website, ServC.website AS service_website,
             ServC.email AS service_email, ServC.uri_phone AS service_uri_phone,
