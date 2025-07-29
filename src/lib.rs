@@ -318,9 +318,9 @@ fn dynamic_loading_div_contents(
                         📞 Service phone: <a href=\"{uri_phone}\">{display_phone}</a>
                     </p>
                     <div class=\"location\">
-                        <p>Location:</p>
+                        <p>📍 Location:</p>
+                        <p>{address}</p>
                     </div>
-                    <p>{address}</p>
                 </div>
                 </div>
               </div>
