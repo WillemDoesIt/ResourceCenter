@@ -26,6 +26,6 @@ safe_runner "wasm-bindgen --target web --out-dir web/wasm ./target/wasm32-unknow
 safe_runner "miniserve --version" "Miniserve check"
 
 
-echo -e "\033[0;32m[ Serving ]\033[0m On http://localhost:8080"
+echo -e "\033[0;32m[ Serving ]\033[0m On http://localhost:8080/index.html"
 echo -e "\nPress Ctrl+C to stop the server"
-miniserve web --index index.html --port 8080 > /dev/null 2>&1
+miniserve web --port 8080 > /dev/null 2>&1

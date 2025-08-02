@@ -283,10 +283,12 @@ fn dynamic_loading_div_contents(
         combined_contents.push_str(&format!(
             "          
             <div class=\"main\">
-                {status_display}
                 <a href=\"#Modal{service_id}\">
-                    <img class=\"favicon\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='block';\" src=\"{favicon_url}\" />
-                    <p class=\"org-name\">{org_name}:</p>
+                    <div class=\"org_and_ico\">
+                        <img class=\"favicon\" onerror=\"this.style.display='none'; this.nextElementSibling.style.display='block';\" src=\"{favicon_url}\" />
+                        <p class=\"org-name\">{org_name}:</p>
+                        {status_display}
+                    </div>
                     <h2 class=\"name\">{service_name}</h2>
                 </a>
                 <p class=\"hours\"><b>Hours:</b> {hours}</p>

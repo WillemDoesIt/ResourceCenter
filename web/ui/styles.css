@@ -96,22 +96,34 @@ a {
     text-decoration: none;
 }
 
-.favicon {
-    width: 1rem;
-    height: 1rem;
+
+.org_and_ico {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
-.status {
-    position: absolute;
-    top: 1rem;
-    right: 2rem;
-    text-decoration: none;
-    color: var(--subtext);
+.favicon {
+    margin: 0 0.3rem 0 0;
+    width: 1rem;
+    height: 1rem;
+    flex: 0 0 auto;
 }
 
 .org-name {
-    display: inline;
+    margin: 0 0.5rem 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1 1 auto;
 }
+
+.status {
+    flex: 0 0 auto;
+    margin-left: auto;
+    color: var(--subtext);
+}
+
 
 .name {
     margin-top: 0;
@@ -204,10 +216,13 @@ a {
     background: var(--bg);
     padding: 2rem;
     border-radius: 1rem;
-    width: clamp(0, 80%, 1000px);
+    width: clamp(0px, 70%, 1000px);
+    max-height: 70%;
+    overflow: auto;
     position: relative;
     box-shadow: 0 1rem 4rem var(--shadow);
 }
+
 
 .close {
     position: absolute;
@@ -238,6 +253,13 @@ a {
     padding-right: 1rem;
     text-decoration: none;
     font-size: 1rem;
+
+    svg {
+        width: 1rem;
+        height: 1rem;
+        display: inline;
+    }
+
 }
 
 .topnav a:hover {
@@ -248,10 +270,6 @@ a {
 .topnav a.active {
     background-color: var(--links);
     color: white;
-}
-
-.topnav .icon {
-    display: none;
 }
 
 .subtext {
@@ -340,7 +358,7 @@ input {
         font-size: 1.5rem;
     }
 
-    #main {
+    .nav-space {
         position: fixed;
         padding-top: 2rem;
         margin-top: 0;
@@ -356,7 +374,7 @@ input {
     }
 
     .location {
-        margin: 1rem 0 0 0;   
+        margin: 1rem 0 0 0;
     }
 
     #dynamic-content {
@@ -364,6 +382,49 @@ input {
     }
 
     .topnav {
-        display: none;
+        display: flex;
+        justify-content: space-evenly;
+        z-index: 10;
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        height: 4.2rem;
+        width: 100%;
+        overflow: hidden;
+        background-color: var(--menubar);
+
+        theme-toggle {
+            display: none;
+        }
+    }
+
+
+    .topnav a {
+        flex: 1 1 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.7rem 1rem;
+        text-decoration: none;
+        font-size: 0.7rem;
+
+        span {
+            height: 0.7rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .extern {
+            display: none;
+        }
+    }
+
+
+    .topnav a svg {
+        width: 2rem;
+        /* bigger icon */
+        height: 2rem;
+        margin-bottom: 0.2rem;
     }
 }
